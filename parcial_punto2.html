@@ -1,0 +1,2696 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="./" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Punto 2 &#8212; My sample book</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.5.1/css/all.min.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=384b581d" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae" />
+  <script src="_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
+
+    <script src="_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="_static/doctools.js?v=888ff710"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=efea14e4"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js?v=36754332"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'parcial_punto2';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Informe" href="informe.html" />
+    <link rel="prev" title="Primer Punto" href="parcial_punto1.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a id="pst-skip-link" class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+
+<a class="navbar-brand logo" href="intro.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/logo.png" class="logo__image only-light" alt="My sample book - Home"/>
+    <script>document.write(`<img src="_static/logo.png" class="logo__image only-dark" alt="My sample book - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+          <li class="toctree-l1"><a class="reference internal" href="parcial_punto1.html">parcial_punto1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="parcial_punto2.html">parcial_punto2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="informe.html">informe_punto2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="parcial_punto3_1.html">parcial_punto3_1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="parcial_punto3_2.html">parcial_punto3_2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="parcial_punto4.html">parcial_punto4</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fparcial_punto2.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/parcial_punto2.ipynb" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Punto 2</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#librerias-utilizadas">Librerías Utilizadas</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#wind-speed-eda">Wind Speed EDA</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#fraud-detection-eda">Fraud Detection EDA</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#seleccion-de-variables-transaction">Selección de Variables (Transaction)</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#variables-c-y-d">Variables C y D</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#variables-card">Variables Card</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#variables-m">Variables M</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#variables-product">Variables Product</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#analisis-grafico-de-los-datos">Análisis Gráfico de los datos</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#merge-de-los-dos-datasets">Merge de los dos datasets</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="punto-2">
+<h1>Punto 2<a class="headerlink" href="#punto-2" title="Link to this heading">#</a></h1>
+<section id="librerias-utilizadas">
+<h2>Librerías Utilizadas<a class="headerlink" href="#librerias-utilizadas" title="Link to this heading">#</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">from</span> <span class="nn">statsmodels.stats.outliers_influence</span> <span class="kn">import</span> <span class="n">variance_inflation_factor</span>
+<span class="kn">from</span> <span class="nn">sklearn.preprocessing</span> <span class="kn">import</span> <span class="n">OneHotEncoder</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">from</span> <span class="nn">sklearn.experimental</span> <span class="kn">import</span> <span class="n">enable_iterative_imputer</span>
+<span class="kn">from</span> <span class="nn">sklearn.impute</span> <span class="kn">import</span> <span class="n">IterativeImputer</span>
+<span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="kn">import</span> <span class="n">cross_val_score</span>
+<span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="kn">import</span> <span class="n">RepeatedStratifiedKFold</span>
+<span class="kn">from</span> <span class="nn">sklearn.pipeline</span> <span class="kn">import</span> <span class="n">Pipeline</span>
+<span class="kn">from</span> <span class="nn">sklearn.preprocessing</span> <span class="kn">import</span> <span class="n">OneHotEncoder</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="wind-speed-eda">
+<h2>Wind Speed EDA<a class="headerlink" href="#wind-speed-eda" title="Link to this heading">#</a></h2>
+<p>Iniciamos cargando el dataset y observando las primeras filas.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">wind</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;https://raw.githubusercontent.com/lihkir/Data/main/wind_speed/data_treino_dv_df_2000_2010.csv&quot;</span><span class="p">)</span>
+<span class="n">wind</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>HORA (UTC)</th>
+      <th>VENTO, DIREï¿½ï¿½O HORARIA (gr) (ï¿½ (gr))</th>
+      <th>VENTO, VELOCIDADE HORARIA (m/s)</th>
+      <th>UMIDADE REL. MAX. NA HORA ANT. (AUT) (%)</th>
+      <th>UMIDADE REL. MIN. NA HORA ANT. (AUT) (%)</th>
+      <th>TEMPERATURA Mï¿½XIMA NA HORA ANT. (AUT) (ï¿½C)</th>
+      <th>TEMPERATURA Mï¿½NIMA NA HORA ANT. (AUT) (ï¿½C)</th>
+      <th>UMIDADE RELATIVA DO AR, HORARIA (%)</th>
+      <th>PRESSAO ATMOSFERICA AO NIVEL DA ESTACAO, HORARIA (mB)</th>
+      <th>PRECIPITAï¿½ï¿½O TOTAL, HORï¿½RIO (mm)</th>
+      <th>VENTO, RAJADA MAXIMA (m/s)</th>
+      <th>PRESSï¿½O ATMOSFERICA MAX.NA HORA ANT. (AUT) (mB)</th>
+      <th>PRESSï¿½O ATMOSFERICA MIN. NA HORA ANT. (AUT) (mB)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>12:00</td>
+      <td>0.809017</td>
+      <td>1.8</td>
+      <td>69.0</td>
+      <td>60.0</td>
+      <td>22.6</td>
+      <td>20.7</td>
+      <td>61.0</td>
+      <td>888.2</td>
+      <td>0.0</td>
+      <td>3.8</td>
+      <td>888.2</td>
+      <td>887.7</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>13:00</td>
+      <td>0.965926</td>
+      <td>2.7</td>
+      <td>62.0</td>
+      <td>55.0</td>
+      <td>24.2</td>
+      <td>22.5</td>
+      <td>55.0</td>
+      <td>888.4</td>
+      <td>0.0</td>
+      <td>4.7</td>
+      <td>888.4</td>
+      <td>888.2</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>14:00</td>
+      <td>0.891007</td>
+      <td>2.0</td>
+      <td>56.0</td>
+      <td>50.0</td>
+      <td>25.5</td>
+      <td>24.3</td>
+      <td>51.0</td>
+      <td>888.1</td>
+      <td>0.0</td>
+      <td>4.9</td>
+      <td>888.4</td>
+      <td>888.1</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>15:00</td>
+      <td>0.848048</td>
+      <td>2.5</td>
+      <td>52.0</td>
+      <td>44.0</td>
+      <td>27.4</td>
+      <td>25.0</td>
+      <td>44.0</td>
+      <td>887.4</td>
+      <td>0.0</td>
+      <td>5.8</td>
+      <td>888.1</td>
+      <td>887.4</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>16:00</td>
+      <td>0.224951</td>
+      <td>2.4</td>
+      <td>50.0</td>
+      <td>43.0</td>
+      <td>27.1</td>
+      <td>25.5</td>
+      <td>46.0</td>
+      <td>886.5</td>
+      <td>0.0</td>
+      <td>5.8</td>
+      <td>887.4</td>
+      <td>886.5</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+<p>A primera vista se puede notar que las columnas tienen nombres muy largos y que se dificulta la interpretación de cada variable. También, se observa que todas las variables son numéricas, a excepción de la hora que es temporal. Veamos con más detalle los nombres de las columnas.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">wind</span><span class="o">.</span><span class="n">columns</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Index([&#39;HORA (UTC)&#39;, &#39;VENTO, DIREï¿½ï¿½O HORARIA (gr) (ï¿½ (gr))&#39;,
+       &#39;VENTO, VELOCIDADE HORARIA (m/s)&#39;,
+       &#39;UMIDADE REL. MAX. NA HORA ANT. (AUT) (%)&#39;,
+       &#39;UMIDADE REL. MIN. NA HORA ANT. (AUT) (%)&#39;,
+       &#39;TEMPERATURA Mï¿½XIMA NA HORA ANT. (AUT) (ï¿½C)&#39;,
+       &#39;TEMPERATURA Mï¿½NIMA NA HORA ANT. (AUT) (ï¿½C)&#39;,
+       &#39;UMIDADE RELATIVA DO AR, HORARIA (%)&#39;,
+       &#39;PRESSAO ATMOSFERICA AO NIVEL DA ESTACAO, HORARIA (mB)&#39;,
+       &#39;PRECIPITAï¿½ï¿½O TOTAL, HORï¿½RIO (mm)&#39;, &#39;VENTO, RAJADA MAXIMA (m/s)&#39;,
+       &#39;PRESSï¿½O ATMOSFERICA MAX.NA HORA ANT. (AUT) (mB)&#39;,
+       &#39;PRESSï¿½O ATMOSFERICA MIN. NA HORA ANT. (AUT) (mB)&#39;],
+      dtype=&#39;object&#39;)
+</pre></div>
+</div>
+</div>
+</div>
+<p>Procederemos a realizar un cambio en los nombres de las columnas puesto que se dificulta la lectura de estas. El dataset con las nombres de las variables cambiadas es el siguiente:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">columnas</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;HORA (UTC)&#39;</span><span class="p">:</span> <span class="s1">&#39;hora&#39;</span><span class="p">,</span> <span class="s1">&#39;VENTO, DIREï¿½ï¿½O HORARIA (gr) (ï¿½ (gr))&#39;</span><span class="p">:</span> <span class="s1">&#39;direccion_viento&#39;</span><span class="p">,</span> 
+            <span class="s1">&#39;VENTO, VELOCIDADE HORARIA (m/s)&#39;</span><span class="p">:</span> <span class="s1">&#39;velocidad_viento&#39;</span><span class="p">,</span> <span class="s1">&#39;UMIDADE REL. MAX. NA HORA ANT. (AUT) (%)&#39;</span><span class="p">:</span> <span class="s1">&#39;humedad_max&#39;</span><span class="p">,</span>
+            <span class="s1">&#39;UMIDADE REL. MIN. NA HORA ANT. (AUT) (%)&#39;</span><span class="p">:</span> <span class="s1">&#39;humedad_min&#39;</span><span class="p">,</span> <span class="s1">&#39;TEMPERATURA Mï¿½XIMA NA HORA ANT. (AUT) (ï¿½C)&#39;</span><span class="p">:</span> <span class="s1">&#39;temperatura_max&#39;</span><span class="p">,</span>
+            <span class="s1">&#39;TEMPERATURA Mï¿½NIMA NA HORA ANT. (AUT) (ï¿½C)&#39;</span><span class="p">:</span> <span class="s1">&#39;temperatura_min&#39;</span><span class="p">,</span> <span class="s1">&#39;UMIDADE RELATIVA DO AR, HORARIA (%)&#39;</span><span class="p">:</span> <span class="s1">&#39;humedad_horaria&#39;</span><span class="p">,</span>
+            <span class="s1">&#39;PRESSAO ATMOSFERICA AO NIVEL DA ESTACAO, HORARIA (mB)&#39;</span><span class="p">:</span> <span class="s1">&#39;pres_atmosferica&#39;</span><span class="p">,</span> <span class="s1">&#39;PRECIPITAï¿½ï¿½O TOTAL, HORï¿½RIO (mm)&#39;</span><span class="p">:</span> <span class="s1">&#39;precipitacion_hora&#39;</span><span class="p">,</span>
+            <span class="s1">&#39;VENTO, RAJADA MAXIMA (m/s)&#39;</span><span class="p">:</span> <span class="s1">&#39;rafaga_max&#39;</span><span class="p">,</span> <span class="s1">&#39;PRESSï¿½O ATMOSFERICA MAX.NA HORA ANT. (AUT) (mB)&#39;</span><span class="p">:</span> <span class="s1">&#39;pres_atmosferica_max&#39;</span><span class="p">,</span> <span class="s1">&#39;PRESSï¿½O ATMOSFERICA MIN. NA HORA ANT. (AUT) (mB)&#39;</span><span class="p">:</span> <span class="s1">&#39;pres_atmosferica_min&#39;</span><span class="p">}</span>
+<span class="n">wind</span> <span class="o">=</span> <span class="n">wind</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="n">columnas</span><span class="p">)</span>
+<span class="n">wind</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>hora</th>
+      <th>direccion_viento</th>
+      <th>velocidad_viento</th>
+      <th>humedad_max</th>
+      <th>humedad_min</th>
+      <th>temperatura_max</th>
+      <th>temperatura_min</th>
+      <th>humedad_horaria</th>
+      <th>pres_atmosferica</th>
+      <th>precipitacion_hora</th>
+      <th>rafaga_max</th>
+      <th>pres_atmosferica_max</th>
+      <th>pres_atmosferica_min</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>12:00</td>
+      <td>0.809017</td>
+      <td>1.8</td>
+      <td>69.0</td>
+      <td>60.0</td>
+      <td>22.6</td>
+      <td>20.7</td>
+      <td>61.0</td>
+      <td>888.2</td>
+      <td>0.0</td>
+      <td>3.8</td>
+      <td>888.2</td>
+      <td>887.7</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>13:00</td>
+      <td>0.965926</td>
+      <td>2.7</td>
+      <td>62.0</td>
+      <td>55.0</td>
+      <td>24.2</td>
+      <td>22.5</td>
+      <td>55.0</td>
+      <td>888.4</td>
+      <td>0.0</td>
+      <td>4.7</td>
+      <td>888.4</td>
+      <td>888.2</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>14:00</td>
+      <td>0.891007</td>
+      <td>2.0</td>
+      <td>56.0</td>
+      <td>50.0</td>
+      <td>25.5</td>
+      <td>24.3</td>
+      <td>51.0</td>
+      <td>888.1</td>
+      <td>0.0</td>
+      <td>4.9</td>
+      <td>888.4</td>
+      <td>888.1</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>15:00</td>
+      <td>0.848048</td>
+      <td>2.5</td>
+      <td>52.0</td>
+      <td>44.0</td>
+      <td>27.4</td>
+      <td>25.0</td>
+      <td>44.0</td>
+      <td>887.4</td>
+      <td>0.0</td>
+      <td>5.8</td>
+      <td>888.1</td>
+      <td>887.4</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>16:00</td>
+      <td>0.224951</td>
+      <td>2.4</td>
+      <td>50.0</td>
+      <td>43.0</td>
+      <td>27.1</td>
+      <td>25.5</td>
+      <td>46.0</td>
+      <td>886.5</td>
+      <td>0.0</td>
+      <td>5.8</td>
+      <td>887.4</td>
+      <td>886.5</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+<p>Diccionario de variables modificadas:</p>
+<ul class="simple">
+<li><p><strong>hora</strong>: hora</p></li>
+<li><p><strong>direccion_viento</strong>: Dirección del viento horaria</p></li>
+<li><p><strong>velocidad_viento</strong>: Velocidad horario del viento (m/s) — (Variable predictora)</p></li>
+<li><p><strong>humedad_max</strong>: Humedad rel. máx. hora anterior (AUT) ( %)</p></li>
+<li><p><strong>humedad_min</strong>: Humedad rel. mín. hora anterior (AUT) ( %)</p></li>
+<li><p><strong>temperatura_max</strong>: Temperatura máx. hora anterior (AUT)</p></li>
+<li><p><strong>temperatura_min</strong>: Temperatura mín. hora anterior (AUT)</p></li>
+<li><p><strong>humedad_horaria</strong>: Humedad relativa horaria ( %)</p></li>
+<li><p><strong>pres_atmosferica</strong>: Presión atmosférica a nivel de estación, horaria (mB)</p></li>
+<li><p><strong>precipitacion_hora</strong>: Precipitación total por hora (mm)</p></li>
+<li><p><strong>rafaga_max</strong>: Máxima ráfaga de viento (m/s)</p></li>
+<li><p><strong>pres_atmosferica_max</strong>: Presión atmosférica máx. hora anterior (AUT) (mB)</p></li>
+<li><p><strong>pres_atmosferica_min</strong>: Presión atmosférica mín. hora anterior (AUT) (mB)</p></li>
+</ul>
+<p>Ahora analicemos el resumen descriptivo de los datos usando la funcion <em>describe()</em></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">wind</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>direccion_viento</th>
+      <th>velocidad_viento</th>
+      <th>humedad_max</th>
+      <th>humedad_min</th>
+      <th>temperatura_max</th>
+      <th>temperatura_min</th>
+      <th>humedad_horaria</th>
+      <th>pres_atmosferica</th>
+      <th>precipitacion_hora</th>
+      <th>rafaga_max</th>
+      <th>pres_atmosferica_max</th>
+      <th>pres_atmosferica_min</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>87693.000000</td>
+      <td>87693.000000</td>
+      <td>87693.000000</td>
+      <td>87693.000000</td>
+      <td>87693.000000</td>
+      <td>87693.000000</td>
+      <td>87693.000000</td>
+      <td>87693.000000</td>
+      <td>87693.000000</td>
+      <td>87693.000000</td>
+      <td>87693.000000</td>
+      <td>87693.000000</td>
+    </tr>
+    <tr>
+      <th>mean</th>
+      <td>0.405810</td>
+      <td>2.466192</td>
+      <td>69.058465</td>
+      <td>63.176194</td>
+      <td>21.921264</td>
+      <td>20.684570</td>
+      <td>66.146682</td>
+      <td>887.251925</td>
+      <td>0.160907</td>
+      <td>5.161076</td>
+      <td>887.580724</td>
+      <td>886.891093</td>
+    </tr>
+    <tr>
+      <th>std</th>
+      <td>0.686247</td>
+      <td>1.313968</td>
+      <td>19.640222</td>
+      <td>20.166336</td>
+      <td>3.721386</td>
+      <td>3.513744</td>
+      <td>19.992327</td>
+      <td>4.012404</td>
+      <td>1.307515</td>
+      <td>2.311157</td>
+      <td>3.646750</td>
+      <td>3.564539</td>
+    </tr>
+    <tr>
+      <th>min</th>
+      <td>-1.000000</td>
+      <td>0.000000</td>
+      <td>12.000000</td>
+      <td>10.000000</td>
+      <td>9.200000</td>
+      <td>8.400000</td>
+      <td>10.000000</td>
+      <td>863.400000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>865.300000</td>
+      <td>862.800000</td>
+    </tr>
+    <tr>
+      <th>25%</th>
+      <td>-0.156434</td>
+      <td>1.500000</td>
+      <td>54.000000</td>
+      <td>48.000000</td>
+      <td>19.200000</td>
+      <td>18.400000</td>
+      <td>51.000000</td>
+      <td>885.300000</td>
+      <td>0.000000</td>
+      <td>3.400000</td>
+      <td>885.600000</td>
+      <td>885.000000</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>0.788011</td>
+      <td>2.400000</td>
+      <td>72.000000</td>
+      <td>64.000000</td>
+      <td>21.400000</td>
+      <td>20.200000</td>
+      <td>68.000000</td>
+      <td>887.200000</td>
+      <td>0.000000</td>
+      <td>5.000000</td>
+      <td>887.500000</td>
+      <td>886.900000</td>
+    </tr>
+    <tr>
+      <th>75%</th>
+      <td>0.970296</td>
+      <td>3.400000</td>
+      <td>87.000000</td>
+      <td>80.000000</td>
+      <td>24.700000</td>
+      <td>23.100000</td>
+      <td>84.000000</td>
+      <td>889.100000</td>
+      <td>0.000000</td>
+      <td>6.800000</td>
+      <td>889.300000</td>
+      <td>888.800000</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>1.000000</td>
+      <td>10.000000</td>
+      <td>100.000000</td>
+      <td>98.000000</td>
+      <td>35.300000</td>
+      <td>34.400000</td>
+      <td>99.000000</td>
+      <td>1023.500000</td>
+      <td>70.800000</td>
+      <td>24.300000</td>
+      <td>913.100000</td>
+      <td>910.900000</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+<p>En primer lugar se observa que para todas las variables se registran 87693 observaciones.</p>
+<ul class="simple">
+<li><p><strong>velocidad_viento</strong>: Con respecto a la variable respuesta, se puede notar que esta variable se distribuye con un mínimo de 0.0 m/s hasta un máximo de 10 m/s, con una velocidad media de 2.46 m/s y una desviación de 1.31. Se puede identificar una dispersión de los datos baja. Asimismo el 50% tiene una velocidad de 2.4 m/s o menos.</p></li>
+<li><p><strong>direccion_viento</strong>: para esta variable se observa que se distribuye con un mínimo de -1 hasta un máximo de 1, con una dirección media de 0.4 y una desviación de 0.68. Se puede identificar una dispersión de los datos significativa. Asimismo el 50% de las observaciones tiene una dirección de 0.78 o menos.</p></li>
+<li><p><strong>humedad_max</strong>: esta variable se distribuye con una humedad mínima de 12 hasta un máximo de 100, con una humedad media de 69.05 y una desviación de 19.64. Se puede identificar una dispersión de los datos media. Asimismo el 50% de las observaciones tiene una humedad de 72 o menos.</p></li>
+<li><p><strong>humedad_min</strong>: esta variable se distribuye con una humedad mínima de 10 hasta un máximo de 98, con una humedad media de 63.176 y una desviación de 20.16. Se puede identificar una dispersión de los datos alta. Asimismo el 25% de las observaciones tiene una humedad de 48 o menos.</p></li>
+<li><p><strong>temperatura_max</strong>: esta variable se distribuye con una temperatura mínima de 9.2 hasta un máximo de 35.3, con una temperatura media de 21.92 y una desviación de 3.72. Asimismo el 25% de las observaciones tiene una temperatura de 19.2 o menos, y el 50% de los datos posee una temperatura de 21.4 o menos.</p></li>
+<li><p><strong>temperatura_min</strong>: esta variable se distribuye con una temperatura mínima de 3.51 hasta un máximo de 34.4, con una temperatura media de 20.68 y una desviación de 3.51. Asimismo el 25% de las observaciones tiene una temperatura de 18.4o menos, y el 50% de los datos posee una temperatura de 20.2 o menos.</p></li>
+<li><p><strong>humedad_horaria</strong>: esta variable se distribuye con una humedad relativa mínima de 10 hasta un máximo de 99, con una humedada media de 66.14 y una desviación de 19.9. Se observa una dispersión alta de los datos.Asimismo el 25% de las observaciones tiene una humedad de 51 o menos, y el 50% de los datos posee una temperatura de 68 o menos.</p></li>
+<li><p><strong>pres_atmosferica</strong>: esta variable se distribuye con una presión atmosférica mínima de 863.4 hasta un máximo de 1023.5, con una presión atmosférica media de 887.25 y una desviación de 4.012. Se observa una dispersión baja de los datos. Asimismo el 25% de las observaciones tiene una humedad de 885.3 o menos, y el 50% de los datos posee una temperatura de 887.20 o menos.</p></li>
+<li><p><strong>precipitacion_hora</strong>: esta variable se distribuye con una precipitación total mínima de 0 hasta un máximo de 70.8, con una precipitación media de 0.16.25 y una desviación de 1.30.</p></li>
+<li><p><strong>rafaga_max</strong>: esta variable se distribuye con una ráfaga de viento mínima de 0 m/s hasta un máximo de 24.3 m/s, con una ráfaga media de 5.16 y una desviación de 2.31. Asimismo el 25% de las observaciones tiene una ráfaga máxima de 3.4 m/s o menos, y el 50% de los datos posee una ráfaga máxima de 6.8 o menos.</p></li>
+<li><p><strong>pres_atmosferica_max</strong>: esta variable se distribuye con una presión atmosférica mínima de 865.3 hasta un máximo de 913.1, con una presión atmosférica media de 887.5 y una desviación de 3.64. Se observa una dispersión baja de los datos. Asimismo el 25% de las observaciones tiene una humedad de 865.3 o menos, y el 50% de los datos posee una temperatura de 887.5 o menos.</p></li>
+<li><p><strong>pres_atmosferica_min</strong>: esta variable se distribuye con una presión atmosférica mínima de 862.8 hasta un máximo de 910.9, con una presión atmosférica media de 886.89 y una desviación de 3.56 .Se observa una dispersión baja de los datos. Asimismo el 25% de las observaciones tiene una humedad de 885.0 o menos, y el 50% de los datos posee una temperatura de 886.9 o menos.</p></li>
+</ul>
+<p>Ahora veamos el tipo de dato de las variables</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">wind</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 87693 entries, 0 to 87692
+Data columns (total 13 columns):
+ #   Column                Non-Null Count  Dtype  
+---  ------                --------------  -----  
+ 0   hora                  87693 non-null  object 
+ 1   direccion_viento      87693 non-null  float64
+ 2   velocidad_viento      87693 non-null  float64
+ 3   humedad_max           87693 non-null  float64
+ 4   humedad_min           87693 non-null  float64
+ 5   temperatura_max       87693 non-null  float64
+ 6   temperatura_min       87693 non-null  float64
+ 7   humedad_horaria       87693 non-null  float64
+ 8   pres_atmosferica      87693 non-null  float64
+ 9   precipitacion_hora    87693 non-null  float64
+ 10  rafaga_max            87693 non-null  float64
+ 11  pres_atmosferica_max  87693 non-null  float64
+ 12  pres_atmosferica_min  87693 non-null  float64
+dtypes: float64(12), object(1)
+memory usage: 8.7+ MB
+</pre></div>
+</div>
+</div>
+</div>
+<p>Se observa que todas las variables son númericas decimales a excepción de la hora es un string. También, se observa que no hay nulos. Sin embargo, comprobemoslo con la función <em>isna()</em>.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">datos_faltantes</span> <span class="o">=</span> <span class="n">wind</span><span class="o">.</span><span class="n">isna</span><span class="p">()</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
+<span class="n">porcentaje_faltante</span> <span class="o">=</span> <span class="p">(</span><span class="n">datos_faltantes</span> <span class="o">/</span> <span class="nb">len</span><span class="p">(</span><span class="n">wind</span><span class="p">))</span> <span class="o">*</span> <span class="mi">100</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">porcentaje_faltante</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;No hay datos faltantes&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>hora                    0.0
+direccion_viento        0.0
+velocidad_viento        0.0
+humedad_max             0.0
+humedad_min             0.0
+temperatura_max         0.0
+temperatura_min         0.0
+humedad_horaria         0.0
+pres_atmosferica        0.0
+precipitacion_hora      0.0
+rafaga_max              0.0
+pres_atmosferica_max    0.0
+pres_atmosferica_min    0.0
+dtype: float64
+No hay datos faltantes
+</pre></div>
+</div>
+</div>
+</div>
+<p>En efecto, no hay datos faltantes por lo que no es necesario usar técnicas de imputación de los datos.</p>
+<p>Histogramas de variables explicativas e independiente</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">wind</span><span class="o">.</span><span class="n">hist</span><span class="p">(</span><span class="n">bins</span><span class="o">=</span><span class="mi">30</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">20</span><span class="p">,</span> <span class="mi">15</span><span class="p">),</span> <span class="n">layout</span><span class="o">=</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">4</span><span class="p">),</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/37336ea6203a4a98836de456a0a9d4d9d4763d648705b0dfd264f24b6af1b6a9.png" src="_images/37336ea6203a4a98836de456a0a9d4d9d4763d648705b0dfd264f24b6af1b6a9.png" />
+</div>
+</div>
+<p><strong>direccion_viento:</strong> La mayoría de las mediciones están alrededor del valor entre 0.5 y 1, lo que indica que hay una dirección predominante del viento.</p>
+<p><strong>velocidad_viento:</strong> Este histograma muestra que las velocidades más frecuentes del viento están entre 0 y 2, con una disminución en la frecuencia a medida que aumenta la velocidad.</p>
+<p><strong>humedad_max:</strong> La humedad máxima tiende a distribuirse de manera relativamente uniforme entre aproximadamente el 40% y el 100%, con una ligera concentración de datos hacia el extremo superior.</p>
+<p><strong>humedad_min:</strong> Los datos de humedad mínima tienden a estar en el rango superior, entre el 60% y el 100%, con muy pocos eventos de baja humedad.</p>
+<p><strong>temperatura_max:</strong> Las temperaturas máximas se concentran principalmente entre los 20 y los 25 grados, con la frecuencia disminuyendo para temperaturas más altas y más bajas.</p>
+<p><strong>temperatura_min:</strong> Similar a la temperatura máxima, la mayoría de las temperaturas mínimas se distribuyen entre 15 y 25 grados, con una caída en la frecuencia a valores más bajos y más altos.</p>
+<p><strong>humedad_horaria:</strong> Este histograma es similar al de la humedad máxima y mínima, indicando que la humedad en una base horaria tiende a estar en el rango medio a alto.</p>
+<p><strong>pres_atmosferica:</strong> Existe una marcada concentración de valores alrededor de los 900, lo que indica que la presión atmosférica no varía tanto y tiende a ser alta.</p>
+<p><strong>precipitacion_hora:</strong> La mayoría de las mediciones de precipitación horaria son cercanas a cero, lo que sugiere que la lluvia no es un evento frecuente.</p>
+<p><strong>rafaga_max:</strong> La velocidad de ráfaga máxima tiende a estar por debajo de los 10, con una frecuencia que disminuye rápidamente a medida que aumenta la velocidad de la ráfaga.</p>
+<p><strong>pres_atmosferica_max:</strong> La presión atmosférica máxima está muy concentrada alrededor de los valores altos, similar a la presión atmosférica general.</p>
+<p><strong>pres_atmosferica_min:</strong> Los datos de la presión atmosférica mínima también muestran una fuerte concentración alrededor de los 1000, aunque hay una pequeña cantidad de casos con valores significativamente más bajos.</p>
+<p>Análisis de simetría y datos atípicos con boxplot</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">num_cols</span> <span class="o">=</span> <span class="n">wind</span><span class="o">.</span><span class="n">select_dtypes</span><span class="p">(</span><span class="n">include</span><span class="o">=</span><span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">number</span><span class="p">])</span><span class="o">.</span><span class="n">columns</span>
+
+<span class="n">n_cols</span> <span class="o">=</span> <span class="mi">3</span>
+<span class="n">n_rows</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">ceil</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">num_cols</span><span class="p">)</span> <span class="o">/</span> <span class="n">n_cols</span><span class="p">))</span> 
+
+<span class="n">fig</span><span class="p">,</span> <span class="n">axes</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">n_rows</span><span class="p">,</span> <span class="n">n_cols</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span> <span class="n">n_rows</span><span class="o">*</span><span class="mi">5</span><span class="p">))</span> 
+<span class="n">fig</span><span class="o">.</span><span class="n">suptitle</span><span class="p">(</span><span class="s1">&#39;Boxplots de Variables Numéricas&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">16</span><span class="p">)</span>
+
+<span class="n">axes</span> <span class="o">=</span> <span class="n">axes</span><span class="o">.</span><span class="n">flatten</span><span class="p">()</span>
+
+<span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">col</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">num_cols</span><span class="p">):</span>
+    <span class="n">axes</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">boxplot</span><span class="p">(</span><span class="n">wind</span><span class="p">[</span><span class="n">col</span><span class="p">]</span><span class="o">.</span><span class="n">dropna</span><span class="p">())</span>
+    <span class="n">axes</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="n">col</span><span class="p">)</span>
+    <span class="n">axes</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s1">&#39;Valor&#39;</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">num_cols</span><span class="p">),</span> <span class="nb">len</span><span class="p">(</span><span class="n">axes</span><span class="p">)):</span>
+    <span class="n">fig</span><span class="o">.</span><span class="n">delaxes</span><span class="p">(</span><span class="n">axes</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">(</span><span class="n">rect</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mf">0.03</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mf">0.95</span><span class="p">])</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/bd0286c65b055dc926b17609d6dbce7f577699a6f8b64e384c97f28c6e5cb04e.png" src="_images/bd0286c65b055dc926b17609d6dbce7f577699a6f8b64e384c97f28c6e5cb04e.png" />
+</div>
+</div>
+<p><strong>direccion_viento:</strong> Este diagrama indica que la mediana de la dirección del viento está cerca del cero. El rango intercuartílico (la caja) es muy pequeño, indicando poca variabilidad en la mayoría de los datos, con algunos valores atípicos.</p>
+<p><strong>velocidad_viento:</strong> La velocidad del viento tiene una mediana relativamente baja y un rango intercuartílico mayor que el de la dirección del viento. Hay varios valores atípicos, que representan velocidades del viento muy altas.</p>
+<p><strong>humedad_max:</strong> La humedad máxima tiene una mediana por encima del 60% y un rango intercuartílico que sugiere una variabilidad moderada, sin valores atípicos visibles.</p>
+<p><strong>humedad_min:</strong> La humedad mínima tiene un rango muy amplio y una mediana cercana al 60%. El rango intercuartílico es amplio, mostrando variabilidad, y hay algunos valores atípicos bajos.</p>
+<p><strong>temperatura_max:</strong> La temperatura máxima muestra una mediana en torno a los 25 grados Celsius, con un rango intercuartílico que indica variabilidad y algunos valores extremos altos.</p>
+<p><strong>temperatura_min:</strong> Similar a la temperatura máxima, la mínima muestra una mediana alrededor de los 15 grados Celsius, con un rango intercuartílico y valores extremos bajos.</p>
+<p><strong>humedad_horaria:</strong> Esta variable muestra una distribución similar a la humedad máxima y mínima, con una mediana por encima del 60% y un rango intercuartílico amplio.</p>
+<p><strong>pres_atmosferica:</strong> La presión atmosférica tiene una mediana muy alta, cerca de los 1000, con un rango intercuartílico estrecho, indicando poca variabilidad, y algunos valores atípicos bajos.</p>
+<p><strong>precipitacion_hora:</strong> La precipitación horaria tiene muchos valores en cero o cercanos a cero, con algunos valores atípicos que representan episodios de lluvia intensa.</p>
+<p><strong>rafaga_max:</strong> La velocidad de ráfaga máxima tiene una mediana baja con varios valores atípicos que muestran episodios de ráfagas muy fuertes.</p>
+<p><strong>pres_atmosferica_max:</strong> La presión atmosférica máxima es consistente con la presión atmosférica general, mostrando una mediana alta y un rango intercuartílico estrecho.</p>
+<p><strong>pres_atmosferica_min:</strong> Similar a la presión atmosférica máxima, la mínima muestra poca variabilidad y una concentración alta de los datos, con algunos valores extremos bajos.</p>
+<p>Scatterplot para cada par de variables</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">wind</span><span class="o">.</span><span class="n">columns</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="s1">&#39;velocidad_viento&#39;</span><span class="p">)</span>
+<span class="n">y</span> <span class="o">=</span> <span class="s1">&#39;velocidad_viento&#39;</span> 
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">sns</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="n">style</span><span class="o">=</span><span class="s2">&quot;whitegrid&quot;</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">var</span> <span class="ow">in</span> <span class="n">x</span><span class="p">:</span>
+    <span class="n">sns</span><span class="o">.</span><span class="n">scatterplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">wind</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="n">var</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="n">y</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Relación entre </span><span class="si">{</span><span class="n">var</span><span class="si">}</span><span class="s1"> y </span><span class="si">{</span><span class="n">y</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/d6af21ee764db694f94bc1bc92b775339ae6850e97fee75edd4c4c59fd395b4d.png" src="_images/d6af21ee764db694f94bc1bc92b775339ae6850e97fee75edd4c4c59fd395b4d.png" />
+<img alt="_images/d30e239cd8bdd32c6644fcae3e9e3501664de85eb285e49d036db16fcf7e095b.png" src="_images/d30e239cd8bdd32c6644fcae3e9e3501664de85eb285e49d036db16fcf7e095b.png" />
+<img alt="_images/a965ae859cb1996d35c77f828fe8ac823e813704cdb5655ed56dca2616dd0815.png" src="_images/a965ae859cb1996d35c77f828fe8ac823e813704cdb5655ed56dca2616dd0815.png" />
+<img alt="_images/a8bc3f200379f155f469c257c48c2c991a24f56cd3d57c7987a42b5d64ffc871.png" src="_images/a8bc3f200379f155f469c257c48c2c991a24f56cd3d57c7987a42b5d64ffc871.png" />
+<img alt="_images/6c2f09ea00c09e4c1f4ca9611a70dd98ddc04cd0dfedd970c5f21f3398ebb468.png" src="_images/6c2f09ea00c09e4c1f4ca9611a70dd98ddc04cd0dfedd970c5f21f3398ebb468.png" />
+<img alt="_images/9bcdb29fdefd3517a6f5f6b5459d918cf99561e4814f7eebe195fffa09787422.png" src="_images/9bcdb29fdefd3517a6f5f6b5459d918cf99561e4814f7eebe195fffa09787422.png" />
+<img alt="_images/921a24ea49acac42abc1b12217b190062d805944a91eca4d3355be4575ae477e.png" src="_images/921a24ea49acac42abc1b12217b190062d805944a91eca4d3355be4575ae477e.png" />
+<img alt="_images/f289c2d835c1320d8b73c48f801a2806c1b0a40177a4eae3413b0e70d1c46000.png" src="_images/f289c2d835c1320d8b73c48f801a2806c1b0a40177a4eae3413b0e70d1c46000.png" />
+<img alt="_images/5f11e5091550f9530fb0098968866ea088cfd39e14a4f4ff5a31f2e8a26812a6.png" src="_images/5f11e5091550f9530fb0098968866ea088cfd39e14a4f4ff5a31f2e8a26812a6.png" />
+<img alt="_images/6975a4e8c01c50b895ed0ab5db0eba6a6fb3b24a3875ff5339cd2164374b6f16.png" src="_images/6975a4e8c01c50b895ed0ab5db0eba6a6fb3b24a3875ff5339cd2164374b6f16.png" />
+<img alt="_images/99f900ec76134ac89a08bcea8b5b9e89ae65e1d8d2657c64577230193e82fee9.png" src="_images/99f900ec76134ac89a08bcea8b5b9e89ae65e1d8d2657c64577230193e82fee9.png" />
+<img alt="_images/ec67a902c8408d1bf29562e1d7be6c47434084e21bfe6776232c5962efe15f64.png" src="_images/ec67a902c8408d1bf29562e1d7be6c47434084e21bfe6776232c5962efe15f64.png" />
+</div>
+</div>
+<p>Observamos que no hay una relación lineal entre la mayoría de variables. Es notable la poca correlación entre las variables. Sin embargo, sí se observa una relación lineal positiva entre rafaga_max y la velocidad del viento. Sin embargo, esto lo comprobaremos con la matriz de correlación.</p>
+<p>Ahora veamos el Regplot</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">x</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="s1">&#39;hora&#39;</span><span class="p">)</span>
+<span class="n">sns</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="n">style</span><span class="o">=</span><span class="s2">&quot;whitegrid&quot;</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">var</span> <span class="ow">in</span> <span class="n">x</span><span class="p">:</span>
+    <span class="n">sns</span><span class="o">.</span><span class="n">regplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">wind</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="n">var</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="n">y</span><span class="p">,</span> <span class="n">line_kws</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">color</span><span class="o">=</span><span class="s2">&quot;r&quot;</span><span class="p">))</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Relación entre </span><span class="si">{</span><span class="n">var</span><span class="si">}</span><span class="s1"> y </span><span class="si">{</span><span class="n">y</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/e912f61b6148ec915445ff6890f6f9055a33e3726d31433f5fb9fa54c098aae2.png" src="_images/e912f61b6148ec915445ff6890f6f9055a33e3726d31433f5fb9fa54c098aae2.png" />
+<img alt="_images/964e3d31ca9dcedccd20662e79c161a8794f3aea32576aa3cb6775909b668d73.png" src="_images/964e3d31ca9dcedccd20662e79c161a8794f3aea32576aa3cb6775909b668d73.png" />
+<img alt="_images/7a390d7d2ba521e4ae35d116bdabfe9f77f1a918c67d0a68a1682450ef004716.png" src="_images/7a390d7d2ba521e4ae35d116bdabfe9f77f1a918c67d0a68a1682450ef004716.png" />
+<img alt="_images/8c8cb21e181859de558a52ed6cbee8856d44506ec027bc15e81ed353494bd400.png" src="_images/8c8cb21e181859de558a52ed6cbee8856d44506ec027bc15e81ed353494bd400.png" />
+<img alt="_images/d73b712fe854494a4baf8d0503c04acb90dfb9a8bb86a2512980c57a5edb22cf.png" src="_images/d73b712fe854494a4baf8d0503c04acb90dfb9a8bb86a2512980c57a5edb22cf.png" />
+<img alt="_images/b7c78d82f948eea92e51d3699be71cdc14a7d773da93890d493c82a3c6110289.png" src="_images/b7c78d82f948eea92e51d3699be71cdc14a7d773da93890d493c82a3c6110289.png" />
+<img alt="_images/fcf595e9954c7be5b7643ad00fdd207e3e9812dc4e29ebb0061ffda58b7751c2.png" src="_images/fcf595e9954c7be5b7643ad00fdd207e3e9812dc4e29ebb0061ffda58b7751c2.png" />
+<img alt="_images/2bc947e9bbae00e69ef974004cd32fa7d14ffdf499f1443f6992137879139737.png" src="_images/2bc947e9bbae00e69ef974004cd32fa7d14ffdf499f1443f6992137879139737.png" />
+<img alt="_images/2bfb91028b129ecfa86de34b171b388be3cf0381092b75586a021b3f867ca079.png" src="_images/2bfb91028b129ecfa86de34b171b388be3cf0381092b75586a021b3f867ca079.png" />
+<img alt="_images/bc7375be8b95ebe4c24c1d963f2a407aa976e643093cdbbb917508c882c6ecd4.png" src="_images/bc7375be8b95ebe4c24c1d963f2a407aa976e643093cdbbb917508c882c6ecd4.png" />
+<img alt="_images/ee9ec3a64ece665749be0d83239aa47786203189278d02133a6dff71d1e2befa.png" src="_images/ee9ec3a64ece665749be0d83239aa47786203189278d02133a6dff71d1e2befa.png" />
+</div>
+</div>
+<p>Vemos que las rectas de regresión lineal en la mayoría de gráficos tienen poca inclinación, lo que suguiere que la relación entre las variables no es lineal. Sin embargo, sí es posible notar una recta creciente entre las variables refaga_max y velocidad del viento, y la presión atmosférica mínima y la velocidad del viento.</p>
+<p>Ahora, analicemos la correlación entre las variables. Para eso observemos la siguiente matriz de correlación:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">wind_num</span> <span class="o">=</span> <span class="n">wind</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;hora&#39;</span><span class="p">])</span>
+<span class="n">correlation_matrix</span> <span class="o">=</span> <span class="n">wind_num</span><span class="o">.</span><span class="n">corr</span><span class="p">()</span>
+
+
+<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">8</span><span class="p">))</span>
+<span class="n">sns</span><span class="o">.</span><span class="n">heatmap</span><span class="p">(</span><span class="n">correlation_matrix</span><span class="p">,</span> <span class="n">annot</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">cmap</span><span class="o">=</span><span class="s1">&#39;coolwarm&#39;</span><span class="p">,</span> <span class="n">fmt</span><span class="o">=</span><span class="s2">&quot;.2f&quot;</span><span class="p">,</span> <span class="n">linewidths</span><span class="o">=</span><span class="mf">.5</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;Correlation Matrix&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/720335cced694c4bb6b3c88c6a6c33283dd0ecb0d1b33e1da1dd2041d3d3a422.png" src="_images/720335cced694c4bb6b3c88c6a6c33283dd0ecb0d1b33e1da1dd2041d3d3a422.png" />
+</div>
+</div>
+<p>Se observa una alta correlación entre variables con características similares como humedad_maxima, humedad_horaria y humedad_minima. Esto sucede de forma similar con las variables relacionadas con la presión atmosférica y temperatura. Esto es esperable ya que son variables que se comportan de forma similar y pueden estar explicando lo mismo. Por otro lado, también se observa una baja-media correlación entre variables con características ambientales distintas como la presión atmosférica y la humedad o la precipitación y la humedad.</p>
+<p>Realicemos la prueba <em>Variance Inflation Factor (VIF)</em> para reducir la dimensionalidad de nuestro conjunto de datos y eliminar las columnas altamente correlacionadas.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">VIF_calculation</span><span class="p">(</span><span class="n">X</span><span class="p">):</span>
+    <span class="n">VIF</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">()</span>
+    <span class="n">VIF</span><span class="p">[</span><span class="s2">&quot;variable&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">X</span><span class="o">.</span><span class="n">columns</span>
+    <span class="n">VIF</span><span class="p">[</span><span class="s2">&quot;VIF&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="n">variance_inflation_factor</span><span class="p">(</span><span class="n">X</span><span class="o">.</span><span class="n">values</span><span class="p">,</span> <span class="n">i</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">X</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">])]</span>
+    <span class="n">VIF</span> <span class="o">=</span> <span class="n">VIF</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s1">&#39;VIF&#39;</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
+    <span class="k">return</span><span class="p">(</span><span class="n">VIF</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">delete_multicollinearity</span><span class="p">(</span><span class="n">df</span><span class="p">,</span> <span class="n">target_name</span><span class="p">,</span> <span class="n">VIF_threshold</span><span class="p">):</span>
+  <span class="n">X</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">target_name</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+  <span class="n">VIF_mat</span> <span class="o">=</span> <span class="n">VIF_calculation</span><span class="p">(</span><span class="n">X</span><span class="p">)</span>
+  <span class="n">n_VIF</span> <span class="o">=</span> <span class="n">VIF_mat</span><span class="p">[</span><span class="s2">&quot;VIF&quot;</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
+  <span class="k">if</span> <span class="p">(</span><span class="n">n_VIF</span> <span class="o">&lt;=</span> <span class="n">VIF_threshold</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;There is no multicollinearity!&quot;</span><span class="p">)</span>
+  <span class="k">else</span><span class="p">:</span>
+    <span class="k">while</span> <span class="p">(</span><span class="n">n_VIF</span> <span class="o">&gt;</span> <span class="n">VIF_threshold</span><span class="p">):</span>
+      <span class="n">X</span> <span class="o">=</span> <span class="n">X</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">VIF_mat</span><span class="p">[</span><span class="s2">&quot;variable&quot;</span><span class="p">][</span><span class="mi">0</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+      <span class="n">VIF_mat</span> <span class="o">=</span> <span class="n">VIF_calculation</span><span class="p">(</span><span class="n">X</span><span class="p">)</span>
+      <span class="n">n_VIF</span> <span class="o">=</span> <span class="n">VIF_mat</span><span class="p">[</span><span class="s2">&quot;VIF&quot;</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
+  <span class="n">display</span><span class="p">(</span><span class="n">VIF_mat</span><span class="p">)</span>
+  <span class="k">return</span> <span class="n">X</span>
+
+<span class="n">new_wind</span> <span class="o">=</span> <span class="n">delete_multicollinearity</span><span class="p">(</span><span class="n">wind_num</span><span class="p">,</span> <span class="s1">&#39;velocidad_viento&#39;</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>variable</th>
+      <th>VIF</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>rafaga_max</td>
+      <td>3.678934</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>humedad_min</td>
+      <td>3.184922</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>direccion_viento</td>
+      <td>1.389529</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>precipitacion_hora</td>
+      <td>1.039001</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+<p>Luego de realizar la prueba <em>VIF</em> nos quedan las variables que no muestran signos significativos de multicolinealidad. Veamos como queda la matriz de correlación.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">8</span><span class="p">))</span>
+<span class="n">sns</span><span class="o">.</span><span class="n">heatmap</span><span class="p">(</span><span class="n">new_wind</span><span class="o">.</span><span class="n">corr</span><span class="p">(),</span> <span class="n">annot</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">cmap</span><span class="o">=</span><span class="s1">&#39;coolwarm&#39;</span><span class="p">,</span> <span class="n">fmt</span><span class="o">=</span><span class="s2">&quot;.2f&quot;</span><span class="p">,</span> <span class="n">linewidths</span><span class="o">=</span><span class="mf">.5</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;Correlation Matrix&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/2c4fb2a9699d69859884f4614018bc19b623f39e9581e166e6bae4c9b5700f47.png" src="_images/2c4fb2a9699d69859884f4614018bc19b623f39e9581e166e6bae4c9b5700f47.png" />
+</div>
+</div>
+<p>Obervamos que ahora los coeficientes de correlación de las variables explicativas son bajos, lo que indica que las variables no explican lo mismo entre si.</p>
+<p>Ahora, veamos la distribución de nuestras variables explicativas a través de histogramas</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">new_wind</span><span class="p">[</span><span class="s1">&#39;velocidad_viento&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">wind</span><span class="p">[</span><span class="s1">&#39;velocidad_viento&#39;</span><span class="p">]</span>
+<span class="n">new_wind</span><span class="o">.</span><span class="n">hist</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">8</span><span class="p">))</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/2885444c211bc9985ea102a3f13307e2e40be5c9b97764562e7a38391073a3a1.png" src="_images/2885444c211bc9985ea102a3f13307e2e40be5c9b97764562e7a38391073a3a1.png" />
+</div>
+</div>
+<p>Observamos que las variables velocidad_viento, rafaga_max y precipitacion_hora presentan una distribución sesgada a la izquierda. Mientras que direccion_viento y humedad_min presentan un sesgo a la derecha. Los datos no están centrados en torno a la media y están dispersos.</p>
+</section>
+<section id="fraud-detection-eda">
+<h2>Fraud Detection EDA<a class="headerlink" href="#fraud-detection-eda" title="Link to this heading">#</a></h2>
+<p>Iniciamos cargando los conjunto de datos y observando las primeras observaciones</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">identity</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;/kaggle/input/datosparcial/train_identity.csv&#39;</span><span class="p">)</span>
+<span class="n">identity</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>TransactionID</th>
+      <th>id_01</th>
+      <th>id_02</th>
+      <th>id_03</th>
+      <th>id_04</th>
+      <th>id_05</th>
+      <th>id_06</th>
+      <th>id_07</th>
+      <th>id_08</th>
+      <th>id_09</th>
+      <th>...</th>
+      <th>id_31</th>
+      <th>id_32</th>
+      <th>id_33</th>
+      <th>id_34</th>
+      <th>id_35</th>
+      <th>id_36</th>
+      <th>id_37</th>
+      <th>id_38</th>
+      <th>DeviceType</th>
+      <th>DeviceInfo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2987004</td>
+      <td>0.0</td>
+      <td>70787.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>...</td>
+      <td>samsung browser 6.2</td>
+      <td>32.0</td>
+      <td>2220x1080</td>
+      <td>match_status:2</td>
+      <td>T</td>
+      <td>F</td>
+      <td>T</td>
+      <td>T</td>
+      <td>mobile</td>
+      <td>SAMSUNG SM-G892A Build/NRD90M</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2987008</td>
+      <td>-5.0</td>
+      <td>98945.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.0</td>
+      <td>-5.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>...</td>
+      <td>mobile safari 11.0</td>
+      <td>32.0</td>
+      <td>1334x750</td>
+      <td>match_status:1</td>
+      <td>T</td>
+      <td>F</td>
+      <td>F</td>
+      <td>T</td>
+      <td>mobile</td>
+      <td>iOS Device</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2987010</td>
+      <td>-5.0</td>
+      <td>191631.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>chrome 62.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>F</td>
+      <td>F</td>
+      <td>T</td>
+      <td>T</td>
+      <td>desktop</td>
+      <td>Windows</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2987011</td>
+      <td>-5.0</td>
+      <td>221832.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.0</td>
+      <td>-6.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>...</td>
+      <td>chrome 62.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>F</td>
+      <td>F</td>
+      <td>T</td>
+      <td>T</td>
+      <td>desktop</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2987016</td>
+      <td>0.0</td>
+      <td>7460.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>chrome 62.0</td>
+      <td>24.0</td>
+      <td>1280x800</td>
+      <td>match_status:2</td>
+      <td>T</td>
+      <td>F</td>
+      <td>T</td>
+      <td>T</td>
+      <td>desktop</td>
+      <td>MacOS</td>
+    </tr>
+  </tbody>
+</table>
+<p>5 rows × 41 columns</p>
+</div></div></div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">identity</span><span class="o">.</span><span class="n">shape</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>(144233, 41)
+</pre></div>
+</div>
+</div>
+</div>
+<p>El dataset cuenta con 41 columnas por 144233 observaciones</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">transaction</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;/kaggle/input/datosparcial/train_transaction.csv&#39;</span><span class="p">)</span>
+<span class="n">transaction</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>TransactionID</th>
+      <th>isFraud</th>
+      <th>TransactionDT</th>
+      <th>TransactionAmt</th>
+      <th>ProductCD</th>
+      <th>card1</th>
+      <th>card2</th>
+      <th>card3</th>
+      <th>card4</th>
+      <th>card5</th>
+      <th>...</th>
+      <th>V330</th>
+      <th>V331</th>
+      <th>V332</th>
+      <th>V333</th>
+      <th>V334</th>
+      <th>V335</th>
+      <th>V336</th>
+      <th>V337</th>
+      <th>V338</th>
+      <th>V339</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2987000</td>
+      <td>0</td>
+      <td>86400</td>
+      <td>68.5</td>
+      <td>W</td>
+      <td>13926</td>
+      <td>NaN</td>
+      <td>150.0</td>
+      <td>discover</td>
+      <td>142.0</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2987001</td>
+      <td>0</td>
+      <td>86401</td>
+      <td>29.0</td>
+      <td>W</td>
+      <td>2755</td>
+      <td>404.0</td>
+      <td>150.0</td>
+      <td>mastercard</td>
+      <td>102.0</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2987002</td>
+      <td>0</td>
+      <td>86469</td>
+      <td>59.0</td>
+      <td>W</td>
+      <td>4663</td>
+      <td>490.0</td>
+      <td>150.0</td>
+      <td>visa</td>
+      <td>166.0</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2987003</td>
+      <td>0</td>
+      <td>86499</td>
+      <td>50.0</td>
+      <td>W</td>
+      <td>18132</td>
+      <td>567.0</td>
+      <td>150.0</td>
+      <td>mastercard</td>
+      <td>117.0</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2987004</td>
+      <td>0</td>
+      <td>86506</td>
+      <td>50.0</td>
+      <td>H</td>
+      <td>4497</td>
+      <td>514.0</td>
+      <td>150.0</td>
+      <td>mastercard</td>
+      <td>102.0</td>
+      <td>...</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+    </tr>
+  </tbody>
+</table>
+<p>5 rows × 394 columns</p>
+</div></div></div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">transaction</span><span class="o">.</span><span class="n">shape</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>(590540, 394)
+</pre></div>
+</div>
+</div>
+</div>
+<p>Se observa que el dataset cuenta con 590540 observaciones con 394 columnas</p>
+<p>Ahora analicemos la variable respuesta <em>isFraud</em></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">fraude</span> <span class="o">=</span> <span class="p">{</span><span class="mi">0</span><span class="p">:</span> <span class="s1">&#39;No es fraude&#39;</span><span class="p">,</span> <span class="mi">1</span><span class="p">:</span> <span class="s1">&#39;Es fraude&#39;</span><span class="p">}</span>
+
+
+<span class="n">transaction</span><span class="p">[</span><span class="s1">&#39;mapeo&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">transaction</span><span class="p">[</span><span class="s1">&#39;isFraud&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">fraude</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span> <span class="mi">6</span><span class="p">))</span>
+<span class="n">sns</span><span class="o">.</span><span class="n">countplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">transaction</span><span class="p">[</span><span class="s1">&#39;mapeo&#39;</span><span class="p">])</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;Fraude&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;Número de transacciones&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Distribución de la variable isFraud&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/3b0415ff40c00bc6f7466c9220cf3482054798ddde4586d767bfd90c3fbf58a3.png" src="_images/3b0415ff40c00bc6f7466c9220cf3482054798ddde4586d767bfd90c3fbf58a3.png" />
+</div>
+</div>
+<p>Se observa que la mayoría de datos en el datset corresponde a la categoría ‘No es fraude’, mientras que hay muchos menos datos de la categoría ‘Es fraude’. Esto significa que tenemos un conjunto de datos desbalanceados.</p>
+<p>Procedamos a ver el tipo de datos de las variables:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">identity</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 144233 entries, 0 to 144232
+Data columns (total 41 columns):
+ #   Column         Non-Null Count   Dtype  
+---  ------         --------------   -----  
+ 0   TransactionID  144233 non-null  int64  
+ 1   id_01          144233 non-null  float64
+ 2   id_02          140872 non-null  float64
+ 3   id_03          66324 non-null   float64
+ 4   id_04          66324 non-null   float64
+ 5   id_05          136865 non-null  float64
+ 6   id_06          136865 non-null  float64
+ 7   id_07          5155 non-null    float64
+ 8   id_08          5155 non-null    float64
+ 9   id_09          74926 non-null   float64
+ 10  id_10          74926 non-null   float64
+ 11  id_11          140978 non-null  float64
+ 12  id_12          144233 non-null  object 
+ 13  id_13          127320 non-null  float64
+ 14  id_14          80044 non-null   float64
+ 15  id_15          140985 non-null  object 
+ 16  id_16          129340 non-null  object 
+ 17  id_17          139369 non-null  float64
+ 18  id_18          45113 non-null   float64
+ 19  id_19          139318 non-null  float64
+ 20  id_20          139261 non-null  float64
+ 21  id_21          5159 non-null    float64
+ 22  id_22          5169 non-null    float64
+ 23  id_23          5169 non-null    object 
+ 24  id_24          4747 non-null    float64
+ 25  id_25          5132 non-null    float64
+ 26  id_26          5163 non-null    float64
+ 27  id_27          5169 non-null    object 
+ 28  id_28          140978 non-null  object 
+ 29  id_29          140978 non-null  object 
+ 30  id_30          77565 non-null   object 
+ 31  id_31          140282 non-null  object 
+ 32  id_32          77586 non-null   float64
+ 33  id_33          73289 non-null   object 
+ 34  id_34          77805 non-null   object 
+ 35  id_35          140985 non-null  object 
+ 36  id_36          140985 non-null  object 
+ 37  id_37          140985 non-null  object 
+ 38  id_38          140985 non-null  object 
+ 39  DeviceType     140810 non-null  object 
+ 40  DeviceInfo     118666 non-null  object 
+dtypes: float64(23), int64(1), object(17)
+memory usage: 45.1+ MB
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">transaction</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 590540 entries, 0 to 590539
+Columns: 395 entries, TransactionID to mapeo
+dtypes: float64(376), int64(4), object(15)
+memory usage: 1.7+ GB
+</pre></div>
+</div>
+</div>
+</div>
+<p>Este dataset posee variables tanto numéricas como categóricas. Asimismo, se pueden observar datos faltantes. Más adelante revisaremos este aspecto a detalle.</p>
+<p>A continuación veamos los datos faltantes.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">proporcion_datos_vacios_identity</span> <span class="o">=</span> <span class="n">identity</span><span class="o">.</span><span class="n">isna</span><span class="p">()</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
+<span class="n">proporcion_datos_vacios_transaction</span><span class="o">=</span> <span class="n">transaction</span><span class="o">.</span><span class="n">isna</span><span class="p">()</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
+<span class="n">data</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s1">&#39;Dataset&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Indentity&#39;</span><span class="p">,</span> <span class="s1">&#39;Transaction&#39;</span><span class="p">],</span>
+    <span class="s1">&#39;Proporción de datos vacíos&#39;</span><span class="p">:</span> <span class="p">[</span><span class="n">proporcion_datos_vacios_identity</span><span class="o">.</span><span class="n">mean</span><span class="p">(),</span> <span class="n">proporcion_datos_vacios_transaction</span><span class="o">.</span><span class="n">mean</span><span class="p">()]</span>
+<span class="p">}</span>
+
+<span class="n">df_proporcion_vacios</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span> <span class="mi">6</span><span class="p">))</span>
+<span class="n">ax</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">barplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s1">&#39;Dataset&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">&#39;Proporción de datos vacíos&#39;</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">df_proporcion_vacios</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;skyblue&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Proporción de datos vacíos en los conjuntos de datos&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylim</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>  
+
+<span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">ax</span><span class="o">.</span><span class="n">patches</span><span class="p">:</span>
+    <span class="n">ax</span><span class="o">.</span><span class="n">annotate</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">p</span><span class="o">.</span><span class="n">get_height</span><span class="p">()</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mi">100</span><span class="si">:</span><span class="s1">.2f</span><span class="si">}</span><span class="s1">%&#39;</span><span class="p">,</span> <span class="p">(</span><span class="n">p</span><span class="o">.</span><span class="n">get_x</span><span class="p">()</span> <span class="o">+</span> <span class="n">p</span><span class="o">.</span><span class="n">get_width</span><span class="p">()</span> <span class="o">/</span> <span class="mf">2.</span><span class="p">,</span> <span class="n">p</span><span class="o">.</span><span class="n">get_height</span><span class="p">()),</span>
+                <span class="n">ha</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">,</span> <span class="n">va</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">12</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;black&#39;</span><span class="p">,</span> <span class="n">xytext</span><span class="o">=</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">),</span>
+                <span class="n">textcoords</span><span class="o">=</span><span class="s1">&#39;offset points&#39;</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/4baddd981512051d0a462c1926466963046047de2eb5702fe9fbe67310a59881.png" src="_images/4baddd981512051d0a462c1926466963046047de2eb5702fe9fbe67310a59881.png" />
+</div>
+</div>
+<p>Veamos los datos faltantes por columna de cada dataset</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">datos_faltantes</span> <span class="o">=</span> <span class="n">identity</span><span class="o">.</span><span class="n">isna</span><span class="p">()</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
+<span class="n">porcentaje_faltante</span> <span class="o">=</span> <span class="p">(</span><span class="n">datos_faltantes</span> <span class="o">/</span> <span class="nb">len</span><span class="p">(</span><span class="n">identity</span><span class="p">))</span> <span class="o">*</span> <span class="mi">100</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">porcentaje_faltante</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>TransactionID     0.000000
+id_01             0.000000
+id_02             2.330257
+id_03            54.016071
+id_04            54.016071
+id_05             5.108401
+id_06             5.108401
+id_07            96.425922
+id_08            96.425922
+id_09            48.052110
+id_10            48.052110
+id_11             2.256765
+id_12             0.000000
+id_13            11.726165
+id_14            44.503685
+id_15             2.251912
+id_16            10.325654
+id_17             3.372321
+id_18            68.722137
+id_19             3.407681
+id_20             3.447200
+id_21            96.423149
+id_22            96.416215
+id_23            96.416215
+id_24            96.708798
+id_25            96.441868
+id_26            96.420375
+id_27            96.416215
+id_28             2.256765
+id_29             2.256765
+id_30            46.222432
+id_31             2.739318
+id_32            46.207872
+id_33            49.187079
+id_34            46.056034
+id_35             2.251912
+id_36             2.251912
+id_37             2.251912
+id_38             2.251912
+DeviceType        2.373243
+DeviceInfo       17.726179
+dtype: float64
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">datos_faltantes</span> <span class="o">=</span> <span class="n">transaction</span><span class="o">.</span><span class="n">isna</span><span class="p">()</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
+<span class="n">porcentaje_faltante</span> <span class="o">=</span> <span class="p">(</span><span class="n">datos_faltantes</span> <span class="o">/</span> <span class="nb">len</span><span class="p">(</span><span class="n">transaction</span><span class="p">))</span> <span class="o">*</span> <span class="mi">100</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">porcentaje_faltante</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>TransactionID      0.000000
+isFraud            0.000000
+TransactionDT      0.000000
+TransactionAmt     0.000000
+ProductCD          0.000000
+                    ...    
+V336              86.054967
+V337              86.054967
+V338              86.054967
+V339              86.054967
+mapeo              0.000000
+Length: 395, dtype: float64
+</pre></div>
+</div>
+</div>
+</div>
+<p>En ambos dataset la mayoría de columnas tienen un porcentaje significativo de datos faltantes.</p>
+<p>Veamos un análisis general de las variables por grupo.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">fig</span><span class="p">,</span> <span class="n">axes</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">18</span><span class="p">,</span> <span class="mi">6</span><span class="p">))</span>
+
+<span class="c1"># Histograma con todos los datos</span>
+<span class="n">sns</span><span class="o">.</span><span class="n">histplot</span><span class="p">(</span><span class="n">transaction</span><span class="p">[</span><span class="s2">&quot;TransactionDT&quot;</span><span class="p">],</span> <span class="n">bins</span><span class="o">=</span><span class="mi">500</span><span class="p">,</span> <span class="n">kde</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;skyblue&#39;</span><span class="p">,</span> <span class="n">ax</span><span class="o">=</span><span class="n">axes</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+<span class="n">axes</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">&#39;Todos los datos&#39;</span><span class="p">)</span>
+<span class="n">axes</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s1">&#39;TransactionDT&#39;</span><span class="p">)</span>
+<span class="n">axes</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s1">&#39;Frecuencia&#39;</span><span class="p">)</span>
+
+<span class="c1"># Histograma donde la columna isFraud = 0</span>
+<span class="n">sns</span><span class="o">.</span><span class="n">histplot</span><span class="p">(</span><span class="n">transaction</span><span class="p">[</span><span class="n">transaction</span><span class="p">[</span><span class="s1">&#39;mapeo&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;No es fraude&#39;</span><span class="p">][</span><span class="s2">&quot;TransactionDT&quot;</span><span class="p">],</span> <span class="n">bins</span><span class="o">=</span><span class="mi">500</span><span class="p">,</span> <span class="n">kde</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;green&#39;</span><span class="p">,</span> <span class="n">ax</span><span class="o">=</span><span class="n">axes</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+<span class="n">axes</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">&#39;isFraud = 0&#39;</span><span class="p">)</span>
+<span class="n">axes</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s1">&#39;TransactionDT&#39;</span><span class="p">)</span>
+<span class="n">axes</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s1">&#39;Frecuencia&#39;</span><span class="p">)</span>
+
+<span class="c1"># Histograma donde la columna isFraud = 1</span>
+<span class="n">sns</span><span class="o">.</span><span class="n">histplot</span><span class="p">(</span><span class="n">transaction</span><span class="p">[</span><span class="n">transaction</span><span class="p">[</span><span class="s1">&#39;mapeo&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;Es fraude&#39;</span><span class="p">][</span><span class="s2">&quot;TransactionDT&quot;</span><span class="p">],</span> <span class="n">bins</span><span class="o">=</span><span class="mi">500</span><span class="p">,</span> <span class="n">kde</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;red&#39;</span><span class="p">,</span> <span class="n">ax</span><span class="o">=</span><span class="n">axes</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
+<span class="n">axes</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">&#39;isFraud = 1&#39;</span><span class="p">)</span>
+<span class="n">axes</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s1">&#39;TransactionDT&#39;</span><span class="p">)</span>
+<span class="n">axes</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s1">&#39;Frecuencia&#39;</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">()</span>  
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/opt/conda/lib/python3.10/site-packages/seaborn/_oldcore.py:1119: FutureWarning: use_inf_as_na option is deprecated and will be removed in a future version. Convert inf values to NaN before operating instead.
+  with pd.option_context(&#39;mode.use_inf_as_na&#39;, True):
+/opt/conda/lib/python3.10/site-packages/seaborn/_oldcore.py:1119: FutureWarning: use_inf_as_na option is deprecated and will be removed in a future version. Convert inf values to NaN before operating instead.
+  with pd.option_context(&#39;mode.use_inf_as_na&#39;, True):
+/opt/conda/lib/python3.10/site-packages/seaborn/_oldcore.py:1119: FutureWarning: use_inf_as_na option is deprecated and will be removed in a future version. Convert inf values to NaN before operating instead.
+  with pd.option_context(&#39;mode.use_inf_as_na&#39;, True):
+</pre></div>
+</div>
+<img alt="_images/3e1b4593dbf159a0cba2651c198732b8db2ec6a80f60f16e0bd23e31c33c21f3.png" src="_images/3e1b4593dbf159a0cba2651c198732b8db2ec6a80f60f16e0bd23e31c33c21f3.png" />
+</div>
+</div>
+<ol class="arabic simple">
+<li><p><strong>Todos los datos:</strong> Hay picos claros y valles que sugieren patrones temporales o cíclicos en los datos. Estos podrían corresponder a horarios de alta actividad como las horas del día o días específicos de la semana.</p></li>
+<li><p><strong>isFraud = 0:</strong> Este sigue un patrón similar al del gráfico de todos los datos, lo que tiene sentido ya que las transacciones legítimas constituyen la mayoría de los datos y, por lo tanto, dominan el patrón general observado.</p></li>
+<li><p><strong>isFraud = 1:</strong> La escala del eje y es mucho menor en comparación con los otros dos gráficos, lo que refleja la menor frecuencia de casos de fraude en el conjunto de datos. Los picos aquí parecen menos pronunciados y el patrón temporal puede diferir del de las transacciones legítimas.</p></li>
+</ol>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">card</span><span class="o">=</span> <span class="p">[</span><span class="sa">f</span><span class="s2">&quot;card</span><span class="si">{</span><span class="n">i</span><span class="si">}</span><span class="s2">&quot;</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">7</span><span class="p">)]</span>
+<span class="n">cards</span><span class="o">=</span><span class="n">transaction</span><span class="p">[</span><span class="n">card</span><span class="p">]</span>
+
+<span class="n">fig</span><span class="p">,</span> <span class="n">axes</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">nrows</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">ncols</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">24</span><span class="p">,</span> <span class="mi">6</span><span class="p">))</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">3</span><span class="p">):</span>
+    <span class="n">sns</span><span class="o">.</span><span class="n">distplot</span><span class="p">(</span><span class="n">cards</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span> <span class="n">i</span><span class="p">],</span> <span class="n">bins</span><span class="o">=</span><span class="mi">50</span><span class="p">,</span> <span class="n">ax</span><span class="o">=</span><span class="n">axes</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">hist_kws</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;edgecolor&#39;</span><span class="p">:</span> <span class="s1">&#39;black&#39;</span><span class="p">,</span> <span class="s1">&#39;linewidth&#39;</span><span class="p">:</span> <span class="mf">1.2</span><span class="p">},</span> <span class="n">kde</span><span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
+
+    <span class="n">axes</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">&#39;Distribution of &#39;</span> <span class="o">+</span> <span class="n">cards</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span> <span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">16</span><span class="p">)</span>
+    <span class="n">axes</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="n">cards</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span> <span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">)</span>
+    <span class="n">axes</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s1">&#39;Density&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">)</span>
+
+    <span class="n">axes</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="kc">True</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s1">&#39;--&#39;</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.6</span><span class="p">)</span>
+
+    <span class="n">axes</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">set_facecolor</span><span class="p">(</span><span class="s1">&#39;lightgray&#39;</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/tmp/ipykernel_34/2327863681.py:7: UserWarning: 
+
+`distplot` is a deprecated function and will be removed in seaborn v0.14.0.
+
+Please adapt your code to use either `displot` (a figure-level function with
+similar flexibility) or `histplot` (an axes-level function for histograms).
+
+For a guide to updating your code to use the new functions, please see
+https://gist.github.com/mwaskom/de44147ed2974457ad6372750bbe5751
+
+  sns.distplot(cards.iloc[:, i], bins=50, ax=axes[i], hist_kws={&#39;edgecolor&#39;: &#39;black&#39;, &#39;linewidth&#39;: 1.2}, kde= True)
+/opt/conda/lib/python3.10/site-packages/seaborn/_oldcore.py:1119: FutureWarning: use_inf_as_na option is deprecated and will be removed in a future version. Convert inf values to NaN before operating instead.
+  with pd.option_context(&#39;mode.use_inf_as_na&#39;, True):
+/tmp/ipykernel_34/2327863681.py:7: UserWarning: 
+
+`distplot` is a deprecated function and will be removed in seaborn v0.14.0.
+
+Please adapt your code to use either `displot` (a figure-level function with
+similar flexibility) or `histplot` (an axes-level function for histograms).
+
+For a guide to updating your code to use the new functions, please see
+https://gist.github.com/mwaskom/de44147ed2974457ad6372750bbe5751
+
+  sns.distplot(cards.iloc[:, i], bins=50, ax=axes[i], hist_kws={&#39;edgecolor&#39;: &#39;black&#39;, &#39;linewidth&#39;: 1.2}, kde= True)
+/opt/conda/lib/python3.10/site-packages/seaborn/_oldcore.py:1119: FutureWarning: use_inf_as_na option is deprecated and will be removed in a future version. Convert inf values to NaN before operating instead.
+  with pd.option_context(&#39;mode.use_inf_as_na&#39;, True):
+/tmp/ipykernel_34/2327863681.py:7: UserWarning: 
+
+`distplot` is a deprecated function and will be removed in seaborn v0.14.0.
+
+Please adapt your code to use either `displot` (a figure-level function with
+similar flexibility) or `histplot` (an axes-level function for histograms).
+
+For a guide to updating your code to use the new functions, please see
+https://gist.github.com/mwaskom/de44147ed2974457ad6372750bbe5751
+
+  sns.distplot(cards.iloc[:, i], bins=50, ax=axes[i], hist_kws={&#39;edgecolor&#39;: &#39;black&#39;, &#39;linewidth&#39;: 1.2}, kde= True)
+/opt/conda/lib/python3.10/site-packages/seaborn/_oldcore.py:1119: FutureWarning: use_inf_as_na option is deprecated and will be removed in a future version. Convert inf values to NaN before operating instead.
+  with pd.option_context(&#39;mode.use_inf_as_na&#39;, True):
+</pre></div>
+</div>
+<img alt="_images/e5b7221cdb179e56eb9d402537217b904c39b7a18e4378b57207fc297566ad50.png" src="_images/e5b7221cdb179e56eb9d402537217b904c39b7a18e4378b57207fc297566ad50.png" />
+</div>
+</div>
+<p><strong>Distribución de card1:</strong> Este histograma muestra una distribución bastante uniforme con múltiples picos, lo que indica que los valores para la card1 están distribuidos a lo largo de un amplio rango de cantidades. Hay varios picos notables que sugieren que ciertas cantidades ocurren con más frecuencia que otras.</p>
+<p><strong>Distribución de card2:</strong> El histograma para la card2 revela una distribución más irregular con varios picos agudos, lo que podría sugerir que hay cantidades de transacciones que son muy populares y posiblemente algunas cantidades que son menos comunes.</p>
+<p><strong>Distribución de card3:</strong> El histograma para la card3 es bastante diferente de los dos primeros. Muestra un pico muy fuerte en un valor particular, lo que podría implicar que la mayoría de las transacciones para la card3 son de una cantidad única, con muy pocas transacciones de otras cantidades. Hay un pico más pequeño en un valor más alto también, indicando una cantidad común secundaria, pero es mucho menos frecuente que la principal.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">25</span><span class="p">,</span><span class="mi">5</span><span class="p">))</span>
+
+<span class="n">sns</span><span class="o">.</span><span class="n">countplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s2">&quot;card4&quot;</span><span class="p">,</span> <span class="n">ax</span><span class="o">=</span><span class="n">ax</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">data</span><span class="o">=</span><span class="n">transaction</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">transaction</span><span class="p">[</span><span class="s1">&#39;mapeo&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;No es fraude&quot;</span><span class="p">])</span>
+<span class="n">ax</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">&#39;card4 isFraud=0&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">)</span>
+<span class="n">sns</span><span class="o">.</span><span class="n">countplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s2">&quot;card4&quot;</span><span class="p">,</span> <span class="n">ax</span><span class="o">=</span><span class="n">ax</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">data</span><span class="o">=</span><span class="n">transaction</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">transaction</span><span class="p">[</span><span class="s1">&#39;mapeo&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;Es fraude&quot;</span><span class="p">])</span>
+<span class="n">ax</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">&#39;card4 isFraud=1&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/f42fe411980b6671727ffa038110db1558124174b49376126e8806fc19d8f5ac.png" src="_images/f42fe411980b6671727ffa038110db1558124174b49376126e8806fc19d8f5ac.png" />
+</div>
+</div>
+<p><strong>card4 isFraud=0:</strong> Este diagrama muestra que las transacciones no fraudulentas están dominadas por Visa, seguida por Mastercard, y luego Discover, con American Express siendo la menos utilizada entre las presentadas. La barra de Visa es significativamente más alta que las demás, lo que indica una gran cantidad de transacciones legítimas con tarjetas Visa.</p>
+<p><strong>card4 isFraud=1:</strong> Visa y Mastercard son considerablemente más altas que Discover y American Express, lo cual indica que la mayoría de las transacciones fraudulentas se realizaron con Visa y Mastercard.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">25</span><span class="p">,</span><span class="mi">5</span><span class="p">))</span>
+
+<span class="n">sns</span><span class="o">.</span><span class="n">countplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s2">&quot;card6&quot;</span><span class="p">,</span> <span class="n">ax</span><span class="o">=</span><span class="n">ax</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">data</span><span class="o">=</span><span class="n">transaction</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">transaction</span><span class="p">[</span><span class="s1">&#39;mapeo&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;No es fraude&quot;</span><span class="p">])</span>
+<span class="n">ax</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">&#39;card6 isFraud=0&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">)</span>
+<span class="n">sns</span><span class="o">.</span><span class="n">countplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s2">&quot;card6&quot;</span><span class="p">,</span> <span class="n">ax</span><span class="o">=</span><span class="n">ax</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">data</span><span class="o">=</span><span class="n">transaction</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">transaction</span><span class="p">[</span><span class="s1">&#39;mapeo&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;Es fraude&quot;</span><span class="p">])</span>
+<span class="n">ax</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">&#39;card6 isFraud=1&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/7d50a2c75b1282f2c9403773d82b8b54fa3a0c353beb12bf05935fbdaf2349de.png" src="_images/7d50a2c75b1282f2c9403773d82b8b54fa3a0c353beb12bf05935fbdaf2349de.png" />
+</div>
+</div>
+<p><strong>card6 isFraud=0:</strong> En el primer gráfico, se muestra que la mayoría de las transacciones no fraudulentas se realizan con tarjetas de débito, seguidas por las de crédito. La categoría “debit or credit” y “charge card” tienen una representación mucho menor. Esto sugiere que las tarjetas de débito son mucho más utilizadas para transacciones legítimas en este conjunto de datos.</p>
+<p><strong>card6 isFraud=1:</strong> El segundo gráfico, que representa las transacciones marcadas como fraudulentas, muestra un patrón similar con la mayoría de las transacciones fraudulentas realizadas con tarjetas de débito. Las tarjetas de crédito también tienen una participación significativa en el fraude, aunque ligeramente menor que las de débito.</p>
+</section>
+<section id="seleccion-de-variables-transaction">
+<h2>Selección de Variables (Transaction)<a class="headerlink" href="#seleccion-de-variables-transaction" title="Link to this heading">#</a></h2>
+<p>Iniciaremos eliminando aquellas columnas con más de 50% de datos nulos. Además eliminaremos ‘TransactionID’ puesto que no aporta información significativa para el modelo predictivo.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">eliminar_columnas_nulos</span><span class="p">(</span><span class="n">df</span><span class="p">,</span> <span class="n">porcentaje_umbral</span><span class="o">=</span><span class="mf">0.5</span><span class="p">):</span>
+    <span class="n">num_min_no_nulos</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="p">)</span> <span class="o">*</span> <span class="n">porcentaje_umbral</span>
+    <span class="n">df_filtrado</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">dropna</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">thresh</span><span class="o">=</span><span class="n">num_min_no_nulos</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">df_filtrado</span>
+
+<span class="n">identity</span> <span class="o">=</span> <span class="n">eliminar_columnas_nulos</span><span class="p">(</span><span class="n">identity</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
+<span class="n">transaction</span> <span class="o">=</span> <span class="n">eliminar_columnas_nulos</span><span class="p">(</span><span class="n">transaction</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
+<span class="c1">#transaction = transaction.drop(&#39;TransactionID&#39;, axis=1)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Variables Identity&quot;</span><span class="p">,</span><span class="n">identity</span><span class="o">.</span><span class="n">columns</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Variables Transaction&quot;</span><span class="p">,</span> <span class="n">transaction</span><span class="o">.</span><span class="n">columns</span><span class="p">)</span>
+<span class="n">transaction</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Variables Identity Index([&#39;TransactionID&#39;, &#39;id_01&#39;, &#39;id_02&#39;, &#39;id_05&#39;, &#39;id_06&#39;, &#39;id_09&#39;, &#39;id_10&#39;,
+       &#39;id_11&#39;, &#39;id_12&#39;, &#39;id_13&#39;, &#39;id_14&#39;, &#39;id_15&#39;, &#39;id_16&#39;, &#39;id_17&#39;, &#39;id_19&#39;,
+       &#39;id_20&#39;, &#39;id_28&#39;, &#39;id_29&#39;, &#39;id_30&#39;, &#39;id_31&#39;, &#39;id_32&#39;, &#39;id_33&#39;, &#39;id_34&#39;,
+       &#39;id_35&#39;, &#39;id_36&#39;, &#39;id_37&#39;, &#39;id_38&#39;, &#39;DeviceType&#39;, &#39;DeviceInfo&#39;],
+      dtype=&#39;object&#39;)
+Variables Transaction Index([&#39;TransactionID&#39;, &#39;isFraud&#39;, &#39;TransactionDT&#39;, &#39;TransactionAmt&#39;,
+       &#39;ProductCD&#39;, &#39;card1&#39;, &#39;card2&#39;, &#39;card3&#39;, &#39;card4&#39;, &#39;card5&#39;,
+       ...
+       &#39;V312&#39;, &#39;V313&#39;, &#39;V314&#39;, &#39;V315&#39;, &#39;V316&#39;, &#39;V317&#39;, &#39;V318&#39;, &#39;V319&#39;, &#39;V320&#39;,
+       &#39;V321&#39;],
+      dtype=&#39;object&#39;, length=220)
+</pre></div>
+</div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>220
+</pre></div>
+</div>
+</div>
+</div>
+<p>Estas son las columnas que quedaron luego de eliminar las variables con más del 50% de datos faltantes.</p>
+<p>Ahora, realizaremos la codificación de las variables categóricas con OneHotEncoder.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#Dataset Identity</span>
+<span class="n">data1_string</span> <span class="o">=</span> <span class="n">identity</span><span class="o">.</span><span class="n">select_dtypes</span><span class="p">(</span><span class="n">include</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;object&#39;</span><span class="p">])</span>
+<span class="n">encoder1</span> <span class="o">=</span> <span class="n">OneHotEncoder</span><span class="p">()</span>
+<span class="n">data1_encoded</span> <span class="o">=</span> <span class="n">encoder1</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">data1_string</span><span class="p">)</span>
+<span class="n">data1_encoded_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">data1_encoded</span><span class="o">.</span><span class="n">toarray</span><span class="p">(),</span> <span class="n">columns</span><span class="o">=</span><span class="n">encoder1</span><span class="o">.</span><span class="n">get_feature_names_out</span><span class="p">(</span><span class="n">data1_string</span><span class="o">.</span><span class="n">columns</span><span class="p">))</span>
+<span class="n">identity</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">identity</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="n">data1_string</span><span class="o">.</span><span class="n">columns</span><span class="p">),</span> <span class="n">data1_encoded_df</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+
+<span class="c1">#Dataset Transaction</span>
+<span class="n">data2_string</span> <span class="o">=</span> <span class="n">transaction</span><span class="o">.</span><span class="n">select_dtypes</span><span class="p">(</span><span class="n">include</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;object&#39;</span><span class="p">])</span>
+<span class="n">encoder2</span> <span class="o">=</span> <span class="n">OneHotEncoder</span><span class="p">()</span>
+<span class="n">data2_encoded</span> <span class="o">=</span> <span class="n">encoder2</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">data2_string</span><span class="p">)</span>
+<span class="n">data2_encoded_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">data2_encoded</span><span class="o">.</span><span class="n">toarray</span><span class="p">(),</span> <span class="n">columns</span><span class="o">=</span><span class="n">encoder2</span><span class="o">.</span><span class="n">get_feature_names_out</span><span class="p">(</span><span class="n">data2_string</span><span class="o">.</span><span class="n">columns</span><span class="p">))</span>
+<span class="n">transaction</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">transaction</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="n">data2_string</span><span class="o">.</span><span class="n">columns</span><span class="p">),</span> <span class="n">data2_encoded_df</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<section id="variables-c-y-d">
+<h3>Variables C y D<a class="headerlink" href="#variables-c-y-d" title="Link to this heading">#</a></h3>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">columnas_con_d</span> <span class="o">=</span> <span class="p">[</span><span class="n">columna</span> <span class="k">for</span> <span class="n">columna</span> <span class="ow">in</span> <span class="n">transaction</span><span class="o">.</span><span class="n">columns</span> <span class="k">if</span> <span class="n">columna</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;D&#39;</span><span class="p">)]</span>
+<span class="n">transaction_d</span> <span class="o">=</span> <span class="n">transaction</span><span class="p">[</span><span class="n">columnas_con_d</span><span class="p">]</span>
+<span class="n">correlacion</span> <span class="o">=</span> <span class="n">transaction_d</span><span class="o">.</span><span class="n">corr</span><span class="p">()</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">8</span><span class="p">))</span>
+<span class="n">sns</span><span class="o">.</span><span class="n">heatmap</span><span class="p">(</span><span class="n">correlacion</span><span class="p">,</span> <span class="n">annot</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">cmap</span><span class="o">=</span><span class="s1">&#39;coolwarm&#39;</span><span class="p">,</span> <span class="n">fmt</span><span class="o">=</span><span class="s2">&quot;.2f&quot;</span><span class="p">,</span> <span class="n">linewidths</span><span class="o">=</span><span class="mf">.5</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Matriz de correlación de variables que empiezan por D&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/176cd15f5d0c08c048ddc352feb0cd7041a4eb9b95277ad28423882c57c20279.png" src="_images/176cd15f5d0c08c048ddc352feb0cd7041a4eb9b95277ad28423882c57c20279.png" />
+</div>
+</div>
+<p>Dado que la variable D3 es la que tiene la menor correlación entre las otras variables, escogeremos esta y eliminaremos las otras.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">columnas_a_mantener</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;D3&#39;</span><span class="p">]</span>
+<span class="n">columnas_a_eliminar</span> <span class="o">=</span> <span class="p">[</span><span class="n">columna</span> <span class="k">for</span> <span class="n">columna</span> <span class="ow">in</span> <span class="n">transaction</span><span class="o">.</span><span class="n">columns</span> <span class="k">if</span> <span class="n">columna</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;D&#39;</span><span class="p">)</span> <span class="ow">and</span> <span class="n">columna</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">columnas_a_mantener</span><span class="p">]</span>
+
+<span class="n">transaction</span> <span class="o">=</span> <span class="n">transaction</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columnas_a_eliminar</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Ahora hagamos el mismo procedimiento con las variables que empiecen por <em>C</em>.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">columnas_con_c</span> <span class="o">=</span> <span class="p">[</span><span class="n">columna</span> <span class="k">for</span> <span class="n">columna</span> <span class="ow">in</span> <span class="n">transaction</span><span class="o">.</span><span class="n">columns</span> <span class="k">if</span> <span class="n">columna</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;C&#39;</span><span class="p">)]</span>
+<span class="n">transaction_c</span> <span class="o">=</span> <span class="n">transaction</span><span class="p">[</span><span class="n">columnas_con_c</span><span class="p">]</span>
+<span class="n">correlacion</span> <span class="o">=</span> <span class="n">transaction_c</span><span class="o">.</span><span class="n">corr</span><span class="p">()</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">8</span><span class="p">))</span>
+<span class="n">sns</span><span class="o">.</span><span class="n">heatmap</span><span class="p">(</span><span class="n">correlacion</span><span class="p">,</span> <span class="n">annot</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">cmap</span><span class="o">=</span><span class="s1">&#39;coolwarm&#39;</span><span class="p">,</span> <span class="n">fmt</span><span class="o">=</span><span class="s2">&quot;.2f&quot;</span><span class="p">,</span> <span class="n">linewidths</span><span class="o">=</span><span class="mf">.5</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Matriz de correlación de variables que empiezan por C&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/76c707c44ea7cced46c7dad0532bf761b93accee070abaa089c1d8634b8afad0.png" src="_images/76c707c44ea7cced46c7dad0532bf761b93accee070abaa089c1d8634b8afad0.png" />
+</div>
+</div>
+<p>Al igual que en el caso anterior se seleccionan las variables que tengan la menos correlación entre ellas. Seleccionamos las columnas <em>C3, C5</em> y eliminamos las otras del dataset.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">columnas_a_mantener</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;C3&#39;</span><span class="p">,</span> <span class="s1">&#39;C5&#39;</span><span class="p">]</span>
+<span class="n">columnas_a_eliminar</span> <span class="o">=</span> <span class="p">[</span><span class="n">columna</span> <span class="k">for</span> <span class="n">columna</span> <span class="ow">in</span> <span class="n">transaction</span><span class="o">.</span><span class="n">columns</span> <span class="k">if</span> <span class="n">columna</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;C&#39;</span><span class="p">)</span> <span class="ow">and</span> <span class="n">columna</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">columnas_a_mantener</span><span class="p">]</span>
+
+<span class="n">transaction</span> <span class="o">=</span> <span class="n">transaction</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columnas_a_eliminar</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="variables-card">
+<h3>Variables Card<a class="headerlink" href="#variables-card" title="Link to this heading">#</a></h3>
+<p>Ahora revisemos los coeficientes de correlación de las variables que inicien con ‘card’.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">columnas_con_card</span> <span class="o">=</span> <span class="p">[</span><span class="n">columna</span> <span class="k">for</span> <span class="n">columna</span> <span class="ow">in</span> <span class="n">transaction</span><span class="o">.</span><span class="n">columns</span> <span class="k">if</span> <span class="n">columna</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;card&#39;</span><span class="p">)]</span>
+<span class="n">transaction_card</span> <span class="o">=</span> <span class="n">transaction</span><span class="p">[</span><span class="n">columnas_con_card</span><span class="p">]</span>
+<span class="n">correlacion</span> <span class="o">=</span> <span class="n">transaction_card</span><span class="o">.</span><span class="n">corr</span><span class="p">()</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">8</span><span class="p">))</span>
+<span class="n">sns</span><span class="o">.</span><span class="n">heatmap</span><span class="p">(</span><span class="n">correlacion</span><span class="p">,</span> <span class="n">annot</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">cmap</span><span class="o">=</span><span class="s1">&#39;coolwarm&#39;</span><span class="p">,</span> <span class="n">fmt</span><span class="o">=</span><span class="s2">&quot;.2f&quot;</span><span class="p">,</span> <span class="n">linewidths</span><span class="o">=</span><span class="mf">.5</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Matriz de correlación de variables que empiezan por card&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/fa99799eaf43c299bf894ad42b7c62e9610b9ce2fd0d4b1e0dd632c48ec4dfba.png" src="_images/fa99799eaf43c299bf894ad42b7c62e9610b9ce2fd0d4b1e0dd632c48ec4dfba.png" />
+</div>
+</div>
+<p>Con este conjunto de variables podemos observar que en general tienen baja correlación entre ellas, por lo que se escogeremos las siguientes: <em>card2, card3, ‘card4_american express’,’card4_discover’, ‘card4_mastercard’, ‘card4_visa’, ‘card6_credit’</em> y eliminamos el resto.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">columnas_a_mantener</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;card2&#39;</span><span class="p">,</span> <span class="s1">&#39;card3&#39;</span><span class="p">,</span> <span class="s1">&#39;card4_american express&#39;</span><span class="p">,</span><span class="s1">&#39;card4_discover&#39;</span><span class="p">,</span> 
+                       <span class="s1">&#39;card4_mastercard&#39;</span><span class="p">,</span> <span class="s1">&#39;card4_visa&#39;</span><span class="p">,</span> <span class="s1">&#39;card6_credit&#39;</span><span class="p">]</span>
+<span class="n">columnas_a_eliminar</span> <span class="o">=</span> <span class="p">[</span><span class="n">columna</span> <span class="k">for</span> <span class="n">columna</span> <span class="ow">in</span> <span class="n">transaction</span><span class="o">.</span><span class="n">columns</span> <span class="k">if</span> <span class="n">columna</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;card&#39;</span><span class="p">)</span> <span class="ow">and</span> <span class="n">columna</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">columnas_a_mantener</span><span class="p">]</span>
+
+<span class="n">transaction</span> <span class="o">=</span> <span class="n">transaction</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columnas_a_eliminar</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="variables-m">
+<h3>Variables M<a class="headerlink" href="#variables-m" title="Link to this heading">#</a></h3>
+<p>Realizamos el mismo procedimiento con las variables que inician con M.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">columnas_con_M</span> <span class="o">=</span> <span class="p">[</span><span class="n">columna</span> <span class="k">for</span> <span class="n">columna</span> <span class="ow">in</span> <span class="n">transaction</span><span class="o">.</span><span class="n">columns</span> <span class="k">if</span> <span class="n">columna</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;M&#39;</span><span class="p">)]</span>
+<span class="n">transaction_M</span> <span class="o">=</span> <span class="n">transaction</span><span class="p">[</span><span class="n">columnas_con_M</span><span class="p">]</span>
+<span class="n">correlacion</span> <span class="o">=</span> <span class="n">transaction_M</span><span class="o">.</span><span class="n">corr</span><span class="p">()</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">8</span><span class="p">))</span>
+<span class="n">sns</span><span class="o">.</span><span class="n">heatmap</span><span class="p">(</span><span class="n">correlacion</span><span class="p">,</span> <span class="n">annot</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">cmap</span><span class="o">=</span><span class="s1">&#39;coolwarm&#39;</span><span class="p">,</span> <span class="n">fmt</span><span class="o">=</span><span class="s2">&quot;.2f&quot;</span><span class="p">,</span> <span class="n">linewidths</span><span class="o">=</span><span class="mf">.5</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Matriz de correlación de variables que empiezan por M&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/b38d75e8783ec5354f35d422235d241b0397ae1550ba4ccb74fcb06e00750e7b.png" src="_images/b38d75e8783ec5354f35d422235d241b0397ae1550ba4ccb74fcb06e00750e7b.png" />
+</div>
+</div>
+<p>Dado que esta variable está relacionada con las variables Card, no tomaremos en cuenta estas variables para el modelo.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">columnas_a_mantener</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">columnas_a_eliminar</span> <span class="o">=</span> <span class="p">[</span><span class="n">columna</span> <span class="k">for</span> <span class="n">columna</span> <span class="ow">in</span> <span class="n">transaction</span><span class="o">.</span><span class="n">columns</span> <span class="k">if</span> <span class="n">columna</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;M&#39;</span><span class="p">)</span> <span class="ow">and</span> <span class="n">columna</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">columnas_a_mantener</span><span class="p">]</span>
+
+<span class="n">transaction</span> <span class="o">=</span> <span class="n">transaction</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columnas_a_eliminar</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="variables-product">
+<h3>Variables Product<a class="headerlink" href="#variables-product" title="Link to this heading">#</a></h3>
+<p>Una vez más realizamos el mismo procedimiento pero en este caso analizaremos las variables que inician por ‘Product’</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">columnas_con_pro</span> <span class="o">=</span> <span class="p">[</span><span class="n">columna</span> <span class="k">for</span> <span class="n">columna</span> <span class="ow">in</span> <span class="n">transaction</span><span class="o">.</span><span class="n">columns</span> <span class="k">if</span> <span class="n">columna</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;Product&#39;</span><span class="p">)]</span>
+<span class="n">transaction_pro</span> <span class="o">=</span> <span class="n">transaction</span><span class="p">[</span><span class="n">columnas_con_pro</span><span class="p">]</span>
+<span class="n">correlacion</span> <span class="o">=</span> <span class="n">transaction_pro</span><span class="o">.</span><span class="n">corr</span><span class="p">()</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">8</span><span class="p">))</span>
+<span class="n">sns</span><span class="o">.</span><span class="n">heatmap</span><span class="p">(</span><span class="n">correlacion</span><span class="p">,</span> <span class="n">annot</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">cmap</span><span class="o">=</span><span class="s1">&#39;coolwarm&#39;</span><span class="p">,</span> <span class="n">fmt</span><span class="o">=</span><span class="s2">&quot;.2f&quot;</span><span class="p">,</span> <span class="n">linewidths</span><span class="o">=</span><span class="mf">.5</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Matriz de correlación de variables que empiezan por Product&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/c94237c2357f87cc9d316cb595c6fd7d55a399e51e15c4ac5071521675e7c0ea.png" src="_images/c94237c2357f87cc9d316cb595c6fd7d55a399e51e15c4ac5071521675e7c0ea.png" />
+</div>
+</div>
+<p>Al igual que en el caso anterior. Estas variables no nos ofrecen información significativa para el modelo. Por lo tanto, no las tomaremos en cuenta</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">columnas_a_mantener</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">columnas_a_eliminar</span> <span class="o">=</span> <span class="p">[</span><span class="n">columna</span> <span class="k">for</span> <span class="n">columna</span> <span class="ow">in</span> <span class="n">transaction</span><span class="o">.</span><span class="n">columns</span> <span class="k">if</span> <span class="n">columna</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;Product&#39;</span><span class="p">)</span> <span class="ow">and</span> <span class="n">columna</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">columnas_a_mantener</span><span class="p">]</span>
+
+<span class="n">transaction</span> <span class="o">=</span> <span class="n">transaction</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columnas_a_eliminar</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Luego de hacer la anterior selección de variables el dataset resultante sería:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">final_transaction</span> <span class="o">=</span> <span class="n">transaction</span><span class="p">[[</span><span class="s1">&#39;isFraud&#39;</span><span class="p">,</span><span class="s1">&#39;TransactionID&#39;</span><span class="p">,</span> <span class="s1">&#39;TransactionDT&#39;</span><span class="p">,</span> <span class="s1">&#39;TransactionAmt&#39;</span><span class="p">,</span> <span class="s1">&#39;card2&#39;</span><span class="p">,</span> <span class="s1">&#39;card3&#39;</span><span class="p">,</span><span class="s1">&#39;card4_american express&#39;</span><span class="p">,</span><span class="s1">&#39;card4_discover&#39;</span><span class="p">,</span> <span class="s1">&#39;card4_mastercard&#39;</span><span class="p">,</span> <span class="s1">&#39;card4_visa&#39;</span><span class="p">,</span> <span class="s1">&#39;card6_credit&#39;</span> <span class="p">,</span><span class="s1">&#39;C3&#39;</span><span class="p">,</span> <span class="s1">&#39;C5&#39;</span><span class="p">,</span> <span class="s1">&#39;D3&#39;</span><span class="p">]]</span>
+<span class="n">final_transaction</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>isFraud</th>
+      <th>TransactionID</th>
+      <th>TransactionDT</th>
+      <th>TransactionAmt</th>
+      <th>card2</th>
+      <th>card3</th>
+      <th>card4_american express</th>
+      <th>card4_discover</th>
+      <th>card4_mastercard</th>
+      <th>card4_visa</th>
+      <th>card6_credit</th>
+      <th>C3</th>
+      <th>C5</th>
+      <th>D3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>0</td>
+      <td>2987000</td>
+      <td>86400</td>
+      <td>68.50</td>
+      <td>NaN</td>
+      <td>150.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>13.0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>0</td>
+      <td>2987001</td>
+      <td>86401</td>
+      <td>29.00</td>
+      <td>404.0</td>
+      <td>150.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>0</td>
+      <td>2987002</td>
+      <td>86469</td>
+      <td>59.00</td>
+      <td>490.0</td>
+      <td>150.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>0</td>
+      <td>2987003</td>
+      <td>86499</td>
+      <td>50.00</td>
+      <td>567.0</td>
+      <td>150.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>0</td>
+      <td>2987004</td>
+      <td>86506</td>
+      <td>50.00</td>
+      <td>514.0</td>
+      <td>150.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>590535</th>
+      <td>0</td>
+      <td>3577535</td>
+      <td>15811047</td>
+      <td>49.00</td>
+      <td>NaN</td>
+      <td>150.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>30.0</td>
+    </tr>
+    <tr>
+      <th>590536</th>
+      <td>0</td>
+      <td>3577536</td>
+      <td>15811049</td>
+      <td>39.50</td>
+      <td>225.0</td>
+      <td>150.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>590537</th>
+      <td>0</td>
+      <td>3577537</td>
+      <td>15811079</td>
+      <td>30.95</td>
+      <td>595.0</td>
+      <td>150.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>590538</th>
+      <td>0</td>
+      <td>3577538</td>
+      <td>15811088</td>
+      <td>117.00</td>
+      <td>481.0</td>
+      <td>150.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>590539</th>
+      <td>0</td>
+      <td>3577539</td>
+      <td>15811131</td>
+      <td>279.95</td>
+      <td>170.0</td>
+      <td>150.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+    </tr>
+  </tbody>
+</table>
+<p>590540 rows × 14 columns</p>
+</div></div></div>
+</div>
+<p>Antes de realizar la prueba <em>VIF</em> realicemos la imputación iterativa de datos.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#imputación datos categoricos por dato mas frecuente</span>
+<span class="n">identity</span> <span class="o">=</span> <span class="n">identity</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">index</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="k">if</span> <span class="n">x</span><span class="o">.</span><span class="n">dtype</span> <span class="o">==</span> <span class="s1">&#39;O&#39;</span> <span class="k">else</span> <span class="n">x</span><span class="p">)</span>
+<span class="n">final_transaction</span> <span class="o">=</span> <span class="n">final_transaction</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">index</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="k">if</span> <span class="n">x</span><span class="o">.</span><span class="n">dtype</span> <span class="o">==</span> <span class="s1">&#39;O&#39;</span> <span class="k">else</span> <span class="n">x</span><span class="p">)</span>
+
+<span class="c1">#imputar con la mediana</span>
+<span class="n">identity</span> <span class="o">=</span> <span class="n">identity</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="n">identity</span><span class="o">.</span><span class="n">median</span><span class="p">())</span>
+<span class="n">final_transaction</span> <span class="o">=</span> <span class="n">final_transaction</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="n">final_transaction</span><span class="o">.</span><span class="n">median</span><span class="p">())</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Por último realicemos la prueba <em>VIF</em> para asegurarnos que no haya multicolinelidad entre las variables explicativas.</p>
+<p>Nota: dado que ninguna de las variables es categórica, no realizaremos la prueba chi cuadrado.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">calculate_vif</span><span class="p">(</span><span class="n">data</span><span class="p">):</span>
+    <span class="n">vif_data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">()</span>
+    <span class="n">vif_data</span><span class="p">[</span><span class="s2">&quot;variable&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">columns</span>
+    <span class="n">vif_data</span><span class="p">[</span><span class="s2">&quot;VIF&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="n">variance_inflation_factor</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">values</span><span class="p">,</span> <span class="n">i</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">])]</span>
+    <span class="k">return</span> <span class="n">vif_data</span>
+
+<span class="k">def</span> <span class="nf">delete_multicollinearity</span><span class="p">(</span><span class="n">df</span><span class="p">,</span> <span class="n">target_name</span><span class="p">,</span> <span class="n">VIF_threshold</span><span class="p">):</span>
+    <span class="n">X</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">target_name</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+    <span class="n">VIF_mat</span> <span class="o">=</span> <span class="n">calculate_vif</span><span class="p">(</span><span class="n">X</span><span class="p">)</span>
+
+    <span class="k">while</span> <span class="n">VIF_mat</span><span class="p">[</span><span class="s1">&#39;VIF&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">max</span><span class="p">()</span> <span class="o">&gt;</span> <span class="n">VIF_threshold</span><span class="p">:</span>
+        <span class="n">max_vif_index</span> <span class="o">=</span> <span class="n">VIF_mat</span><span class="p">[</span><span class="s1">&#39;VIF&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">idxmax</span><span class="p">()</span>
+        <span class="n">X</span> <span class="o">=</span> <span class="n">X</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">VIF_mat</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">max_vif_index</span><span class="p">,</span> <span class="s1">&#39;variable&#39;</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+        <span class="n">VIF_mat</span> <span class="o">=</span> <span class="n">calculate_vif</span><span class="p">(</span><span class="n">X</span><span class="p">)</span>
+    
+    <span class="nb">print</span><span class="p">(</span><span class="n">VIF_mat</span><span class="p">)</span>
+    <span class="n">X</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">X</span><span class="p">,</span> <span class="n">df</span><span class="p">[</span><span class="n">target_name</span><span class="p">]],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+    
+    <span class="k">return</span> <span class="n">X</span>
+
+<span class="n">final_transaction</span> <span class="o">=</span> <span class="n">delete_multicollinearity</span><span class="p">(</span><span class="n">final_transaction</span><span class="p">,</span> <span class="s1">&#39;isFraud&#39;</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>                  variable       VIF
+0            TransactionDT  3.540214
+1           TransactionAmt  1.344907
+2                    card2  6.418403
+3   card4_american express  1.182216
+4           card4_discover  1.137529
+5         card4_mastercard  3.624574
+6               card4_visa  6.551018
+7             card6_credit  1.512465
+8                       C3  1.005207
+9                       C5  1.054098
+10                      D3  1.166082
+</pre></div>
+</div>
+</div>
+</div>
+<p>Observamos que todas las variables pasaron la prueba VIF, esto quiere decir que no hay multicolinealidad entre las variables.</p>
+</section>
+</section>
+<section id="analisis-grafico-de-los-datos">
+<h2>Análisis Gráfico de los datos<a class="headerlink" href="#analisis-grafico-de-los-datos" title="Link to this heading">#</a></h2>
+<p>Para realizar este análisis se considerarán las siguientes variables:
+TransactionDT, TransactionAmt, ProductCD_R, C5, isFraud, card2, M1_F, D11, M6_T, D3</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="n">transaction</span><span class="p">[[</span><span class="s1">&#39;isFraud&#39;</span><span class="p">,</span><span class="s1">&#39;TransactionDT&#39;</span><span class="p">,</span> <span class="s1">&#39;TransactionAmt&#39;</span><span class="p">,</span> <span class="s1">&#39;card2&#39;</span><span class="p">,</span> <span class="s1">&#39;card3&#39;</span><span class="p">,</span> <span class="s1">&#39;C3&#39;</span><span class="p">,</span> <span class="s1">&#39;C5&#39;</span><span class="p">,</span> <span class="s1">&#39;card4_american express&#39;</span><span class="p">,</span><span class="s1">&#39;card4_discover&#39;</span><span class="p">,</span> <span class="s1">&#39;card4_mastercard&#39;</span><span class="p">,</span> <span class="s1">&#39;card4_visa&#39;</span><span class="p">,</span> <span class="s1">&#39;card6_credit&#39;</span><span class="p">,</span> <span class="s1">&#39;D3&#39;</span><span class="p">]]</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">variables</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;TransactionDT&#39;</span><span class="p">,</span> <span class="s1">&#39;TransactionAmt&#39;</span><span class="p">,</span> <span class="s1">&#39;card2&#39;</span><span class="p">,</span> <span class="s1">&#39;card3&#39;</span><span class="p">,</span> <span class="s1">&#39;C3&#39;</span><span class="p">,</span> <span class="s1">&#39;C5&#39;</span><span class="p">,</span> <span class="s1">&#39;card4_american express&#39;</span><span class="p">,</span><span class="s1">&#39;card4_discover&#39;</span><span class="p">,</span> <span class="s1">&#39;card4_mastercard&#39;</span><span class="p">,</span> <span class="s1">&#39;card4_visa&#39;</span><span class="p">,</span> <span class="s1">&#39;card6_credit&#39;</span><span class="p">,</span> <span class="s1">&#39;D3&#39;</span><span class="p">]</span>
+<span class="n">n_cols</span> <span class="o">=</span> <span class="mi">2</span>
+<span class="n">n_rows</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">ceil</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">variables</span><span class="p">)</span> <span class="o">/</span> <span class="n">n_cols</span><span class="p">))</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="n">n_cols</span> <span class="o">*</span> <span class="mi">8</span><span class="p">,</span> <span class="n">n_rows</span> <span class="o">*</span> <span class="mi">6</span><span class="p">))</span>
+
+<span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">var</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">variables</span><span class="p">,</span> <span class="mi">1</span><span class="p">):</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">subplot</span><span class="p">(</span><span class="n">n_rows</span><span class="p">,</span> <span class="n">n_cols</span><span class="p">,</span> <span class="n">i</span><span class="p">)</span>
+    <span class="n">sns</span><span class="o">.</span><span class="n">boxplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s1">&#39;isFraud&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="n">var</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">data</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Boxplot of </span><span class="si">{</span><span class="n">var</span><span class="si">}</span><span class="s1"> by Fraud Status&#39;</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/0828006054160d6ed7d2abe5f6df210ce360dafbb64f0540e36fe688d95ce5fd.png" src="_images/0828006054160d6ed7d2abe5f6df210ce360dafbb64f0540e36fe688d95ce5fd.png" />
+</div>
+</div>
+<p><strong>Boxplot de TransactionAmt por fraude:</strong> Se observa que la mediana de la cantidad de transacción para los casos fraudulentos es más baja que para los casos no fraudulentos. También hay puntos extremos en ambos casos, indicando valores atípicos. La dispersión parece ser mayor en las transacciones no fraudulentas.</p>
+<p><strong>Boxplot de C5 por fraude:</strong> La variable C5 muestra una cantidad considerable de valores atípicos en ambas categorías de fraude. La distribución parece ser similar entre los dos grupos.</p>
+<p><strong>Boxplot de card2 por fraude:</strong> Esta parece ser otra variable categórica o una con un número limitado de valores distintos. La distribución es casi idéntica en ambos grupos, con los mismos ‘pisos’ y ‘techos’ del boxplot, lo que sugiere que card2 no varía con respecto al fraude.</p>
+<p><strong>Boxplot de card3 por fraude:</strong> observamos un gran número de datos atípicos para los usuarios que no cometieron fraude.</p>
+<p><strong>Boxplot de C3 por fraude:</strong> observamos un gran número de datos atípico para las observamos que no cometieron fraude.</p>
+<p><strong>Boxplot de card4_american express:</strong> para ambos casos la variable presenta datos atípicos</p>
+<p><strong>Boxplot de card4_discover:</strong> para ambos casos la variable presenta datos atípicos</p>
+<p><strong>Boxplot de card4_mastercard:</strong> la variable presenta una distribución entre [0-1] sin datos atípicos</p>
+<p><strong>Boxplot de card4_visa:</strong> la variable presenta una distribución entre [0-1] sin datos atípicos</p>
+<p><strong>Boxplot de card6_credit:</strong> para el caso no fraude presenta datos atípicos, en comparación a cuando se presenta fraude</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="n">n_cols</span> <span class="o">*</span> <span class="mi">8</span><span class="p">,</span> <span class="n">n_rows</span> <span class="o">*</span> <span class="mi">6</span><span class="p">))</span>
+
+<span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">var</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">variables</span><span class="p">,</span> <span class="mi">1</span><span class="p">):</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">subplot</span><span class="p">(</span><span class="n">n_rows</span><span class="p">,</span> <span class="n">n_cols</span><span class="p">,</span> <span class="n">i</span><span class="p">)</span>
+    <span class="n">sns</span><span class="o">.</span><span class="n">scatterplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">var</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">&#39;isFraud&#39;</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">data</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Sactterplot of </span><span class="si">{</span><span class="n">var</span><span class="si">}</span><span class="s1"> by Fraud Status&#39;</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/5fc992deb9e56952dcbe0cf4ac07732f5476494c6686b9ba368650c0b3af2eba.png" src="_images/5fc992deb9e56952dcbe0cf4ac07732f5476494c6686b9ba368650c0b3af2eba.png" />
+</div>
+</div>
+<p><strong>Scatterplot de TransactionAmt por fraude:</strong> La mayoría de las transacciones, tanto fraudulentas como no fraudulentas, parecen tener montos más bajos. Hay unos pocos valores atípicos con montos más altos en el lado no fraudulento.</p>
+<p><strong>Scatterplot de ProductCD_R por estado de fraude:</strong> No se observa una diferencia clara en la distribución de puntos entre transacciones fraudulentas y no fraudulentas.</p>
+<p><strong>Scatterplot de C5 por fraude:</strong> Los puntos se concentran en valores bajos para ambas categorías, con pocos valores atípicos. No hay una diferencia distintiva visible entre los estados de fraude.</p>
+<p><strong>Scatterplot de card2 por fraude:</strong> Los datos parecen distribuirse uniformemente a lo largo de varios valores distintos, con una cantidad similar de puntos para cada estado de fraude.</p>
+<p><strong>Scatterplot de card4_american express, card4_discover, card4_mastercard, card4_visa, card6_credit:</strong> se observa uan distribución de variables dicotómicas, para fraude y no fraude.</p>
+</section>
+<section id="merge-de-los-dos-datasets">
+<h2>Merge de los dos datasets<a class="headerlink" href="#merge-de-los-dos-datasets" title="Link to this heading">#</a></h2>
+<p>Ahora realizaremos un merge de los dos datasets usando la columna <em>TransactionID</em></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">final_dataset</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">final_transaction</span><span class="p">,</span> <span class="n">identity</span><span class="p">,</span> <span class="n">on</span><span class="o">=</span><span class="s1">&#39;TransactionID&#39;</span><span class="p">,</span> <span class="n">how</span><span class="o">=</span><span class="s1">&#39;inner&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>En conclusión, luego de realizar todos los análisis descriptivos necesarios de estos conjuntos de datos, se decide usar el dataset transaction.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s1">&#39;dataset_final.csv&#39;</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="parcial_punto1.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Primer Punto</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="informe.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Informe</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#librerias-utilizadas">Librerías Utilizadas</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#wind-speed-eda">Wind Speed EDA</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#fraud-detection-eda">Fraud Detection EDA</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#seleccion-de-variables-transaction">Selección de Variables (Transaction)</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#variables-c-y-d">Variables C y D</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#variables-card">Variables Card</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#variables-m">Variables M</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#variables-product">Variables Product</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#analisis-grafico-de-los-datos">Análisis Gráfico de los datos</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#merge-de-los-dos-datasets">Merge de los dos datasets</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By The Jupyter Book Community
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
