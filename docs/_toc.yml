@@ -1,0 +1,12 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+chapters:
+- file: parcial_punto1
+- file: parcial_punto2
+- file: informe
+- file: parcial_punto3_1
+- file: parcial_punto3_2
+- file: parcial_punto4

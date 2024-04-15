@@ -1,0 +1,2840 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="./" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Librerias Usadas &#8212; My sample book</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.5.1/css/all.min.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=384b581d" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae" />
+  <script src="_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
+
+    <script src="_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="_static/doctools.js?v=888ff710"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=efea14e4"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js?v=36754332"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'parcial_punto3_2';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Librerías Utilizadas" href="parcial_punto4.html" />
+    <link rel="prev" title="Punto 3" href="parcial_punto3_1.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a id="pst-skip-link" class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+
+<a class="navbar-brand logo" href="intro.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/logo.png" class="logo__image only-light" alt="My sample book - Home"/>
+    <script>document.write(`<img src="_static/logo.png" class="logo__image only-dark" alt="My sample book - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+
+          <li class="toctree-l1"><a class="reference internal" href="parcial_punto1.html">parcial_punto1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="parcial_punto2.html">parcial_punto2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="informe.html">informe_punto2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="parcial_punto3_1.html">parcial_punto3_1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="parcial_punto3_2.html">parcial_punto3_2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="parcial_punto4.html">parcial_punto4</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fparcial_punto3_2.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/parcial_punto3_2.ipynb" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Librerias Usadas</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Librerias Usadas</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#procesamiento-de-datos">Procesamiento de datos</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#balanceo-de-datos-y-evaluacion-de-modelos">Balanceo de datos y evaluación de modelos</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#hiperparametrizacion-de-los-modelos">Hiperparametrización de los modelos</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#optimizacion-bayesiana">Optimización Bayesiana</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#clasificacion-random-forest">Clasificación Random Forest</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#clasificacion-naive-bayes">Clasificación Naive Bayes</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#arbol-de-desicion">Arbol de desición</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#xgboost">XGBoost</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#knn">KNN</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#regresion-logistica-l1-l2">Regresión logistica L1/L2</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pipelines-y-gridsearch">Pipelines y Gridsearch</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#evaluacion-de-modelos-con-los-parametros-de-la-optimizacion-bayesiana">Evaluación de modelos con los parámetros de la optimización bayesiana</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#conclusiones">Conclusiones:</a></li>
+</ul>
+</li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section id="librerias-usadas">
+<h1>Librerias Usadas<a class="headerlink" href="#librerias-usadas" title="Link to this heading">#</a></h1>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">from</span> <span class="nn">xgboost</span> <span class="kn">import</span> <span class="n">XGBClassifier</span>
+<span class="kn">from</span> <span class="nn">sklearn.decomposition</span> <span class="kn">import</span> <span class="n">PCA</span>
+<span class="kn">from</span> <span class="nn">sklearn.naive_bayes</span> <span class="kn">import</span> <span class="n">GaussianNB</span>
+<span class="kn">from</span> <span class="nn">sklearn.tree</span> <span class="kn">import</span> <span class="n">DecisionTreeClassifier</span>
+<span class="kn">from</span> <span class="nn">sklearn.ensemble</span> <span class="kn">import</span> <span class="n">RandomForestClassifier</span>
+<span class="kn">from</span> <span class="nn">sklearn.ensemble</span> <span class="kn">import</span> <span class="n">GradientBoostingClassifier</span>
+<span class="kn">from</span> <span class="nn">sklearn.neighbors</span> <span class="kn">import</span> <span class="n">KNeighborsClassifier</span>
+<span class="kn">from</span> <span class="nn">sklearn.linear_model</span> <span class="kn">import</span> <span class="n">LogisticRegression</span>
+<span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="kn">import</span> <span class="n">train_test_split</span><span class="p">,</span> <span class="n">GridSearchCV</span><span class="p">,</span> <span class="n">cross_val_score</span>
+<span class="kn">from</span> <span class="nn">sklearn.pipeline</span> <span class="kn">import</span> <span class="n">Pipeline</span>
+<span class="kn">from</span> <span class="nn">sklearn.preprocessing</span> <span class="kn">import</span> <span class="n">StandardScaler</span>
+<span class="kn">from</span> <span class="nn">sklearn.neighbors</span> <span class="kn">import</span> <span class="n">KNeighborsClassifier</span>
+<span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">classification_report</span><span class="p">,</span> <span class="n">confusion_matrix</span><span class="p">,</span> <span class="n">roc_auc_score</span><span class="p">,</span> <span class="n">roc_curve</span><span class="p">,</span> <span class="n">auc</span> <span class="k">as</span> <span class="n">calcular_auc</span>
+<span class="kn">from</span> <span class="nn">bayes_opt</span> <span class="kn">import</span> <span class="n">BayesianOptimization</span>
+<span class="kn">import</span> <span class="nn">plotly.graph_objects</span> <span class="k">as</span> <span class="nn">go</span>
+<span class="kn">from</span> <span class="nn">plotly.subplots</span> <span class="kn">import</span> <span class="n">make_subplots</span>
+<span class="kn">import</span> <span class="nn">time</span>
+<span class="kn">from</span> <span class="nn">imblearn.over_sampling</span> <span class="kn">import</span> <span class="n">ADASYN</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span>
+<span class="kn">import</span> <span class="nn">ssl</span>
+<span class="kn">import</span> <span class="nn">warnings</span>
+<span class="n">ssl</span><span class="o">.</span><span class="n">_create_default_https_context</span> <span class="o">=</span> <span class="n">ssl</span><span class="o">.</span><span class="n">_create_unverified_context</span>
+<span class="n">warnings</span><span class="o">.</span><span class="n">filterwarnings</span><span class="p">(</span><span class="s2">&quot;ignore&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="procesamiento-de-datos">
+<h1>Procesamiento de datos<a class="headerlink" href="#procesamiento-de-datos" title="Link to this heading">#</a></h1>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;https://raw.githubusercontent.com/shadiajaafar1/ParcialML2/main/dataset_final%20(1).csv&#39;</span><span class="p">)</span>
+<span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>isFraud</th>
+      <th>TransactionDT</th>
+      <th>TransactionAmt</th>
+      <th>card2</th>
+      <th>card3</th>
+      <th>C3</th>
+      <th>C5</th>
+      <th>card4_american express</th>
+      <th>card4_discover</th>
+      <th>card4_mastercard</th>
+      <th>card4_visa</th>
+      <th>card6_credit</th>
+      <th>D3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>0</td>
+      <td>86400</td>
+      <td>68.5</td>
+      <td>361.0</td>
+      <td>150.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>13.0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>0</td>
+      <td>86401</td>
+      <td>29.0</td>
+      <td>404.0</td>
+      <td>150.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>8.0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>0</td>
+      <td>86469</td>
+      <td>59.0</td>
+      <td>490.0</td>
+      <td>150.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>8.0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>0</td>
+      <td>86499</td>
+      <td>50.0</td>
+      <td>567.0</td>
+      <td>150.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>0</td>
+      <td>86506</td>
+      <td>50.0</td>
+      <td>514.0</td>
+      <td>150.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>8.0</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Verificando el balance de clases para la variable objetivo &#39;isFraud&#39;</span>
+<span class="n">class_distribution</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;isFraud&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">(</span><span class="n">normalize</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">class_distribution</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>isFraud
+0    0.96501
+1    0.03499
+Name: proportion, dtype: float64
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">X</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="s1">&#39;isFraud&#39;</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;isFraud&#39;</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">X_train</span><span class="p">,</span> <span class="n">X_test</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">y_test</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">test_size</span><span class="o">=</span><span class="mf">0.2</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">42</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># instanciando los modelos</span>
+<span class="n">bayes_clf</span> <span class="o">=</span> <span class="n">GaussianNB</span><span class="p">()</span>
+<span class="n">tree_clf</span> <span class="o">=</span> <span class="n">DecisionTreeClassifier</span><span class="p">(</span><span class="n">random_state</span><span class="o">=</span><span class="mi">42</span><span class="p">)</span>
+<span class="n">forest_clf</span> <span class="o">=</span> <span class="n">RandomForestClassifier</span><span class="p">(</span><span class="n">random_state</span><span class="o">=</span><span class="mi">42</span><span class="p">,</span> <span class="n">n_jobs</span><span class="o">=-</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">xgboost_clf</span> <span class="o">=</span> <span class="n">XGBClassifier</span><span class="p">(</span><span class="n">random_state</span><span class="o">=</span><span class="mi">42</span><span class="p">,</span> <span class="n">n_jobs</span><span class="o">=-</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">knn_clf</span> <span class="o">=</span> <span class="n">KNeighborsClassifier</span><span class="p">(</span><span class="n">n_jobs</span><span class="o">=-</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">logistic_clf</span> <span class="o">=</span> <span class="n">LogisticRegression</span><span class="p">(</span><span class="n">solver</span><span class="o">=</span><span class="s1">&#39;saga&#39;</span><span class="p">,</span> <span class="n">penalty</span><span class="o">=</span><span class="s1">&#39;elasticnet&#39;</span><span class="p">,</span> <span class="n">l1_ratio</span><span class="o">=</span><span class="mf">0.5</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">42</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># entrenando los modelos</span>
+<span class="n">bayes_clf</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+<span class="n">tree_clf</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+<span class="n">forest_clf</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+<span class="n">xgboost_clf</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+<span class="n">knn_clf</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+<span class="n">logistic_clf</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span> 
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><style>#sk-container-id-1 {
+  /* Definition of color scheme common for light and dark mode */
+  --sklearn-color-text: black;
+  --sklearn-color-line: gray;
+  /* Definition of color scheme for unfitted estimators */
+  --sklearn-color-unfitted-level-0: #fff5e6;
+  --sklearn-color-unfitted-level-1: #f6e4d2;
+  --sklearn-color-unfitted-level-2: #ffe0b3;
+  --sklearn-color-unfitted-level-3: chocolate;
+  /* Definition of color scheme for fitted estimators */
+  --sklearn-color-fitted-level-0: #f0f8ff;
+  --sklearn-color-fitted-level-1: #d4ebff;
+  --sklearn-color-fitted-level-2: #b3dbfd;
+  --sklearn-color-fitted-level-3: cornflowerblue;
+
+  /* Specific color for light theme */
+  --sklearn-color-text-on-default-background: var(--sg-text-color, var(--theme-code-foreground, var(--jp-content-font-color1, black)));
+  --sklearn-color-background: var(--sg-background-color, var(--theme-background, var(--jp-layout-color0, white)));
+  --sklearn-color-border-box: var(--sg-text-color, var(--theme-code-foreground, var(--jp-content-font-color1, black)));
+  --sklearn-color-icon: #696969;
+
+  @media (prefers-color-scheme: dark) {
+    /* Redefinition of color scheme for dark theme */
+    --sklearn-color-text-on-default-background: var(--sg-text-color, var(--theme-code-foreground, var(--jp-content-font-color1, white)));
+    --sklearn-color-background: var(--sg-background-color, var(--theme-background, var(--jp-layout-color0, #111)));
+    --sklearn-color-border-box: var(--sg-text-color, var(--theme-code-foreground, var(--jp-content-font-color1, white)));
+    --sklearn-color-icon: #878787;
+  }
+}
+
+#sk-container-id-1 {
+  color: var(--sklearn-color-text);
+}
+
+#sk-container-id-1 pre {
+  padding: 0;
+}
+
+#sk-container-id-1 input.sk-hidden--visually {
+  border: 0;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+#sk-container-id-1 div.sk-dashed-wrapped {
+  border: 1px dashed var(--sklearn-color-line);
+  margin: 0 0.4em 0.5em 0.4em;
+  box-sizing: border-box;
+  padding-bottom: 0.4em;
+  background-color: var(--sklearn-color-background);
+}
+
+#sk-container-id-1 div.sk-container {
+  /* jupyter's `normalize.less` sets `[hidden] { display: none; }`
+     but bootstrap.min.css set `[hidden] { display: none !important; }`
+     so we also need the `!important` here to be able to override the
+     default hidden behavior on the sphinx rendered scikit-learn.org.
+     See: https://github.com/scikit-learn/scikit-learn/issues/21755 */
+  display: inline-block !important;
+  position: relative;
+}
+
+#sk-container-id-1 div.sk-text-repr-fallback {
+  display: none;
+}
+
+div.sk-parallel-item,
+div.sk-serial,
+div.sk-item {
+  /* draw centered vertical line to link estimators */
+  background-image: linear-gradient(var(--sklearn-color-text-on-default-background), var(--sklearn-color-text-on-default-background));
+  background-size: 2px 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* Parallel-specific style estimator block */
+
+#sk-container-id-1 div.sk-parallel-item::after {
+  content: "";
+  width: 100%;
+  border-bottom: 2px solid var(--sklearn-color-text-on-default-background);
+  flex-grow: 1;
+}
+
+#sk-container-id-1 div.sk-parallel {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  background-color: var(--sklearn-color-background);
+  position: relative;
+}
+
+#sk-container-id-1 div.sk-parallel-item {
+  display: flex;
+  flex-direction: column;
+}
+
+#sk-container-id-1 div.sk-parallel-item:first-child::after {
+  align-self: flex-end;
+  width: 50%;
+}
+
+#sk-container-id-1 div.sk-parallel-item:last-child::after {
+  align-self: flex-start;
+  width: 50%;
+}
+
+#sk-container-id-1 div.sk-parallel-item:only-child::after {
+  width: 0;
+}
+
+/* Serial-specific style estimator block */
+
+#sk-container-id-1 div.sk-serial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--sklearn-color-background);
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+
+/* Toggleable style: style used for estimator/Pipeline/ColumnTransformer box that is
+clickable and can be expanded/collapsed.
+- Pipeline and ColumnTransformer use this feature and define the default style
+- Estimators will overwrite some part of the style using the `sk-estimator` class
+*/
+
+/* Pipeline and ColumnTransformer style (default) */
+
+#sk-container-id-1 div.sk-toggleable {
+  /* Default theme specific background. It is overwritten whether we have a
+  specific estimator or a Pipeline/ColumnTransformer */
+  background-color: var(--sklearn-color-background);
+}
+
+/* Toggleable label */
+#sk-container-id-1 label.sk-toggleable__label {
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  margin-bottom: 0;
+  padding: 0.5em;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#sk-container-id-1 label.sk-toggleable__label-arrow:before {
+  /* Arrow on the left of the label */
+  content: "▸";
+  float: left;
+  margin-right: 0.25em;
+  color: var(--sklearn-color-icon);
+}
+
+#sk-container-id-1 label.sk-toggleable__label-arrow:hover:before {
+  color: var(--sklearn-color-text);
+}
+
+/* Toggleable content - dropdown */
+
+#sk-container-id-1 div.sk-toggleable__content {
+  max-height: 0;
+  max-width: 0;
+  overflow: hidden;
+  text-align: left;
+  /* unfitted */
+  background-color: var(--sklearn-color-unfitted-level-0);
+}
+
+#sk-container-id-1 div.sk-toggleable__content.fitted {
+  /* fitted */
+  background-color: var(--sklearn-color-fitted-level-0);
+}
+
+#sk-container-id-1 div.sk-toggleable__content pre {
+  margin: 0.2em;
+  border-radius: 0.25em;
+  color: var(--sklearn-color-text);
+  /* unfitted */
+  background-color: var(--sklearn-color-unfitted-level-0);
+}
+
+#sk-container-id-1 div.sk-toggleable__content.fitted pre {
+  /* unfitted */
+  background-color: var(--sklearn-color-fitted-level-0);
+}
+
+#sk-container-id-1 input.sk-toggleable__control:checked~div.sk-toggleable__content {
+  /* Expand drop-down */
+  max-height: 200px;
+  max-width: 100%;
+  overflow: auto;
+}
+
+#sk-container-id-1 input.sk-toggleable__control:checked~label.sk-toggleable__label-arrow:before {
+  content: "▾";
+}
+
+/* Pipeline/ColumnTransformer-specific style */
+
+#sk-container-id-1 div.sk-label input.sk-toggleable__control:checked~label.sk-toggleable__label {
+  color: var(--sklearn-color-text);
+  background-color: var(--sklearn-color-unfitted-level-2);
+}
+
+#sk-container-id-1 div.sk-label.fitted input.sk-toggleable__control:checked~label.sk-toggleable__label {
+  background-color: var(--sklearn-color-fitted-level-2);
+}
+
+/* Estimator-specific style */
+
+/* Colorize estimator box */
+#sk-container-id-1 div.sk-estimator input.sk-toggleable__control:checked~label.sk-toggleable__label {
+  /* unfitted */
+  background-color: var(--sklearn-color-unfitted-level-2);
+}
+
+#sk-container-id-1 div.sk-estimator.fitted input.sk-toggleable__control:checked~label.sk-toggleable__label {
+  /* fitted */
+  background-color: var(--sklearn-color-fitted-level-2);
+}
+
+#sk-container-id-1 div.sk-label label.sk-toggleable__label,
+#sk-container-id-1 div.sk-label label {
+  /* The background is the default theme color */
+  color: var(--sklearn-color-text-on-default-background);
+}
+
+/* On hover, darken the color of the background */
+#sk-container-id-1 div.sk-label:hover label.sk-toggleable__label {
+  color: var(--sklearn-color-text);
+  background-color: var(--sklearn-color-unfitted-level-2);
+}
+
+/* Label box, darken color on hover, fitted */
+#sk-container-id-1 div.sk-label.fitted:hover label.sk-toggleable__label.fitted {
+  color: var(--sklearn-color-text);
+  background-color: var(--sklearn-color-fitted-level-2);
+}
+
+/* Estimator label */
+
+#sk-container-id-1 div.sk-label label {
+  font-family: monospace;
+  font-weight: bold;
+  display: inline-block;
+  line-height: 1.2em;
+}
+
+#sk-container-id-1 div.sk-label-container {
+  text-align: center;
+}
+
+/* Estimator-specific */
+#sk-container-id-1 div.sk-estimator {
+  font-family: monospace;
+  border: 1px dotted var(--sklearn-color-border-box);
+  border-radius: 0.25em;
+  box-sizing: border-box;
+  margin-bottom: 0.5em;
+  /* unfitted */
+  background-color: var(--sklearn-color-unfitted-level-0);
+}
+
+#sk-container-id-1 div.sk-estimator.fitted {
+  /* fitted */
+  background-color: var(--sklearn-color-fitted-level-0);
+}
+
+/* on hover */
+#sk-container-id-1 div.sk-estimator:hover {
+  /* unfitted */
+  background-color: var(--sklearn-color-unfitted-level-2);
+}
+
+#sk-container-id-1 div.sk-estimator.fitted:hover {
+  /* fitted */
+  background-color: var(--sklearn-color-fitted-level-2);
+}
+
+/* Specification for estimator info (e.g. "i" and "?") */
+
+/* Common style for "i" and "?" */
+
+.sk-estimator-doc-link,
+a:link.sk-estimator-doc-link,
+a:visited.sk-estimator-doc-link {
+  float: right;
+  font-size: smaller;
+  line-height: 1em;
+  font-family: monospace;
+  background-color: var(--sklearn-color-background);
+  border-radius: 1em;
+  height: 1em;
+  width: 1em;
+  text-decoration: none !important;
+  margin-left: 1ex;
+  /* unfitted */
+  border: var(--sklearn-color-unfitted-level-1) 1pt solid;
+  color: var(--sklearn-color-unfitted-level-1);
+}
+
+.sk-estimator-doc-link.fitted,
+a:link.sk-estimator-doc-link.fitted,
+a:visited.sk-estimator-doc-link.fitted {
+  /* fitted */
+  border: var(--sklearn-color-fitted-level-1) 1pt solid;
+  color: var(--sklearn-color-fitted-level-1);
+}
+
+/* On hover */
+div.sk-estimator:hover .sk-estimator-doc-link:hover,
+.sk-estimator-doc-link:hover,
+div.sk-label-container:hover .sk-estimator-doc-link:hover,
+.sk-estimator-doc-link:hover {
+  /* unfitted */
+  background-color: var(--sklearn-color-unfitted-level-3);
+  color: var(--sklearn-color-background);
+  text-decoration: none;
+}
+
+div.sk-estimator.fitted:hover .sk-estimator-doc-link.fitted:hover,
+.sk-estimator-doc-link.fitted:hover,
+div.sk-label-container:hover .sk-estimator-doc-link.fitted:hover,
+.sk-estimator-doc-link.fitted:hover {
+  /* fitted */
+  background-color: var(--sklearn-color-fitted-level-3);
+  color: var(--sklearn-color-background);
+  text-decoration: none;
+}
+
+/* Span, style for the box shown on hovering the info icon */
+.sk-estimator-doc-link span {
+  display: none;
+  z-index: 9999;
+  position: relative;
+  font-weight: normal;
+  right: .2ex;
+  padding: .5ex;
+  margin: .5ex;
+  width: min-content;
+  min-width: 20ex;
+  max-width: 50ex;
+  color: var(--sklearn-color-text);
+  box-shadow: 2pt 2pt 4pt #999;
+  /* unfitted */
+  background: var(--sklearn-color-unfitted-level-0);
+  border: .5pt solid var(--sklearn-color-unfitted-level-3);
+}
+
+.sk-estimator-doc-link.fitted span {
+  /* fitted */
+  background: var(--sklearn-color-fitted-level-0);
+  border: var(--sklearn-color-fitted-level-3);
+}
+
+.sk-estimator-doc-link:hover span {
+  display: block;
+}
+
+/* "?"-specific style due to the `<a>` HTML tag */
+
+#sk-container-id-1 a.estimator_doc_link {
+  float: right;
+  font-size: 1rem;
+  line-height: 1em;
+  font-family: monospace;
+  background-color: var(--sklearn-color-background);
+  border-radius: 1rem;
+  height: 1rem;
+  width: 1rem;
+  text-decoration: none;
+  /* unfitted */
+  color: var(--sklearn-color-unfitted-level-1);
+  border: var(--sklearn-color-unfitted-level-1) 1pt solid;
+}
+
+#sk-container-id-1 a.estimator_doc_link.fitted {
+  /* fitted */
+  border: var(--sklearn-color-fitted-level-1) 1pt solid;
+  color: var(--sklearn-color-fitted-level-1);
+}
+
+/* On hover */
+#sk-container-id-1 a.estimator_doc_link:hover {
+  /* unfitted */
+  background-color: var(--sklearn-color-unfitted-level-3);
+  color: var(--sklearn-color-background);
+  text-decoration: none;
+}
+
+#sk-container-id-1 a.estimator_doc_link.fitted:hover {
+  /* fitted */
+  background-color: var(--sklearn-color-fitted-level-3);
+}
+</style><div id="sk-container-id-1" class="sk-top-container"><div class="sk-text-repr-fallback"><pre>LogisticRegression(l1_ratio=0.5, penalty=&#x27;elasticnet&#x27;, random_state=42,
+                   solver=&#x27;saga&#x27;)</pre><b>In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. <br />On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.</b></div><div class="sk-container" hidden><div class="sk-item"><div class="sk-estimator fitted sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="sk-estimator-id-1" type="checkbox" checked><label for="sk-estimator-id-1" class="sk-toggleable__label fitted sk-toggleable__label-arrow fitted">&nbsp;&nbsp;LogisticRegression<a class="sk-estimator-doc-link fitted" rel="noreferrer" target="_blank" href="https://scikit-learn.org/1.4/modules/generated/sklearn.linear_model.LogisticRegression.html">?<span>Documentation for LogisticRegression</span></a><span class="sk-estimator-doc-link fitted">i<span>Fitted</span></span></label><div class="sk-toggleable__content fitted"><pre>LogisticRegression(l1_ratio=0.5, penalty=&#x27;elasticnet&#x27;, random_state=42,
+                   solver=&#x27;saga&#x27;)</pre></div> </div></div></div></div></div></div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">modelos</span> <span class="o">=</span> <span class="p">[</span><span class="n">bayes_clf</span><span class="p">,</span> <span class="n">tree_clf</span><span class="p">,</span> <span class="n">forest_clf</span><span class="p">,</span> <span class="n">xgboost_clf</span><span class="p">,</span> <span class="n">knn_clf</span><span class="p">,</span> <span class="n">logistic_clf</span><span class="p">]</span>
+<span class="n">nombres_modelos</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Bayesian&#39;</span><span class="p">,</span> <span class="s1">&#39;Decision Tree&#39;</span><span class="p">,</span> <span class="s1">&#39;Random Forest&#39;</span><span class="p">,</span> <span class="s1">&#39;XGBoost&#39;</span><span class="p">,</span> <span class="s1">&#39;K-NN&#39;</span><span class="p">,</span> <span class="s1">&#39;Logistic Regression&#39;</span><span class="p">]</span>
+
+<span class="n">metricas</span> <span class="o">=</span> <span class="p">{}</span>
+
+<span class="k">for</span> <span class="n">modelo</span><span class="p">,</span> <span class="n">nombre</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">modelos</span><span class="p">,</span> <span class="n">nombres_modelos</span><span class="p">):</span>
+    <span class="n">y_pred</span> <span class="o">=</span> <span class="n">modelo</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
+    <span class="n">reporte</span> <span class="o">=</span> <span class="n">classification_report</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred</span><span class="p">,</span> <span class="n">output_dict</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">matriz_confusion</span> <span class="o">=</span> <span class="n">confusion_matrix</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred</span><span class="p">)</span>
+    <span class="n">auc</span> <span class="o">=</span> <span class="n">roc_auc_score</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">modelo</span><span class="o">.</span><span class="n">predict_proba</span><span class="p">(</span><span class="n">X_test</span><span class="p">)[:,</span> <span class="mi">1</span><span class="p">])</span>
+    
+    <span class="c1"># Guardar en el diccionario</span>
+    <span class="n">metricas</span><span class="p">[</span><span class="n">nombre</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="s1">&#39;Precision&#39;</span><span class="p">:</span> <span class="n">reporte</span><span class="p">[</span><span class="s1">&#39;weighted avg&#39;</span><span class="p">][</span><span class="s1">&#39;precision&#39;</span><span class="p">],</span>
+        <span class="s1">&#39;Recall&#39;</span><span class="p">:</span> <span class="n">reporte</span><span class="p">[</span><span class="s1">&#39;weighted avg&#39;</span><span class="p">][</span><span class="s1">&#39;recall&#39;</span><span class="p">],</span>
+        <span class="s1">&#39;F1-Score&#39;</span><span class="p">:</span> <span class="n">reporte</span><span class="p">[</span><span class="s1">&#39;weighted avg&#39;</span><span class="p">][</span><span class="s1">&#39;f1-score&#39;</span><span class="p">],</span>
+        <span class="s1">&#39;AUC&#39;</span><span class="p">:</span> <span class="n">auc</span><span class="p">,</span>
+        <span class="s1">&#39;Matriz de Confusión&#39;</span><span class="p">:</span> <span class="n">matriz_confusion</span>
+    <span class="p">}</span>
+
+<span class="n">metricas_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="o">.</span><span class="n">from_dict</span><span class="p">(</span><span class="n">metricas</span><span class="p">,</span> <span class="n">orient</span><span class="o">=</span><span class="s1">&#39;index&#39;</span><span class="p">)</span>
+
+<span class="n">metricas_df</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Precision</th>
+      <th>Recall</th>
+      <th>F1-Score</th>
+      <th>AUC</th>
+      <th>Matriz de Confusión</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Bayesian</th>
+      <td>0.929457</td>
+      <td>0.964075</td>
+      <td>0.946450</td>
+      <td>0.574415</td>
+      <td>[[113865, 1], [4242, 0]]</td>
+    </tr>
+    <tr>
+      <th>Decision Tree</th>
+      <td>0.959502</td>
+      <td>0.957691</td>
+      <td>0.958565</td>
+      <td>0.716151</td>
+      <td>[[111177, 2689], [2308, 1934]]</td>
+    </tr>
+    <tr>
+      <th>Random Forest</th>
+      <td>0.968372</td>
+      <td>0.972610</td>
+      <td>0.967704</td>
+      <td>0.868008</td>
+      <td>[[113390, 476], [2759, 1483]]</td>
+    </tr>
+    <tr>
+      <th>XGBoost</th>
+      <td>0.961373</td>
+      <td>0.965786</td>
+      <td>0.951236</td>
+      <td>0.861542</td>
+      <td>[[113816, 50], [3991, 251]]</td>
+    </tr>
+    <tr>
+      <th>K-NN</th>
+      <td>0.944071</td>
+      <td>0.962695</td>
+      <td>0.948932</td>
+      <td>0.652481</td>
+      <td>[[113486, 380], [4026, 216]]</td>
+    </tr>
+    <tr>
+      <th>Logistic Regression</th>
+      <td>0.929457</td>
+      <td>0.964084</td>
+      <td>0.946454</td>
+      <td>0.478329</td>
+      <td>[[113866, 0], [4242, 0]]</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+<ul class="simple">
+<li><p>Bayesiano y Regresión Logística: Tienen AUCs bastante bajos, especialmente la regresión logística, que está muy cerca de 0.5.</p></li>
+<li><p>K-NN: Con un AUC de aproximadamente 0.65, muestra un rendimiento mejor que el azar, pero aún así es un valor moderadamente bajo para la mayoría de las aplicaciones prácticas.</p></li>
+<li><p>Árbol de Decisión: Muestra una mejora significativa con respecto a K-NN, con un AUC mayor que 0.7, lo que sugiere una capacidad de discriminación buena.</p></li>
+<li><p>Bosque Aleatorio y XGBoost: Estos dos modelos tienen los AUC más altos, ambos superiores a 0.85, lo que indica un excelente rendimiento en términos de discriminación entre las dos clases.</p></li>
+</ul>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">modelo</span><span class="p">,</span> <span class="n">nombre</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">modelos</span><span class="p">,</span> <span class="n">nombres_modelos</span><span class="p">):</span>
+    <span class="n">y_pred_probs</span> <span class="o">=</span> <span class="n">modelo</span><span class="o">.</span><span class="n">predict_proba</span><span class="p">(</span><span class="n">X_test</span><span class="p">)[:,</span> <span class="mi">1</span><span class="p">]</span>
+    <span class="n">fpr</span><span class="p">,</span> <span class="n">tpr</span><span class="p">,</span> <span class="n">thresholds</span> <span class="o">=</span> <span class="n">roc_curve</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred_probs</span><span class="p">)</span>
+    <span class="n">roc_auc</span> <span class="o">=</span> <span class="n">calcular_auc</span><span class="p">(</span><span class="n">fpr</span><span class="p">,</span> <span class="n">tpr</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">fpr</span><span class="p">,</span> <span class="n">tpr</span><span class="p">,</span> <span class="n">lw</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">nombre</span><span class="si">}</span><span class="s1"> (AUC = </span><span class="si">{</span><span class="n">roc_auc</span><span class="si">:</span><span class="s1">.2f</span><span class="si">}</span><span class="s1">)&#39;</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;navy&#39;</span><span class="p">,</span> <span class="n">lw</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s1">&#39;--&#39;</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">xlim</span><span class="p">([</span><span class="mf">0.0</span><span class="p">,</span> <span class="mf">1.0</span><span class="p">])</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylim</span><span class="p">([</span><span class="mf">0.0</span><span class="p">,</span> <span class="mf">1.05</span><span class="p">])</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;falsos positivo&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;verdaderos positivo&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Curva ROC de los modelos&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="s2">&quot;lower right&quot;</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/cf5e7c4b166f6ef99f6c1c7ae96c86cd750ce289aec132c6f59577e18d607f0e.png" src="_images/cf5e7c4b166f6ef99f6c1c7ae96c86cd750ce289aec132c6f59577e18d607f0e.png" />
+</div>
+</div>
+<ul class="simple">
+<li><p><strong>Bayesiano (AUC = 0.57):</strong> Está muy cerca de la línea de no-discriminación (diagonal punteada), lo que indica que no tiene un buen rendimiento para distinguir entre las clases.</p></li>
+<li><p><strong>Árbol de Decisión (AUC = 0.72):</strong> Mejor que el Bayesiano pero aún con margen de mejora. Un AUC de 0.72 sugiere que el modelo tiene una capacidad razonable de distinguir entre las clases.</p></li>
+<li><p><strong>Random Forest (AUC = 0.87):</strong> Muestra un buen rendimiento, con una capacidad mucho mejor para distinguir entre las clases en comparación con el Bayesiano y el Árbol de Decisión.</p></li>
+<li><p><strong>XGBoost (AUC = 0.86):</strong> Similar al Bosque Aleatorio, XGBoost tiene un alto AUC, lo que sugiere que es muy eficaz en diferenciar las clases.</p></li>
+<li><p><strong>K-NN (AUC = 0.65):</strong> Un rendimiento moderado, mejor que el azar, pero aún hay bastante espacio para mejorar en comparación con los métodos de ensamble como Bosque Aleatorio y XGBoost.</p></li>
+<li><p><strong>Regresión Logística (AUC = 0.48):</strong> Este modelo está por debajo de la línea de no-discriminación, lo que sugiere que podría estar prediciendo peor que el azar, o que hay un problema con la manera en que se ha entrenado o configurado el modelo.</p></li>
+</ul>
+<p>En conclusión, Random Forest y XGBoost son los que tienen mejor desempeño entre los presentados, mientras que la Regresión Logística tiene el rendimiento más bajo.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">sns</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="n">style</span><span class="o">=</span><span class="s2">&quot;white&quot;</span><span class="p">)</span>
+
+<span class="n">fig</span><span class="p">,</span> <span class="n">axes</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">18</span><span class="p">,</span> <span class="mi">12</span><span class="p">))</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">subplots_adjust</span><span class="p">(</span><span class="n">hspace</span><span class="o">=</span><span class="mf">0.5</span><span class="p">,</span> <span class="n">wspace</span><span class="o">=</span><span class="mf">0.3</span><span class="p">)</span> 
+
+<span class="k">for</span> <span class="p">(</span><span class="n">modelo</span><span class="p">,</span> <span class="n">nombre</span><span class="p">),</span> <span class="n">ax</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="nb">zip</span><span class="p">(</span><span class="n">modelos</span><span class="p">,</span> <span class="n">nombres_modelos</span><span class="p">),</span> <span class="n">axes</span><span class="o">.</span><span class="n">flatten</span><span class="p">()):</span>
+    <span class="c1"># Realizar las predicciones</span>
+    <span class="n">y_pred</span> <span class="o">=</span> <span class="n">modelo</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
+    
+    <span class="n">matriz_confusion</span> <span class="o">=</span> <span class="n">confusion_matrix</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred</span><span class="p">)</span>
+
+    <span class="n">sns</span><span class="o">.</span><span class="n">heatmap</span><span class="p">(</span><span class="n">matriz_confusion</span><span class="p">,</span> <span class="n">annot</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">fmt</span><span class="o">=</span><span class="s2">&quot;d&quot;</span><span class="p">,</span> <span class="n">cmap</span><span class="o">=</span><span class="s2">&quot;Blues&quot;</span><span class="p">,</span> <span class="n">cbar</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">ax</span><span class="o">=</span><span class="n">ax</span><span class="p">)</span>
+    <span class="n">ax</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Matriz de Confusión para </span><span class="si">{</span><span class="n">nombre</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+    <span class="n">ax</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s1">&#39;Predicciones&#39;</span><span class="p">)</span>
+    <span class="n">ax</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s1">&#39;Verdaderos&#39;</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">suptitle</span><span class="p">(</span><span class="s1">&#39;Matrices de Confusión para Diferentes Modelos&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">16</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/ac50dd8a0b4e6d33e9a14256f7117fd1394a2b4b3b77f9666fa8fcb18e5547af.png" src="_images/ac50dd8a0b4e6d33e9a14256f7117fd1394a2b4b3b77f9666fa8fcb18e5547af.png" />
+</div>
+</div>
+<p>Se observa que el modelo de Random Forest tiene el AUC más alto con 0.868008, lo que indica que tiene un buen rendimiento en la distinción entre las clases positivas y negativas. XGBoost también presenta un AUC relativamente alto con 0.861542. Los modelos Bayesian y Logistic Regression tienen el AUC más bajo, ambos con 0.574415 y 0.478329 respectivamente, lo que sugiere que son menos efectivos en la clasificación que los modelos de Random Forest y XGBoost, entonces el Random Forest sería la mejor opción de los presentados, seguido de cerca por XGBoost.</p>
+</section>
+<section id="balanceo-de-datos-y-evaluacion-de-modelos">
+<h1>Balanceo de datos y evaluación de modelos<a class="headerlink" href="#balanceo-de-datos-y-evaluacion-de-modelos" title="Link to this heading">#</a></h1>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">adasyn</span> <span class="o">=</span> <span class="n">ADASYN</span><span class="p">(</span><span class="n">sampling_strategy</span><span class="o">=</span><span class="s1">&#39;auto&#39;</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">42</span><span class="p">,</span> <span class="n">n_neighbors</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
+<span class="n">X_resampled</span><span class="p">,</span> <span class="n">y_resampled</span> <span class="o">=</span> <span class="n">adasyn</span><span class="o">.</span><span class="n">fit_resample</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">(</span><span class="n">y_resampled</span><span class="p">)</span><span class="o">.</span><span class="n">value_counts</span><span class="p">(</span><span class="n">normalize</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>isFraud
+1    0.501233
+0    0.498767
+Name: proportion, dtype: float64
+</pre></div>
+</div>
+</div>
+</div>
+<p>Podemos observar que los datos han sido balanceados, entonces la proporción de las observaciones en cada clase es casi similar</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">X_train</span><span class="p">,</span> <span class="n">X_test</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">y_test</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span><span class="n">X_resampled</span><span class="p">,</span> <span class="n">y_resampled</span><span class="p">,</span> <span class="n">test_size</span><span class="o">=</span><span class="mf">0.2</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">42</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># instanciando los modelos</span>
+<span class="n">bayes_clf</span> <span class="o">=</span> <span class="n">GaussianNB</span><span class="p">()</span>
+<span class="n">tree_clf</span> <span class="o">=</span> <span class="n">DecisionTreeClassifier</span><span class="p">(</span><span class="n">random_state</span><span class="o">=</span><span class="mi">42</span><span class="p">)</span>
+<span class="n">forest_clf</span> <span class="o">=</span> <span class="n">RandomForestClassifier</span><span class="p">(</span><span class="n">random_state</span><span class="o">=</span><span class="mi">42</span><span class="p">,</span> <span class="n">n_jobs</span><span class="o">=-</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">xgboost_clf</span> <span class="o">=</span> <span class="n">XGBClassifier</span><span class="p">(</span><span class="n">random_state</span><span class="o">=</span><span class="mi">42</span><span class="p">,</span> <span class="n">n_jobs</span><span class="o">=-</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">knn_clf</span> <span class="o">=</span> <span class="n">KNeighborsClassifier</span><span class="p">(</span><span class="n">n_jobs</span><span class="o">=-</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">logistic_clf</span> <span class="o">=</span> <span class="n">LogisticRegression</span><span class="p">(</span><span class="n">solver</span><span class="o">=</span><span class="s1">&#39;saga&#39;</span><span class="p">,</span> <span class="n">penalty</span><span class="o">=</span><span class="s1">&#39;elasticnet&#39;</span><span class="p">,</span> <span class="n">l1_ratio</span><span class="o">=</span><span class="mf">0.5</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">42</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># entrenando los modelos</span>
+<span class="n">bayes_clf</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+<span class="n">tree_clf</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+<span class="n">forest_clf</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+<span class="n">xgboost_clf</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+<span class="n">knn_clf</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+<span class="n">logistic_clf</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span> 
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><style>#sk-container-id-2 {
+  /* Definition of color scheme common for light and dark mode */
+  --sklearn-color-text: black;
+  --sklearn-color-line: gray;
+  /* Definition of color scheme for unfitted estimators */
+  --sklearn-color-unfitted-level-0: #fff5e6;
+  --sklearn-color-unfitted-level-1: #f6e4d2;
+  --sklearn-color-unfitted-level-2: #ffe0b3;
+  --sklearn-color-unfitted-level-3: chocolate;
+  /* Definition of color scheme for fitted estimators */
+  --sklearn-color-fitted-level-0: #f0f8ff;
+  --sklearn-color-fitted-level-1: #d4ebff;
+  --sklearn-color-fitted-level-2: #b3dbfd;
+  --sklearn-color-fitted-level-3: cornflowerblue;
+
+  /* Specific color for light theme */
+  --sklearn-color-text-on-default-background: var(--sg-text-color, var(--theme-code-foreground, var(--jp-content-font-color1, black)));
+  --sklearn-color-background: var(--sg-background-color, var(--theme-background, var(--jp-layout-color0, white)));
+  --sklearn-color-border-box: var(--sg-text-color, var(--theme-code-foreground, var(--jp-content-font-color1, black)));
+  --sklearn-color-icon: #696969;
+
+  @media (prefers-color-scheme: dark) {
+    /* Redefinition of color scheme for dark theme */
+    --sklearn-color-text-on-default-background: var(--sg-text-color, var(--theme-code-foreground, var(--jp-content-font-color1, white)));
+    --sklearn-color-background: var(--sg-background-color, var(--theme-background, var(--jp-layout-color0, #111)));
+    --sklearn-color-border-box: var(--sg-text-color, var(--theme-code-foreground, var(--jp-content-font-color1, white)));
+    --sklearn-color-icon: #878787;
+  }
+}
+
+#sk-container-id-2 {
+  color: var(--sklearn-color-text);
+}
+
+#sk-container-id-2 pre {
+  padding: 0;
+}
+
+#sk-container-id-2 input.sk-hidden--visually {
+  border: 0;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+#sk-container-id-2 div.sk-dashed-wrapped {
+  border: 1px dashed var(--sklearn-color-line);
+  margin: 0 0.4em 0.5em 0.4em;
+  box-sizing: border-box;
+  padding-bottom: 0.4em;
+  background-color: var(--sklearn-color-background);
+}
+
+#sk-container-id-2 div.sk-container {
+  /* jupyter's `normalize.less` sets `[hidden] { display: none; }`
+     but bootstrap.min.css set `[hidden] { display: none !important; }`
+     so we also need the `!important` here to be able to override the
+     default hidden behavior on the sphinx rendered scikit-learn.org.
+     See: https://github.com/scikit-learn/scikit-learn/issues/21755 */
+  display: inline-block !important;
+  position: relative;
+}
+
+#sk-container-id-2 div.sk-text-repr-fallback {
+  display: none;
+}
+
+div.sk-parallel-item,
+div.sk-serial,
+div.sk-item {
+  /* draw centered vertical line to link estimators */
+  background-image: linear-gradient(var(--sklearn-color-text-on-default-background), var(--sklearn-color-text-on-default-background));
+  background-size: 2px 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* Parallel-specific style estimator block */
+
+#sk-container-id-2 div.sk-parallel-item::after {
+  content: "";
+  width: 100%;
+  border-bottom: 2px solid var(--sklearn-color-text-on-default-background);
+  flex-grow: 1;
+}
+
+#sk-container-id-2 div.sk-parallel {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  background-color: var(--sklearn-color-background);
+  position: relative;
+}
+
+#sk-container-id-2 div.sk-parallel-item {
+  display: flex;
+  flex-direction: column;
+}
+
+#sk-container-id-2 div.sk-parallel-item:first-child::after {
+  align-self: flex-end;
+  width: 50%;
+}
+
+#sk-container-id-2 div.sk-parallel-item:last-child::after {
+  align-self: flex-start;
+  width: 50%;
+}
+
+#sk-container-id-2 div.sk-parallel-item:only-child::after {
+  width: 0;
+}
+
+/* Serial-specific style estimator block */
+
+#sk-container-id-2 div.sk-serial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--sklearn-color-background);
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+
+/* Toggleable style: style used for estimator/Pipeline/ColumnTransformer box that is
+clickable and can be expanded/collapsed.
+- Pipeline and ColumnTransformer use this feature and define the default style
+- Estimators will overwrite some part of the style using the `sk-estimator` class
+*/
+
+/* Pipeline and ColumnTransformer style (default) */
+
+#sk-container-id-2 div.sk-toggleable {
+  /* Default theme specific background. It is overwritten whether we have a
+  specific estimator or a Pipeline/ColumnTransformer */
+  background-color: var(--sklearn-color-background);
+}
+
+/* Toggleable label */
+#sk-container-id-2 label.sk-toggleable__label {
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  margin-bottom: 0;
+  padding: 0.5em;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#sk-container-id-2 label.sk-toggleable__label-arrow:before {
+  /* Arrow on the left of the label */
+  content: "▸";
+  float: left;
+  margin-right: 0.25em;
+  color: var(--sklearn-color-icon);
+}
+
+#sk-container-id-2 label.sk-toggleable__label-arrow:hover:before {
+  color: var(--sklearn-color-text);
+}
+
+/* Toggleable content - dropdown */
+
+#sk-container-id-2 div.sk-toggleable__content {
+  max-height: 0;
+  max-width: 0;
+  overflow: hidden;
+  text-align: left;
+  /* unfitted */
+  background-color: var(--sklearn-color-unfitted-level-0);
+}
+
+#sk-container-id-2 div.sk-toggleable__content.fitted {
+  /* fitted */
+  background-color: var(--sklearn-color-fitted-level-0);
+}
+
+#sk-container-id-2 div.sk-toggleable__content pre {
+  margin: 0.2em;
+  border-radius: 0.25em;
+  color: var(--sklearn-color-text);
+  /* unfitted */
+  background-color: var(--sklearn-color-unfitted-level-0);
+}
+
+#sk-container-id-2 div.sk-toggleable__content.fitted pre {
+  /* unfitted */
+  background-color: var(--sklearn-color-fitted-level-0);
+}
+
+#sk-container-id-2 input.sk-toggleable__control:checked~div.sk-toggleable__content {
+  /* Expand drop-down */
+  max-height: 200px;
+  max-width: 100%;
+  overflow: auto;
+}
+
+#sk-container-id-2 input.sk-toggleable__control:checked~label.sk-toggleable__label-arrow:before {
+  content: "▾";
+}
+
+/* Pipeline/ColumnTransformer-specific style */
+
+#sk-container-id-2 div.sk-label input.sk-toggleable__control:checked~label.sk-toggleable__label {
+  color: var(--sklearn-color-text);
+  background-color: var(--sklearn-color-unfitted-level-2);
+}
+
+#sk-container-id-2 div.sk-label.fitted input.sk-toggleable__control:checked~label.sk-toggleable__label {
+  background-color: var(--sklearn-color-fitted-level-2);
+}
+
+/* Estimator-specific style */
+
+/* Colorize estimator box */
+#sk-container-id-2 div.sk-estimator input.sk-toggleable__control:checked~label.sk-toggleable__label {
+  /* unfitted */
+  background-color: var(--sklearn-color-unfitted-level-2);
+}
+
+#sk-container-id-2 div.sk-estimator.fitted input.sk-toggleable__control:checked~label.sk-toggleable__label {
+  /* fitted */
+  background-color: var(--sklearn-color-fitted-level-2);
+}
+
+#sk-container-id-2 div.sk-label label.sk-toggleable__label,
+#sk-container-id-2 div.sk-label label {
+  /* The background is the default theme color */
+  color: var(--sklearn-color-text-on-default-background);
+}
+
+/* On hover, darken the color of the background */
+#sk-container-id-2 div.sk-label:hover label.sk-toggleable__label {
+  color: var(--sklearn-color-text);
+  background-color: var(--sklearn-color-unfitted-level-2);
+}
+
+/* Label box, darken color on hover, fitted */
+#sk-container-id-2 div.sk-label.fitted:hover label.sk-toggleable__label.fitted {
+  color: var(--sklearn-color-text);
+  background-color: var(--sklearn-color-fitted-level-2);
+}
+
+/* Estimator label */
+
+#sk-container-id-2 div.sk-label label {
+  font-family: monospace;
+  font-weight: bold;
+  display: inline-block;
+  line-height: 1.2em;
+}
+
+#sk-container-id-2 div.sk-label-container {
+  text-align: center;
+}
+
+/* Estimator-specific */
+#sk-container-id-2 div.sk-estimator {
+  font-family: monospace;
+  border: 1px dotted var(--sklearn-color-border-box);
+  border-radius: 0.25em;
+  box-sizing: border-box;
+  margin-bottom: 0.5em;
+  /* unfitted */
+  background-color: var(--sklearn-color-unfitted-level-0);
+}
+
+#sk-container-id-2 div.sk-estimator.fitted {
+  /* fitted */
+  background-color: var(--sklearn-color-fitted-level-0);
+}
+
+/* on hover */
+#sk-container-id-2 div.sk-estimator:hover {
+  /* unfitted */
+  background-color: var(--sklearn-color-unfitted-level-2);
+}
+
+#sk-container-id-2 div.sk-estimator.fitted:hover {
+  /* fitted */
+  background-color: var(--sklearn-color-fitted-level-2);
+}
+
+/* Specification for estimator info (e.g. "i" and "?") */
+
+/* Common style for "i" and "?" */
+
+.sk-estimator-doc-link,
+a:link.sk-estimator-doc-link,
+a:visited.sk-estimator-doc-link {
+  float: right;
+  font-size: smaller;
+  line-height: 1em;
+  font-family: monospace;
+  background-color: var(--sklearn-color-background);
+  border-radius: 1em;
+  height: 1em;
+  width: 1em;
+  text-decoration: none !important;
+  margin-left: 1ex;
+  /* unfitted */
+  border: var(--sklearn-color-unfitted-level-1) 1pt solid;
+  color: var(--sklearn-color-unfitted-level-1);
+}
+
+.sk-estimator-doc-link.fitted,
+a:link.sk-estimator-doc-link.fitted,
+a:visited.sk-estimator-doc-link.fitted {
+  /* fitted */
+  border: var(--sklearn-color-fitted-level-1) 1pt solid;
+  color: var(--sklearn-color-fitted-level-1);
+}
+
+/* On hover */
+div.sk-estimator:hover .sk-estimator-doc-link:hover,
+.sk-estimator-doc-link:hover,
+div.sk-label-container:hover .sk-estimator-doc-link:hover,
+.sk-estimator-doc-link:hover {
+  /* unfitted */
+  background-color: var(--sklearn-color-unfitted-level-3);
+  color: var(--sklearn-color-background);
+  text-decoration: none;
+}
+
+div.sk-estimator.fitted:hover .sk-estimator-doc-link.fitted:hover,
+.sk-estimator-doc-link.fitted:hover,
+div.sk-label-container:hover .sk-estimator-doc-link.fitted:hover,
+.sk-estimator-doc-link.fitted:hover {
+  /* fitted */
+  background-color: var(--sklearn-color-fitted-level-3);
+  color: var(--sklearn-color-background);
+  text-decoration: none;
+}
+
+/* Span, style for the box shown on hovering the info icon */
+.sk-estimator-doc-link span {
+  display: none;
+  z-index: 9999;
+  position: relative;
+  font-weight: normal;
+  right: .2ex;
+  padding: .5ex;
+  margin: .5ex;
+  width: min-content;
+  min-width: 20ex;
+  max-width: 50ex;
+  color: var(--sklearn-color-text);
+  box-shadow: 2pt 2pt 4pt #999;
+  /* unfitted */
+  background: var(--sklearn-color-unfitted-level-0);
+  border: .5pt solid var(--sklearn-color-unfitted-level-3);
+}
+
+.sk-estimator-doc-link.fitted span {
+  /* fitted */
+  background: var(--sklearn-color-fitted-level-0);
+  border: var(--sklearn-color-fitted-level-3);
+}
+
+.sk-estimator-doc-link:hover span {
+  display: block;
+}
+
+/* "?"-specific style due to the `<a>` HTML tag */
+
+#sk-container-id-2 a.estimator_doc_link {
+  float: right;
+  font-size: 1rem;
+  line-height: 1em;
+  font-family: monospace;
+  background-color: var(--sklearn-color-background);
+  border-radius: 1rem;
+  height: 1rem;
+  width: 1rem;
+  text-decoration: none;
+  /* unfitted */
+  color: var(--sklearn-color-unfitted-level-1);
+  border: var(--sklearn-color-unfitted-level-1) 1pt solid;
+}
+
+#sk-container-id-2 a.estimator_doc_link.fitted {
+  /* fitted */
+  border: var(--sklearn-color-fitted-level-1) 1pt solid;
+  color: var(--sklearn-color-fitted-level-1);
+}
+
+/* On hover */
+#sk-container-id-2 a.estimator_doc_link:hover {
+  /* unfitted */
+  background-color: var(--sklearn-color-unfitted-level-3);
+  color: var(--sklearn-color-background);
+  text-decoration: none;
+}
+
+#sk-container-id-2 a.estimator_doc_link.fitted:hover {
+  /* fitted */
+  background-color: var(--sklearn-color-fitted-level-3);
+}
+</style><div id="sk-container-id-2" class="sk-top-container"><div class="sk-text-repr-fallback"><pre>LogisticRegression(l1_ratio=0.5, penalty=&#x27;elasticnet&#x27;, random_state=42,
+                   solver=&#x27;saga&#x27;)</pre><b>In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. <br />On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.</b></div><div class="sk-container" hidden><div class="sk-item"><div class="sk-estimator fitted sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="sk-estimator-id-2" type="checkbox" checked><label for="sk-estimator-id-2" class="sk-toggleable__label fitted sk-toggleable__label-arrow fitted">&nbsp;&nbsp;LogisticRegression<a class="sk-estimator-doc-link fitted" rel="noreferrer" target="_blank" href="https://scikit-learn.org/1.4/modules/generated/sklearn.linear_model.LogisticRegression.html">?<span>Documentation for LogisticRegression</span></a><span class="sk-estimator-doc-link fitted">i<span>Fitted</span></span></label><div class="sk-toggleable__content fitted"><pre>LogisticRegression(l1_ratio=0.5, penalty=&#x27;elasticnet&#x27;, random_state=42,
+                   solver=&#x27;saga&#x27;)</pre></div> </div></div></div></div></div></div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">modelos</span> <span class="o">=</span> <span class="p">[</span><span class="n">bayes_clf</span><span class="p">,</span> <span class="n">tree_clf</span><span class="p">,</span> <span class="n">forest_clf</span><span class="p">,</span> <span class="n">xgboost_clf</span><span class="p">,</span> <span class="n">knn_clf</span><span class="p">,</span> <span class="n">logistic_clf</span><span class="p">]</span>
+<span class="n">nombres_modelos</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Bayesian&#39;</span><span class="p">,</span> <span class="s1">&#39;Decision Tree&#39;</span><span class="p">,</span> <span class="s1">&#39;Random Forest&#39;</span><span class="p">,</span> <span class="s1">&#39;XGBoost&#39;</span><span class="p">,</span> <span class="s1">&#39;K-NN&#39;</span><span class="p">,</span> <span class="s1">&#39;Logistic Regression&#39;</span><span class="p">]</span>
+
+<span class="n">metricas</span> <span class="o">=</span> <span class="p">{}</span>
+
+<span class="k">for</span> <span class="n">modelo</span><span class="p">,</span> <span class="n">nombre</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">modelos</span><span class="p">,</span> <span class="n">nombres_modelos</span><span class="p">):</span>
+    <span class="n">y_pred</span> <span class="o">=</span> <span class="n">modelo</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
+    <span class="n">reporte</span> <span class="o">=</span> <span class="n">classification_report</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred</span><span class="p">,</span> <span class="n">output_dict</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">matriz_confusion</span> <span class="o">=</span> <span class="n">confusion_matrix</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred</span><span class="p">)</span>
+    <span class="n">auc</span> <span class="o">=</span> <span class="n">roc_auc_score</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">modelo</span><span class="o">.</span><span class="n">predict_proba</span><span class="p">(</span><span class="n">X_test</span><span class="p">)[:,</span> <span class="mi">1</span><span class="p">])</span>
+
+    <span class="n">metricas</span><span class="p">[</span><span class="n">nombre</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="s1">&#39;Precision&#39;</span><span class="p">:</span> <span class="n">reporte</span><span class="p">[</span><span class="s1">&#39;weighted avg&#39;</span><span class="p">][</span><span class="s1">&#39;precision&#39;</span><span class="p">],</span>
+        <span class="s1">&#39;Recall&#39;</span><span class="p">:</span> <span class="n">reporte</span><span class="p">[</span><span class="s1">&#39;weighted avg&#39;</span><span class="p">][</span><span class="s1">&#39;recall&#39;</span><span class="p">],</span>
+        <span class="s1">&#39;F1-Score&#39;</span><span class="p">:</span> <span class="n">reporte</span><span class="p">[</span><span class="s1">&#39;weighted avg&#39;</span><span class="p">][</span><span class="s1">&#39;f1-score&#39;</span><span class="p">],</span>
+        <span class="s1">&#39;AUC&#39;</span><span class="p">:</span> <span class="n">auc</span><span class="p">,</span>
+        <span class="s1">&#39;Matriz de Confusión&#39;</span><span class="p">:</span> <span class="n">matriz_confusion</span>
+    <span class="p">}</span>
+
+<span class="n">metricas_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="o">.</span><span class="n">from_dict</span><span class="p">(</span><span class="n">metricas</span><span class="p">,</span> <span class="n">orient</span><span class="o">=</span><span class="s1">&#39;index&#39;</span><span class="p">)</span>
+
+<span class="n">metricas_df</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Precision</th>
+      <th>Recall</th>
+      <th>F1-Score</th>
+      <th>AUC</th>
+      <th>Matriz de Confusión</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Bayesian</th>
+      <td>0.534101</td>
+      <td>0.508115</td>
+      <td>0.385281</td>
+      <td>0.584600</td>
+      <td>[[6856, 107089], [5314, 109256]]</td>
+    </tr>
+    <tr>
+      <th>Decision Tree</th>
+      <td>0.968683</td>
+      <td>0.968676</td>
+      <td>0.968676</td>
+      <td>0.968670</td>
+      <td>[[110145, 3800], [3358, 111212]]</td>
+    </tr>
+    <tr>
+      <th>Random Forest</th>
+      <td>0.980091</td>
+      <td>0.979923</td>
+      <td>0.979921</td>
+      <td>0.995368</td>
+      <td>[[112717, 1228], [3360, 111210]]</td>
+    </tr>
+    <tr>
+      <th>XGBoost</th>
+      <td>0.942592</td>
+      <td>0.940783</td>
+      <td>0.940728</td>
+      <td>0.985245</td>
+      <td>[[110822, 3123], [10409, 104161]]</td>
+    </tr>
+    <tr>
+      <th>K-NN</th>
+      <td>0.841587</td>
+      <td>0.833088</td>
+      <td>0.831998</td>
+      <td>0.911392</td>
+      <td>[[85828, 28117], [10025, 104545]]</td>
+    </tr>
+    <tr>
+      <th>Logistic Regression</th>
+      <td>0.711694</td>
+      <td>0.501560</td>
+      <td>0.335313</td>
+      <td>0.518588</td>
+      <td>[[48, 113897], [4, 114566]]</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+<ul class="simple">
+<li><p><strong>Bayesiano:</strong> AUC de 0.584600 indica un rendimiento pobre.</p></li>
+<li><p><strong>Árbol de Decisión:</strong> AUC de 0.968670 es muy alto, lo que sugiere que el modelo es excelente en la distinción entre las clases.</p></li>
+<li><p><strong>Random Forest:</strong> AUC de 0.995368 indica un rendimiento excepcionalmente alto, casi perfecto, en la clasificación.</p></li>
+<li><p><strong>XGBoost:</strong> AUC de 0.985245 también es muy alto, lo que refleja un rendimiento excelente en la clasificación.</p></li>
+<li><p><strong>K-NN:</strong> AUC de 0.913192 muestra un buen rendimiento, aunque no tan alto como el de los modelos Random Forest y XGBoost.</p></li>
+<li><p><strong>Regresión Logística:</strong> AUC de 0.518588 es ligeramente mejor que el azar, lo que indica un rendimiento muy pobre en la clasificación.</p></li>
+</ul>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">modelo</span><span class="p">,</span> <span class="n">nombre</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">modelos</span><span class="p">,</span> <span class="n">nombres_modelos</span><span class="p">):</span>
+    <span class="n">y_pred_probs</span> <span class="o">=</span> <span class="n">modelo</span><span class="o">.</span><span class="n">predict_proba</span><span class="p">(</span><span class="n">X_test</span><span class="p">)[:,</span> <span class="mi">1</span><span class="p">]</span>
+    <span class="n">fpr</span><span class="p">,</span> <span class="n">tpr</span><span class="p">,</span> <span class="n">thresholds</span> <span class="o">=</span> <span class="n">roc_curve</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred_probs</span><span class="p">)</span>
+    <span class="n">roc_auc</span> <span class="o">=</span> <span class="n">calcular_auc</span><span class="p">(</span><span class="n">fpr</span><span class="p">,</span> <span class="n">tpr</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">fpr</span><span class="p">,</span> <span class="n">tpr</span><span class="p">,</span> <span class="n">lw</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">nombre</span><span class="si">}</span><span class="s1"> (AUC = </span><span class="si">{</span><span class="n">roc_auc</span><span class="si">:</span><span class="s1">.2f</span><span class="si">}</span><span class="s1">)&#39;</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;navy&#39;</span><span class="p">,</span> <span class="n">lw</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s1">&#39;--&#39;</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">xlim</span><span class="p">([</span><span class="mf">0.0</span><span class="p">,</span> <span class="mf">1.0</span><span class="p">])</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylim</span><span class="p">([</span><span class="mf">0.0</span><span class="p">,</span> <span class="mf">1.05</span><span class="p">])</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;falsos positivo&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;verdaderos positivo&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Curva ROC de los modelos&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="s2">&quot;lower right&quot;</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/44452cb2d640619585bd034ac85580cdeb8b5012a74d28be0e5baf598d6a47b0.png" src="_images/44452cb2d640619585bd034ac85580cdeb8b5012a74d28be0e5baf598d6a47b0.png" />
+</div>
+</div>
+<p>Podemos observar en las curva ROC que Random Forest es la que tiene la mayor curva es decir es el mejor modelo para la clasificación y el que dio peor resultado es en la regresión logistica</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">sns</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="n">style</span><span class="o">=</span><span class="s2">&quot;white&quot;</span><span class="p">)</span>
+
+<span class="n">fig</span><span class="p">,</span> <span class="n">axes</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">18</span><span class="p">,</span> <span class="mi">12</span><span class="p">))</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">subplots_adjust</span><span class="p">(</span><span class="n">hspace</span><span class="o">=</span><span class="mf">0.5</span><span class="p">,</span> <span class="n">wspace</span><span class="o">=</span><span class="mf">0.3</span><span class="p">)</span> 
+
+<span class="k">for</span> <span class="p">(</span><span class="n">modelo</span><span class="p">,</span> <span class="n">nombre</span><span class="p">),</span> <span class="n">ax</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="nb">zip</span><span class="p">(</span><span class="n">modelos</span><span class="p">,</span> <span class="n">nombres_modelos</span><span class="p">),</span> <span class="n">axes</span><span class="o">.</span><span class="n">flatten</span><span class="p">()):</span>
+    <span class="c1"># Realizar las predicciones</span>
+    <span class="n">y_pred</span> <span class="o">=</span> <span class="n">modelo</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
+    
+    <span class="n">matriz_confusion</span> <span class="o">=</span> <span class="n">confusion_matrix</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred</span><span class="p">)</span>
+
+    <span class="n">sns</span><span class="o">.</span><span class="n">heatmap</span><span class="p">(</span><span class="n">matriz_confusion</span><span class="p">,</span> <span class="n">annot</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">fmt</span><span class="o">=</span><span class="s2">&quot;d&quot;</span><span class="p">,</span> <span class="n">cmap</span><span class="o">=</span><span class="s2">&quot;Blues&quot;</span><span class="p">,</span> <span class="n">cbar</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">ax</span><span class="o">=</span><span class="n">ax</span><span class="p">)</span>
+    <span class="n">ax</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Matriz de Confusión para </span><span class="si">{</span><span class="n">nombre</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+    <span class="n">ax</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s1">&#39;Predicciones&#39;</span><span class="p">)</span>
+    <span class="n">ax</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s1">&#39;Verdaderos&#39;</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">suptitle</span><span class="p">(</span><span class="s1">&#39;Matrices de Confusión para Diferentes Modelos&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">16</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/3345c800c6ccbe00145e978bffbeaad97efb13db8c58b0b2b0e600722e49c2d1.png" src="_images/3345c800c6ccbe00145e978bffbeaad97efb13db8c58b0b2b0e600722e49c2d1.png" />
+</div>
+</div>
+<ul class="simple">
+<li><p><strong>Naive Bayes:</strong> Este modelo parece tener una alta tasa de falsos positivos, lo que puede indicar una tendencia a predecir la clase positiva (1) con demasiada frecuencia.</p></li>
+<li><p><strong>Árbol de Decisión:</strong> Con un equilibrio más razonable entre las predicciones de las clases positiva y negativa, el modelo del árbol de decisión tiene un desempeño decente, pero con un número no despreciable de falsos negativos y positivos.</p></li>
+<li><p><strong>Bosque Aleatorio:</strong>
+El bosque aleatorio muestra un muy buen desempeño con el número más alto de verdaderos negativos y verdaderos positivos entre los modelos presentados, y relativamente pocos errores de predicción en ambas clases.</p></li>
+<li><p><strong>XGBoost:</strong> El XGBoost ha clasificado un número significativo de verdaderos positivos, pero también tiene un número relativamente alto de falsos negativos, lo que indica un cierto grado de sensibilidad hacia la clase negativa (0).</p></li>
+<li><p><strong>K-NN:</strong> El K-NN tiene una cantidad considerable de falsos positivos, lo que sugiere que no es tan eficaz para mantener una baja tasa de errores de Tipo I (predicciones incorrectas de la clase positiva).</p></li>
+<li><p><strong>Regresión Logística:</strong> La regresión logística muestra una matriz de confusión con muy pocos falsos positivos y negativos, lo que es excepcional.</p></li>
+</ul>
+</section>
+<section id="hiperparametrizacion-de-los-modelos">
+<h1>Hiperparametrización de los modelos<a class="headerlink" href="#hiperparametrizacion-de-los-modelos" title="Link to this heading">#</a></h1>
+<section id="optimizacion-bayesiana">
+<h2>Optimización Bayesiana<a class="headerlink" href="#optimizacion-bayesiana" title="Link to this heading">#</a></h2>
+<section id="clasificacion-random-forest">
+<h3>Clasificación Random Forest<a class="headerlink" href="#clasificacion-random-forest" title="Link to this heading">#</a></h3>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">rf_cv</span><span class="p">(</span><span class="n">n_estimators</span><span class="p">,</span> <span class="n">min_samples_leaf</span><span class="p">,</span><span class="n">min_samples_split</span><span class="p">,</span> <span class="n">max_features</span><span class="p">,</span> <span class="n">max_depth</span><span class="p">):</span>
+
+    <span class="n">estimator</span> <span class="o">=</span> <span class="n">RandomForestClassifier</span><span class="p">(</span>
+        <span class="n">n_estimators</span><span class="o">=</span><span class="nb">int</span><span class="p">(</span><span class="n">n_estimators</span><span class="p">),</span>
+        <span class="n">min_samples_split</span><span class="o">=</span><span class="nb">int</span><span class="p">(</span><span class="n">min_samples_split</span><span class="p">),</span>
+        <span class="n">min_samples_leaf</span><span class="o">=</span><span class="nb">int</span><span class="p">(</span><span class="n">min_samples_leaf</span><span class="p">),</span>
+        <span class="n">max_features</span><span class="o">=</span><span class="nb">min</span><span class="p">(</span><span class="n">max_features</span><span class="p">,</span> <span class="mf">0.999</span><span class="p">),</span>
+        <span class="n">max_depth</span><span class="o">=</span><span class="nb">int</span><span class="p">(</span><span class="n">max_depth</span><span class="p">),</span>
+        <span class="n">random_state</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span>
+        <span class="n">n_jobs</span><span class="o">=-</span><span class="mi">1</span>
+    <span class="p">)</span>
+    <span class="n">c_val</span> <span class="o">=</span> <span class="n">cross_val_score</span><span class="p">(</span><span class="n">estimator</span><span class="p">,</span> <span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">scoring</span><span class="o">=</span><span class="s1">&#39;roc_auc&#39;</span><span class="p">,</span> <span class="n">cv</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
+    
+    <span class="k">return</span> <span class="n">c_val</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
+
+<span class="n">param_bounds</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s1">&#39;n_estimators&#39;</span><span class="p">:</span> <span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">100</span><span class="p">),</span> 
+    <span class="s1">&#39;min_samples_split&#39;</span><span class="p">:</span> <span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">10</span><span class="p">),</span>
+    <span class="s1">&#39;min_samples_leaf&#39;</span><span class="p">:</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">20</span><span class="p">),</span>
+    <span class="s1">&#39;max_features&#39;</span><span class="p">:</span> <span class="p">(</span><span class="mf">0.1</span><span class="p">,</span> <span class="mf">0.999</span><span class="p">),</span>
+    <span class="s1">&#39;max_depth&#39;</span><span class="p">:</span> <span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">),</span>
+<span class="p">}</span>
+
+<span class="n">optimizer</span> <span class="o">=</span> <span class="n">BayesianOptimization</span><span class="p">(</span>
+    <span class="n">f</span><span class="o">=</span><span class="n">rf_cv</span><span class="p">,</span>
+    <span class="n">pbounds</span><span class="o">=</span><span class="n">param_bounds</span><span class="p">,</span>
+    <span class="n">random_state</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>
+<span class="p">)</span>
+
+<span class="c1"># Iniciar la optimización bayesiana</span>
+<span class="n">optimizer</span><span class="o">.</span><span class="n">maximize</span><span class="p">(</span><span class="n">init_points</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">n_iter</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">optimizer</span><span class="o">.</span><span class="n">max</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>|   iter    |  target   | max_depth | max_fe... | min_sa... | min_sa... | n_esti... |
+-------------------------------------------------------------------------------------
+| 1         | 0.9813    | 14.17     | 0.7476    | 1.002     | 4.419     | 23.21     |
+| 2         | 0.9638    | 10.92     | 0.2674    | 7.566     | 5.174     | 58.49     |
+| 3         | 0.9813    | 14.99     | 0.7218    | 1.62      | 4.549     | 24.01     |
+| 4         | 0.9727    | 20.0      | 0.1       | 20.0      | 10.0      | 10.0      |
+| 5         | 0.9873    | 20.0      | 0.4628    | 20.0      | 7.878     | 100.0     |
+| 6         | 0.9866    | 20.0      | 0.1008    | 2.773     | 2.767     | 100.0     |
+| 7         | 0.9653    | 10.0      | 0.999     | 9.498     | 10.0      | 100.0     |
+| 8         | 0.9788    | 20.0      | 0.1       | 13.66     | 2.0       | 100.0     |
+| 9         | 0.9757    | 20.0      | 0.1       | 20.0      | 10.0      | 93.12     |
+| 10        | 0.9878    | 20.0      | 0.1       | 1.0       | 2.0       | 94.22     |
+| 11        | 0.9874    | 20.0      | 0.1       | 1.0       | 9.048     | 94.85     |
+| 12        | 0.9876    | 20.0      | 0.1       | 1.0       | 6.871     | 85.61     |
+=====================================================================================
+{&#39;target&#39;: 0.987778839386527, &#39;params&#39;: {&#39;max_depth&#39;: 20.0, &#39;max_features&#39;: 0.1, &#39;min_samples_leaf&#39;: 1.0, &#39;min_samples_split&#39;: 2.0, &#39;n_estimators&#39;: 94.22038501965586}}
+</pre></div>
+</div>
+</div>
+</div>
+<p>Aquí podemos observar los mejores hiperparámetros de acuerdo al rango de búsqueda establecido para el modelo random forest.</p>
+</section>
+<section id="clasificacion-naive-bayes">
+<h3>Clasificación Naive Bayes<a class="headerlink" href="#clasificacion-naive-bayes" title="Link to this heading">#</a></h3>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">nb_cv</span><span class="p">(</span><span class="n">var_smoothing</span><span class="p">):</span>
+    <span class="n">estimator</span> <span class="o">=</span> <span class="n">GaussianNB</span><span class="p">(</span><span class="n">var_smoothing</span><span class="o">=</span><span class="n">var_smoothing</span><span class="p">)</span>
+    <span class="n">c_val</span> <span class="o">=</span> <span class="n">cross_val_score</span><span class="p">(</span><span class="n">estimator</span><span class="p">,</span> <span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">scoring</span><span class="o">=</span><span class="s1">&#39;roc_auc&#39;</span><span class="p">,</span> <span class="n">cv</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">c_val</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
+
+<span class="n">param_bounds</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s1">&#39;var_smoothing&#39;</span><span class="p">:</span> <span class="p">(</span><span class="mf">1e-10</span><span class="p">,</span> <span class="mf">1e-5</span><span class="p">)</span>
+<span class="p">}</span>
+
+<span class="n">optimizer</span> <span class="o">=</span> <span class="n">BayesianOptimization</span><span class="p">(</span>
+    <span class="n">f</span><span class="o">=</span><span class="n">nb_cv</span><span class="p">,</span>
+    <span class="n">pbounds</span><span class="o">=</span><span class="n">param_bounds</span><span class="p">,</span>
+    <span class="n">random_state</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>
+<span class="p">)</span>
+
+<span class="c1"># Iniciar la optimización bayesiana</span>
+<span class="n">optimizer</span><span class="o">.</span><span class="n">maximize</span><span class="p">(</span><span class="n">init_points</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">n_iter</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">optimizer</span><span class="o">.</span><span class="n">max</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>|   iter    |  target   | var_sm... |
+-------------------------------------
+| 1         | 0.5216    | 4.17e-06  |
+| 2         | 0.5216    | 7.203e-06 |
+| 3         | 0.5818    | 1.069e-09 |
+| 4         | 0.603     | 5.713e-10 |
+| 5         | 0.5701    | 1.519e-09 |
+| 6         | 0.5908    | 8.228e-10 |
+| 7         | 0.6371    | 2.037e-10 |
+| 8         | 0.6034    | 5.647e-10 |
+| 9         | 0.621     | 3.297e-10 |
+| 10        | 0.5904    | 8.334e-10 |
+| 11        | 0.5682    | 1.614e-09 |
+| 12        | 0.5216    | 5.596e-06 |
+=====================================
+{&#39;target&#39;: 0.6371355578524981, &#39;params&#39;: {&#39;var_smoothing&#39;: 2.0369278482312386e-10}}
+</pre></div>
+</div>
+</div>
+</div>
+<p>Aquí podemos observar los mejores hiperparámetros de acuerdo al rango de búsqueda establecido para el modelo Naive Bayes.</p>
+</section>
+<section id="arbol-de-desicion">
+<h3>Arbol de desición<a class="headerlink" href="#arbol-de-desicion" title="Link to this heading">#</a></h3>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">dt_cv</span><span class="p">(</span><span class="n">max_depth</span><span class="p">,</span> <span class="n">min_samples_split</span><span class="p">,</span> <span class="n">min_samples_leaf</span><span class="p">,</span> <span class="n">max_features</span><span class="p">):</span>
+    <span class="n">estimator</span> <span class="o">=</span> <span class="n">DecisionTreeClassifier</span><span class="p">(</span>
+        <span class="n">max_depth</span><span class="o">=</span><span class="nb">int</span><span class="p">(</span><span class="n">max_depth</span><span class="p">),</span>
+        <span class="n">min_samples_split</span><span class="o">=</span><span class="nb">int</span><span class="p">(</span><span class="n">min_samples_split</span><span class="p">),</span>
+        <span class="n">min_samples_leaf</span><span class="o">=</span><span class="nb">int</span><span class="p">(</span><span class="n">min_samples_leaf</span><span class="p">),</span>
+        <span class="n">max_features</span><span class="o">=</span><span class="nb">min</span><span class="p">(</span><span class="n">max_features</span><span class="p">,</span> <span class="mf">0.999</span><span class="p">),</span>
+        <span class="n">random_state</span><span class="o">=</span><span class="mi">2</span>
+    <span class="p">)</span>
+    <span class="n">c_val</span> <span class="o">=</span> <span class="n">cross_val_score</span><span class="p">(</span><span class="n">estimator</span><span class="p">,</span> <span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">scoring</span><span class="o">=</span><span class="s1">&#39;roc_auc&#39;</span><span class="p">,</span> <span class="n">cv</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">c_val</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
+
+<span class="n">param_bounds</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s1">&#39;max_depth&#39;</span><span class="p">:</span> <span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">20</span><span class="p">),</span> 
+    <span class="s1">&#39;min_samples_split&#39;</span><span class="p">:</span> <span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">10</span><span class="p">),</span>
+    <span class="s1">&#39;min_samples_leaf&#39;</span><span class="p">:</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">20</span><span class="p">),</span>
+    <span class="s1">&#39;max_features&#39;</span><span class="p">:</span> <span class="p">(</span><span class="mf">0.1</span><span class="p">,</span> <span class="mf">0.999</span><span class="p">),</span>
+<span class="p">}</span>
+
+<span class="n">optimizer</span> <span class="o">=</span> <span class="n">BayesianOptimization</span><span class="p">(</span>
+    <span class="n">f</span><span class="o">=</span><span class="n">dt_cv</span><span class="p">,</span>
+    <span class="n">pbounds</span><span class="o">=</span><span class="n">param_bounds</span><span class="p">,</span>
+    <span class="n">random_state</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>
+<span class="p">)</span>
+
+<span class="n">optimizer</span><span class="o">.</span><span class="n">maximize</span><span class="p">(</span><span class="n">init_points</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">n_iter</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">optimizer</span><span class="o">.</span><span class="n">max</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>|   iter    |  target   | max_depth | max_fe... | min_sa... | min_sa... |
+-------------------------------------------------------------------------
+| 1         | 0.9569    | 10.09     | 0.7476    | 1.002     | 4.419     |
+| 2         | 0.8432    | 5.495     | 0.183     | 4.539     | 4.764     |
+| 3         | 0.9527    | 10.63     | 0.491     | 1.284     | 4.308     |
+| 4         | 0.9678    | 12.01     | 0.999     | 1.0       | 9.124     |
+| 5         | 0.9798    | 17.67     | 0.999     | 1.0       | 9.356     |
+| 6         | 0.9821    | 18.53     | 0.999     | 6.742     | 10.0      |
+| 7         | 0.9829    | 20.0      | 0.999     | 4.702     | 4.325     |
+| 8         | 0.9843    | 20.0      | 0.999     | 11.91     | 5.01      |
+| 9         | 0.947     | 20.0      | 0.1       | 16.75     | 10.0      |
+| 10        | 0.9793    | 16.48     | 0.999     | 9.44      | 2.0       |
+| 11        | 0.9767    | 15.64     | 0.999     | 16.95     | 2.0       |
+| 12        | 0.9489    | 8.207     | 0.999     | 20.0      | 2.0       |
+=========================================================================
+{&#39;target&#39;: 0.9843410483023133, &#39;params&#39;: {&#39;max_depth&#39;: 20.0, &#39;max_features&#39;: 0.999, &#39;min_samples_leaf&#39;: 11.912512205956181, &#39;min_samples_split&#39;: 5.009523669395725}}
+</pre></div>
+</div>
+</div>
+</div>
+<p>Aquí podemos observar los mejores hiperparámetros de acuerdo al rango de búsqueda establecido para el modelo de árbol de desición.</p>
+</section>
+</section>
+<section id="xgboost">
+<h2>XGBoost<a class="headerlink" href="#xgboost" title="Link to this heading">#</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">xgb_cv</span><span class="p">(</span><span class="n">max_depth</span><span class="p">,</span> <span class="n">min_child_weight</span><span class="p">,</span> <span class="n">subsample</span><span class="p">,</span> <span class="n">colsample_bytree</span><span class="p">,</span> <span class="n">gamma</span><span class="p">,</span> <span class="n">alpha</span><span class="p">,</span> <span class="n">learning_rate</span><span class="p">):</span>
+    <span class="n">estimator</span> <span class="o">=</span> <span class="n">XGBClassifier</span><span class="p">(</span>
+        <span class="n">max_depth</span><span class="o">=</span><span class="nb">int</span><span class="p">(</span><span class="n">max_depth</span><span class="p">),</span>
+        <span class="n">min_child_weight</span><span class="o">=</span><span class="nb">int</span><span class="p">(</span><span class="n">min_child_weight</span><span class="p">),</span>
+        <span class="n">subsample</span><span class="o">=</span><span class="n">subsample</span><span class="p">,</span>
+        <span class="n">colsample_bytree</span><span class="o">=</span><span class="n">colsample_bytree</span><span class="p">,</span>
+        <span class="n">gamma</span><span class="o">=</span><span class="n">gamma</span><span class="p">,</span>
+        <span class="n">alpha</span><span class="o">=</span><span class="n">alpha</span><span class="p">,</span>
+        <span class="n">learning_rate</span><span class="o">=</span><span class="n">learning_rate</span><span class="p">,</span>
+        <span class="n">n_estimators</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span>  
+        <span class="n">random_state</span><span class="o">=</span><span class="mi">2</span>
+    <span class="p">)</span>
+    <span class="n">c_val</span> <span class="o">=</span> <span class="n">cross_val_score</span><span class="p">(</span><span class="n">estimator</span><span class="p">,</span> <span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">scoring</span><span class="o">=</span><span class="s1">&#39;roc_auc&#39;</span><span class="p">,</span> <span class="n">cv</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">c_val</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
+
+<span class="n">param_bounds</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s1">&#39;max_depth&#39;</span><span class="p">:</span> <span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">10</span><span class="p">),</span> 
+    <span class="s1">&#39;min_child_weight&#39;</span><span class="p">:</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">10</span><span class="p">),</span>
+    <span class="s1">&#39;subsample&#39;</span><span class="p">:</span> <span class="p">(</span><span class="mf">0.5</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span>
+    <span class="s1">&#39;colsample_bytree&#39;</span><span class="p">:</span> <span class="p">(</span><span class="mf">0.5</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span>
+    <span class="s1">&#39;gamma&#39;</span><span class="p">:</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">5</span><span class="p">),</span>
+    <span class="s1">&#39;alpha&#39;</span><span class="p">:</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">5</span><span class="p">),</span>
+    <span class="s1">&#39;learning_rate&#39;</span><span class="p">:</span> <span class="p">(</span><span class="mf">0.01</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">)</span>
+<span class="p">}</span>
+
+<span class="n">optimizer</span> <span class="o">=</span> <span class="n">BayesianOptimization</span><span class="p">(</span>
+    <span class="n">f</span><span class="o">=</span><span class="n">xgb_cv</span><span class="p">,</span>
+    <span class="n">pbounds</span><span class="o">=</span><span class="n">param_bounds</span><span class="p">,</span>
+    <span class="n">random_state</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>
+<span class="p">)</span>
+
+<span class="c1"># Iniciar la optimización bayesiana</span>
+<span class="n">optimizer</span><span class="o">.</span><span class="n">maximize</span><span class="p">(</span><span class="n">init_points</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">n_iter</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">optimizer</span><span class="o">.</span><span class="n">max</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>|   iter    |  target   |   alpha   | colsam... |   gamma   | learni... | max_depth | min_ch... | subsample |
+-------------------------------------------------------------------------------------------------------------
+| 1         | 0.9673    | 2.085     | 0.8602    | 0.0005719 | 0.09768   | 4.027     | 1.831     | 0.5931    |
+| 2         | 0.9824    | 1.728     | 0.6984    | 2.694     | 0.1316    | 7.797     | 2.84      | 0.9391    |
+| 3         | 0.9653    | 2.061     | 0.843     | 2.6       | 0.02605   | 7.95      | 2.877     | 0.7405    |
+| 4         | 0.9847    | 3.826     | 0.5548    | 2.61      | 0.2328    | 7.81      | 2.197     | 0.601     |
+| 5         | 0.9836    | 4.825     | 0.5331    | 0.2612    | 0.1873    | 7.053     | 8.747     | 0.7013    |
+| 6         | 0.962     | 1.615     | 0.8564    | 2.4       | 0.01777   | 7.778     | 8.017     | 0.987     |
+| 7         | 0.9726    | 2.207     | 0.7545    | 2.919     | 0.2534    | 3.019     | 8.362     | 0.5556    |
+| 8         | 0.9688    | 3.583     | 0.8258    | 0.5228    | 0.03525   | 7.587     | 8.483     | 0.6009    |
+| 9         | 0.9732    | 4.625     | 0.9191    | 0.03792   | 0.2693    | 3.038     | 5.579     | 0.7222    |
+| 10        | 0.9752    | 4.91      | 0.599     | 4.646     | 0.1304    | 5.831     | 1.145     | 0.8903    |
+| 11        | 0.9733    | 3.144     | 0.9143    | 3.115     | 0.1057    | 5.059     | 1.819     | 0.5068    |
+| 12        | 0.9788    | 2.327     | 0.6178    | 0.96      | 0.03807   | 9.494     | 4.862     | 0.7982    |
+=============================================================================================================
+{&#39;target&#39;: 0.9846835171597859, &#39;params&#39;: {&#39;alpha&#39;: 3.8259313155960557, &#39;colsample_bytree&#39;: 0.5547587623519765, &#39;gamma&#39;: 2.6099020401937034, &#39;learning_rate&#39;: 0.2327896660520686, &#39;max_depth&#39;: 7.809974212823236, &#39;min_child_weight&#39;: 2.196833866703887, &#39;subsample&#39;: 0.6009623105089659}}
+</pre></div>
+</div>
+</div>
+</div>
+<p>Aquí podemos observar los mejores hiperparámetros de acuerdo al rango de búsqueda establecido para el modelo XGBoost.</p>
+<section id="knn">
+<h3>KNN<a class="headerlink" href="#knn" title="Link to this heading">#</a></h3>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">knn_cv</span><span class="p">(</span><span class="n">n_neighbors</span><span class="p">,</span> <span class="n">p</span><span class="p">):</span>
+    <span class="n">n_neighbors</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">n_neighbors</span><span class="p">))</span>
+    <span class="n">p</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">p</span><span class="p">))</span>
+    
+    <span class="n">estimator</span> <span class="o">=</span> <span class="n">KNeighborsClassifier</span><span class="p">(</span>
+        <span class="n">n_neighbors</span><span class="o">=</span><span class="n">n_neighbors</span><span class="p">,</span>
+        <span class="n">p</span><span class="o">=</span><span class="n">p</span><span class="p">,</span>
+        <span class="n">n_jobs</span><span class="o">=-</span><span class="mi">1</span>
+    <span class="p">)</span>
+    
+    <span class="n">c_val</span> <span class="o">=</span> <span class="n">cross_val_score</span><span class="p">(</span><span class="n">estimator</span><span class="p">,</span> <span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">scoring</span><span class="o">=</span><span class="s1">&#39;roc_auc&#39;</span><span class="p">,</span> <span class="n">cv</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
+    
+    <span class="k">return</span> <span class="n">c_val</span>
+
+<span class="n">param_bounds</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s1">&#39;n_neighbors&#39;</span><span class="p">:</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">50</span><span class="p">),</span> 
+    <span class="s1">&#39;p&#39;</span><span class="p">:</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">),</span> 
+<span class="p">}</span>
+
+<span class="n">knn_bo</span> <span class="o">=</span> <span class="n">BayesianOptimization</span><span class="p">(</span>
+    <span class="n">f</span><span class="o">=</span><span class="n">knn_cv</span><span class="p">,</span>
+    <span class="n">pbounds</span><span class="o">=</span><span class="n">param_bounds</span><span class="p">,</span>
+    <span class="n">random_state</span><span class="o">=</span><span class="mi">42</span><span class="p">,</span>
+<span class="p">)</span>
+
+<span class="n">knn_bo</span><span class="o">.</span><span class="n">maximize</span><span class="p">(</span><span class="n">init_points</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">n_iter</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">knn_bo</span><span class="o">.</span><span class="n">max</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>|   iter    |  target   | n_neig... |     p     |
+-------------------------------------------------
+| 1         | 0.8684    | 19.35     | 1.951     |
+| 2         | 0.8356    | 36.87     | 1.599     |
+| 3         | 0.8684    | 19.28     | 1.942     |
+| 4         | 0.8599    | 1.0       | 2.0       |
+| 5         | 0.914     | 9.77      | 1.0       |
+| 6         | 0.8859    | 12.45     | 1.987     |
+| 7         | 0.8986    | 7.184     | 2.0       |
+| 8         | 0.8447    | 50.0      | 1.0       |
+| 9         | 0.8783    | 27.33     | 1.0       |
+| 10        | 0.8938    | 9.446     | 2.0       |
+| 11        | 0.9215    | 5.224     | 1.0       |
+| 12        | 0.9015    | 4.439     | 2.0       |
+=================================================
+{&#39;target&#39;: 0.9214568345753162, &#39;params&#39;: {&#39;n_neighbors&#39;: 5.224406222220528, &#39;p&#39;: 1.0}}
+</pre></div>
+</div>
+</div>
+</div>
+<p>Aquí podemos observar los mejores hiperparámetros de acuerdo al rango de búsqueda establecido para el modelo de KNN.</p>
+</section>
+<section id="regresion-logistica-l1-l2">
+<h3>Regresión logistica L1/L2<a class="headerlink" href="#regresion-logistica-l1-l2" title="Link to this heading">#</a></h3>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">logistic_cv</span><span class="p">(</span><span class="n">C</span><span class="p">,</span> <span class="n">l1_ratio</span><span class="p">):</span>
+    
+    <span class="n">estimator</span> <span class="o">=</span> <span class="n">LogisticRegression</span><span class="p">(</span>
+        <span class="n">C</span><span class="o">=</span><span class="n">C</span><span class="p">,</span> 
+        <span class="n">penalty</span><span class="o">=</span><span class="s1">&#39;elasticnet&#39;</span><span class="p">,</span> 
+        <span class="n">l1_ratio</span><span class="o">=</span><span class="n">l1_ratio</span><span class="p">,</span> 
+        <span class="n">solver</span><span class="o">=</span><span class="s1">&#39;saga&#39;</span><span class="p">,</span> 
+        <span class="n">max_iter</span><span class="o">=</span><span class="mi">1000</span><span class="p">,</span>  
+        <span class="n">n_jobs</span><span class="o">=-</span><span class="mi">1</span><span class="p">,</span> 
+        <span class="n">random_state</span><span class="o">=</span><span class="mi">42</span>
+    <span class="p">)</span>
+
+    <span class="n">c_val</span> <span class="o">=</span> <span class="n">cross_val_score</span><span class="p">(</span><span class="n">estimator</span><span class="p">,</span> <span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">scoring</span><span class="o">=</span><span class="s1">&#39;roc_auc&#39;</span><span class="p">,</span> <span class="n">cv</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">n_jobs</span><span class="o">=-</span><span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
+    
+    <span class="k">return</span> <span class="n">c_val</span>
+
+<span class="n">param_bounds</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s1">&#39;C&#39;</span><span class="p">:</span> <span class="p">(</span><span class="mf">0.1</span><span class="p">,</span> <span class="mi">2</span><span class="p">),</span>  
+    <span class="s1">&#39;l1_ratio&#39;</span><span class="p">:</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span> 
+<span class="p">}</span>
+
+<span class="n">logistic_bo</span> <span class="o">=</span> <span class="n">BayesianOptimization</span><span class="p">(</span>
+    <span class="n">f</span><span class="o">=</span><span class="n">logistic_cv</span><span class="p">,</span>
+    <span class="n">pbounds</span><span class="o">=</span><span class="n">param_bounds</span><span class="p">,</span>
+    <span class="n">random_state</span><span class="o">=</span><span class="mi">42</span><span class="p">,</span>
+<span class="p">)</span>
+
+<span class="n">logistic_bo</span><span class="o">.</span><span class="n">maximize</span><span class="p">(</span><span class="n">init_points</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">n_iter</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">logistic_bo</span><span class="o">.</span><span class="n">max</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>|   iter    |  target   |     C     | l1_ratio  |
+-------------------------------------------------
+| 1         | 0.4775    | 0.8116    | 0.9507    |
+| 2         | 0.4775    | 1.491     | 0.5987    |
+| 3         | 0.4775    | 0.1167    | 0.001725  |
+| 4         | 0.4775    | 1.997     | 0.0003997 |
+| 5         | 0.4775    | 0.1039    | 0.9774    |
+| 6         | 0.4775    | 0.1107    | 0.4638    |
+| 7         | 0.4775    | 1.229     | 0.9534    |
+=================================================
+{&#39;target&#39;: 0.4775327868476782, &#39;params&#39;: {&#39;C&#39;: 0.8116262258099887, &#39;l1_ratio&#39;: 0.9507143064099162}}
+</pre></div>
+</div>
+</div>
+</div>
+<p>Aquí podemos observar los mejores hiperparámetros de acuerdo al rango de búsqueda establecido para el modelo de regresión logística.</p>
+</section>
+</section>
+<section id="pipelines-y-gridsearch">
+<h2>Pipelines y Gridsearch<a class="headerlink" href="#pipelines-y-gridsearch" title="Link to this heading">#</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">preprocessor</span> <span class="o">=</span> <span class="n">Pipeline</span><span class="p">(</span><span class="n">steps</span><span class="o">=</span><span class="p">[</span>
+    <span class="p">(</span><span class="s1">&#39;scaler&#39;</span><span class="p">,</span> <span class="n">StandardScaler</span><span class="p">()),</span>
+    <span class="p">(</span><span class="s1">&#39;pca&#39;</span><span class="p">,</span> <span class="n">PCA</span><span class="p">(</span><span class="n">n_components</span><span class="o">=</span><span class="mi">3</span><span class="p">))</span> 
+<span class="p">])</span>
+
+<span class="n">param_grids</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s1">&#39;logistic&#39;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="s1">&#39;classifier&#39;</span><span class="p">:</span> <span class="p">[</span><span class="n">LogisticRegression</span><span class="p">(</span><span class="n">solver</span><span class="o">=</span><span class="s1">&#39;saga&#39;</span><span class="p">,</span> <span class="n">penalty</span><span class="o">=</span><span class="s1">&#39;elasticnet&#39;</span><span class="p">,</span> <span class="n">max_iter</span><span class="o">=</span><span class="mi">5000</span><span class="p">)],</span>
+        <span class="s1">&#39;classifier__C&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">0.1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">10</span><span class="p">],</span>
+        <span class="s1">&#39;classifier__l1_ratio&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span>
+    <span class="p">},</span>
+    <span class="s1">&#39;knn&#39;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="s1">&#39;classifier&#39;</span><span class="p">:</span> <span class="p">[</span><span class="n">KNeighborsClassifier</span><span class="p">()],</span>
+        <span class="s1">&#39;classifier__n_neighbors&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">7</span><span class="p">],</span>
+        <span class="s1">&#39;classifier__p&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">]</span>
+    <span class="p">},</span>
+    <span class="s1">&#39;decision_tree&#39;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="s1">&#39;classifier&#39;</span><span class="p">:</span> <span class="p">[</span><span class="n">DecisionTreeClassifier</span><span class="p">()],</span>
+        <span class="s1">&#39;classifier__max_depth&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mi">5</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">15</span><span class="p">],</span>
+        <span class="s1">&#39;classifier__min_samples_split&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">]</span>
+    <span class="p">},</span>
+    <span class="s1">&#39;random_forest&#39;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="s1">&#39;classifier&#39;</span><span class="p">:</span> <span class="p">[</span><span class="n">RandomForestClassifier</span><span class="p">()],</span>
+        <span class="s1">&#39;classifier__n_estimators&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mi">50</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">200</span><span class="p">],</span>
+        <span class="s1">&#39;classifier__max_features&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;sqrt&#39;</span><span class="p">,</span> <span class="s1">&#39;log2&#39;</span><span class="p">]</span>
+    <span class="p">},</span>
+    <span class="s1">&#39;xgboost&#39;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="s1">&#39;classifier&#39;</span><span class="p">:</span> <span class="p">[</span><span class="n">GradientBoostingClassifier</span><span class="p">()],</span>
+        <span class="s1">&#39;classifier__n_estimators&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mi">50</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">150</span><span class="p">],</span>
+        <span class="s1">&#39;classifier__learning_rate&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">0.01</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">,</span> <span class="mf">0.2</span><span class="p">]</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="n">model_results</span> <span class="o">=</span> <span class="p">{}</span>
+
+<span class="k">for</span> <span class="n">model_name</span><span class="p">,</span> <span class="n">params</span> <span class="ow">in</span> <span class="n">param_grids</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+    <span class="n">pipeline</span> <span class="o">=</span> <span class="n">Pipeline</span><span class="p">(</span><span class="n">steps</span><span class="o">=</span><span class="p">[(</span><span class="s1">&#39;preprocessor&#39;</span><span class="p">,</span> <span class="n">preprocessor</span><span class="p">),</span>
+                               <span class="p">(</span><span class="s1">&#39;classifier&#39;</span><span class="p">,</span> <span class="n">params</span><span class="p">[</span><span class="s1">&#39;classifier&#39;</span><span class="p">][</span><span class="mi">0</span><span class="p">])])</span>
+    <span class="n">grid_search</span> <span class="o">=</span> <span class="n">GridSearchCV</span><span class="p">(</span><span class="n">pipeline</span><span class="p">,</span> <span class="n">param_grid</span><span class="o">=</span><span class="p">{</span><span class="n">k</span><span class="p">:</span> <span class="n">v</span> <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">params</span><span class="o">.</span><span class="n">items</span><span class="p">()</span> <span class="k">if</span> <span class="n">k</span> <span class="o">!=</span> <span class="s1">&#39;classifier&#39;</span><span class="p">},</span> <span class="n">cv</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">scoring</span><span class="o">=</span><span class="s1">&#39;roc_auc&#39;</span><span class="p">,</span> <span class="n">n_jobs</span><span class="o">=-</span><span class="mi">1</span><span class="p">)</span>
+    <span class="n">grid_search</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+    <span class="n">model_results</span><span class="p">[</span><span class="n">model_name</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="s1">&#39;best_params&#39;</span><span class="p">:</span> <span class="n">grid_search</span><span class="o">.</span><span class="n">best_params_</span><span class="p">,</span>
+        <span class="s1">&#39;best_score&#39;</span><span class="p">:</span> <span class="n">grid_search</span><span class="o">.</span><span class="n">best_score_</span>
+    <span class="p">}</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">results</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">for</span> <span class="n">model_name</span><span class="p">,</span> <span class="n">params</span> <span class="ow">in</span> <span class="n">param_grids</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+    <span class="n">start_time</span> <span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">()</span>
+    <span class="n">pipeline</span> <span class="o">=</span> <span class="n">Pipeline</span><span class="p">(</span><span class="n">steps</span><span class="o">=</span><span class="p">[(</span><span class="s1">&#39;preprocessor&#39;</span><span class="p">,</span> <span class="n">preprocessor</span><span class="p">),</span>
+                               <span class="p">(</span><span class="s1">&#39;classifier&#39;</span><span class="p">,</span> <span class="n">params</span><span class="p">[</span><span class="s1">&#39;classifier&#39;</span><span class="p">][</span><span class="mi">0</span><span class="p">])])</span>
+    <span class="n">grid_search</span> <span class="o">=</span> <span class="n">GridSearchCV</span><span class="p">(</span><span class="n">pipeline</span><span class="p">,</span> <span class="n">param_grid</span><span class="o">=</span><span class="p">{</span><span class="n">k</span><span class="p">:</span> <span class="n">v</span> <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">params</span><span class="o">.</span><span class="n">items</span><span class="p">()</span> <span class="k">if</span> <span class="n">k</span> <span class="o">!=</span> <span class="s1">&#39;classifier&#39;</span><span class="p">},</span> <span class="n">cv</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">scoring</span><span class="o">=</span><span class="s1">&#39;roc_auc&#39;</span><span class="p">,</span> <span class="n">n_jobs</span><span class="o">=-</span><span class="mi">1</span><span class="p">)</span>
+    <span class="n">grid_search</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+    <span class="n">best_model</span> <span class="o">=</span> <span class="n">grid_search</span><span class="o">.</span><span class="n">best_estimator_</span>
+    <span class="n">y_pred</span> <span class="o">=</span> <span class="n">best_model</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
+    <span class="n">y_proba</span> <span class="o">=</span> <span class="n">best_model</span><span class="o">.</span><span class="n">predict_proba</span><span class="p">(</span><span class="n">X_test</span><span class="p">)[:,</span> <span class="mi">1</span><span class="p">]</span> <span class="k">if</span> <span class="nb">hasattr</span><span class="p">(</span><span class="n">best_model</span><span class="p">[</span><span class="s1">&#39;classifier&#39;</span><span class="p">],</span> <span class="s2">&quot;predict_proba&quot;</span><span class="p">)</span> <span class="k">else</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">*</span> <span class="nb">len</span><span class="p">(</span><span class="n">y_test</span><span class="p">)</span>
+    <span class="n">elapsed_time</span> <span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">()</span> <span class="o">-</span> <span class="n">start_time</span>
+
+    <span class="n">report</span> <span class="o">=</span> <span class="n">classification_report</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred</span><span class="p">,</span> <span class="n">output_dict</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">auc_score</span> <span class="o">=</span> <span class="n">roc_auc_score</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_proba</span><span class="p">)</span> <span class="k">if</span> <span class="nb">hasattr</span><span class="p">(</span><span class="n">best_model</span><span class="p">[</span><span class="s1">&#39;classifier&#39;</span><span class="p">],</span> <span class="s2">&quot;predict_proba&quot;</span><span class="p">)</span> <span class="k">else</span> <span class="s1">&#39;N/A&#39;</span>
+
+    <span class="n">results</span><span class="o">.</span><span class="n">append</span><span class="p">({</span>
+        <span class="s1">&#39;Model&#39;</span><span class="p">:</span> <span class="n">model_name</span><span class="p">,</span>
+        <span class="s1">&#39;Precision&#39;</span><span class="p">:</span> <span class="n">report</span><span class="p">[</span><span class="s1">&#39;weighted avg&#39;</span><span class="p">][</span><span class="s1">&#39;precision&#39;</span><span class="p">],</span>
+        <span class="s1">&#39;Recall&#39;</span><span class="p">:</span> <span class="n">report</span><span class="p">[</span><span class="s1">&#39;weighted avg&#39;</span><span class="p">][</span><span class="s1">&#39;recall&#39;</span><span class="p">],</span>
+        <span class="s1">&#39;F1-Score&#39;</span><span class="p">:</span> <span class="n">report</span><span class="p">[</span><span class="s1">&#39;weighted avg&#39;</span><span class="p">][</span><span class="s1">&#39;f1-score&#39;</span><span class="p">],</span>
+        <span class="s1">&#39;AUC&#39;</span><span class="p">:</span> <span class="n">auc_score</span><span class="p">,</span>
+        <span class="s1">&#39;Time (s)&#39;</span><span class="p">:</span> <span class="n">elapsed_time</span><span class="p">,</span>
+        <span class="s1">&#39;Best Params&#39;</span><span class="p">:</span> <span class="n">grid_search</span><span class="o">.</span><span class="n">best_params_</span>
+    <span class="p">})</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">results_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">results</span><span class="p">)</span>
+<span class="n">results_df</span> <span class="o">=</span> <span class="n">results_df</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s1">&#39;AUC&#39;</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">results_df</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="s1">&#39;Best Params&#39;</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Model</th>
+      <th>Precision</th>
+      <th>Recall</th>
+      <th>F1-Score</th>
+      <th>AUC</th>
+      <th>Time (s)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>3</th>
+      <td>random_forest</td>
+      <td>0.967648</td>
+      <td>0.971780</td>
+      <td>0.965397</td>
+      <td>0.816805</td>
+      <td>788.877758</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>xgboost</td>
+      <td>0.949640</td>
+      <td>0.964160</td>
+      <td>0.947281</td>
+      <td>0.760254</td>
+      <td>602.793634</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>decision_tree</td>
+      <td>0.952539</td>
+      <td>0.964566</td>
+      <td>0.949222</td>
+      <td>0.758873</td>
+      <td>41.876735</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>knn</td>
+      <td>0.953024</td>
+      <td>0.964634</td>
+      <td>0.954603</td>
+      <td>0.749210</td>
+      <td>33.457319</td>
+    </tr>
+    <tr>
+      <th>0</th>
+      <td>logistic</td>
+      <td>0.929457</td>
+      <td>0.964058</td>
+      <td>0.946441</td>
+      <td>0.667462</td>
+      <td>46.704683</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+<ul class="simple">
+<li><p><strong>Random Forest:</strong> Tiene un AUC de 0.816805, lo que indica un muy buen rendimiento en términos de discriminación entre las clases positivas y negativas. Sin embargo, requiere el tiempo de cálculo más largo (aproximadamente 788.88 segundos).</p></li>
+<li><p><strong>XGBoost:</strong> Muestra un AUC de 0.760254, lo cual es bueno y señala que es capaz de diferenciar entre las clases de manera efectiva, aunque no tan bien como el Random Forest. Su tiempo de cálculo es considerablemente más corto (aproximadamente 602.79 segundos).</p></li>
+<li><p><strong>Árbol de Decisión:</strong> Tiene un AUC de 0.758873, que es comparable al de XGBoost y también indica un buen rendimiento. Notablemente, es mucho más rápido de calcular, tomando solo alrededor de 41.88 segundos.</p></li>
+<li><p><strong>K-NN:</strong> Con un AUC de 0.749210, este modelo también tiene un rendimiento decente. Es el segundo más rápido en términos de tiempo de cálculo, tomando solo alrededor de 33.46 segundos.</p></li>
+<li><p><strong>Regresión Logística:</strong> Presenta el AUC más bajo (0.667462), lo que sugiere que tiene la peor capacidad entre los modelos presentados para distinguir entre las clases. No obstante, es el segundo modelo más rápido después de K-NN, con un tiempo de cálculo de aproximadamente 46.71 segundos.</p></li>
+</ul>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">model_name</span><span class="p">,</span> <span class="n">info</span> <span class="ow">in</span> <span class="n">model_results</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Modelo: </span><span class="si">{</span><span class="n">model_name</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Mejores Parámetros:&quot;</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">param</span><span class="p">,</span> <span class="n">value</span> <span class="ow">in</span> <span class="n">info</span><span class="p">[</span><span class="s1">&#39;best_params&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;  </span><span class="si">{</span><span class="n">param</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="n">value</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;&quot;</span><span class="p">)</span> 
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Modelo: logistic
+Mejores Parámetros:
+  classifier__C: 0.1
+  classifier__l1_ratio: 0
+
+Modelo: knn
+Mejores Parámetros:
+  classifier__n_neighbors: 7
+  classifier__p: 1
+
+Modelo: decision_tree
+Mejores Parámetros:
+  classifier__max_depth: 10
+  classifier__min_samples_split: 20
+
+Modelo: random_forest
+Mejores Parámetros:
+  classifier__max_features: log2
+  classifier__n_estimators: 200
+
+Modelo: xgboost
+Mejores Parámetros:
+  classifier__learning_rate: 0.2
+  classifier__n_estimators: 150
+</pre></div>
+</div>
+</div>
+</div>
+<p>Observamos los mejores hiperparámetros para cada modelo.</p>
+</section>
+</section>
+<section id="evaluacion-de-modelos-con-los-parametros-de-la-optimizacion-bayesiana">
+<h1>Evaluación de modelos con los parámetros de la optimización bayesiana<a class="headerlink" href="#evaluacion-de-modelos-con-los-parametros-de-la-optimizacion-bayesiana" title="Link to this heading">#</a></h1>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">models</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s1">&#39;Random Forest&#39;</span><span class="p">:</span> <span class="n">RandomForestClassifier</span><span class="p">(</span>
+        <span class="n">n_estimators</span><span class="o">=</span><span class="nb">int</span><span class="p">(</span><span class="mf">94.22</span><span class="p">),</span>
+        <span class="n">max_depth</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span>
+        <span class="n">min_samples_split</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span>
+        <span class="n">min_samples_leaf</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>
+        <span class="n">max_features</span><span class="o">=</span><span class="mf">0.1</span><span class="p">,</span>
+        <span class="n">random_state</span><span class="o">=</span><span class="mi">42</span>
+    <span class="p">),</span>
+    <span class="s1">&#39;Naive Bayes&#39;</span><span class="p">:</span> <span class="n">GaussianNB</span><span class="p">(</span><span class="n">var_smoothing</span><span class="o">=</span><span class="mf">2.0369278482312386e-10</span><span class="p">),</span>
+    <span class="s1">&#39;Decision Tree&#39;</span><span class="p">:</span> <span class="n">DecisionTreeClassifier</span><span class="p">(</span>
+        <span class="n">max_depth</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span>
+        <span class="n">min_samples_split</span><span class="o">=</span><span class="nb">int</span><span class="p">(</span><span class="mf">5.009</span><span class="p">),</span>
+        <span class="n">min_samples_leaf</span><span class="o">=</span><span class="nb">int</span><span class="p">(</span><span class="mf">11.912</span><span class="p">),</span>
+        <span class="n">max_features</span><span class="o">=</span><span class="mf">0.999</span><span class="p">,</span>
+        <span class="n">random_state</span><span class="o">=</span><span class="mi">42</span>
+    <span class="p">),</span>
+    <span class="s1">&#39;XGBoost&#39;</span><span class="p">:</span> <span class="n">GradientBoostingClassifier</span><span class="p">(</span>
+        <span class="n">n_estimators</span><span class="o">=</span><span class="mi">8</span><span class="p">,</span>
+        <span class="n">learning_rate</span><span class="o">=</span><span class="mf">0.2327896660520686</span><span class="p">,</span>
+        <span class="n">subsample</span><span class="o">=</span><span class="mf">0.6009623105089659</span><span class="p">,</span>
+        <span class="n">max_depth</span><span class="o">=</span><span class="nb">int</span><span class="p">(</span><span class="mf">7.809974212823236</span><span class="p">),</span>
+        <span class="n">min_samples_split</span><span class="o">=</span><span class="nb">int</span><span class="p">(</span><span class="mi">2</span><span class="p">),</span>
+        <span class="n">min_samples_leaf</span><span class="o">=</span><span class="nb">int</span><span class="p">(</span><span class="mf">2.196833866703887</span><span class="p">),</span>
+        <span class="n">random_state</span><span class="o">=</span><span class="mi">42</span>
+    <span class="p">),</span>
+    <span class="s1">&#39;K-NN&#39;</span><span class="p">:</span> <span class="n">KNeighborsClassifier</span><span class="p">(</span>
+        <span class="n">n_neighbors</span><span class="o">=</span><span class="nb">int</span><span class="p">(</span><span class="mf">5.224</span><span class="p">),</span>
+        <span class="n">p</span><span class="o">=</span><span class="mi">1</span>
+    <span class="p">),</span>
+    <span class="s1">&#39;Logistic Regression&#39;</span><span class="p">:</span> <span class="n">LogisticRegression</span><span class="p">(</span>
+        <span class="n">C</span><span class="o">=</span><span class="mf">0.8116262258099887</span><span class="p">,</span>
+        <span class="n">l1_ratio</span><span class="o">=</span><span class="mf">0.9507143064099162</span><span class="p">,</span>
+        <span class="n">penalty</span><span class="o">=</span><span class="s1">&#39;elasticnet&#39;</span><span class="p">,</span>
+        <span class="n">solver</span><span class="o">=</span><span class="s1">&#39;saga&#39;</span><span class="p">,</span>
+        <span class="n">max_iter</span><span class="o">=</span><span class="mi">5000</span><span class="p">,</span>
+        <span class="n">random_state</span><span class="o">=</span><span class="mi">42</span>
+    <span class="p">)</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">results</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="n">roc_curves</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="k">for</span> <span class="n">name</span><span class="p">,</span> <span class="n">model</span> <span class="ow">in</span> <span class="n">models</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+    <span class="n">start_time</span> <span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">()</span>
+    <span class="n">model</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+    <span class="n">y_pred</span> <span class="o">=</span> <span class="n">model</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
+    <span class="n">y_proba</span> <span class="o">=</span> <span class="n">model</span><span class="o">.</span><span class="n">predict_proba</span><span class="p">(</span><span class="n">X_test</span><span class="p">)[:,</span> <span class="mi">1</span><span class="p">]</span> <span class="k">if</span> <span class="nb">hasattr</span><span class="p">(</span><span class="n">model</span><span class="p">,</span> <span class="s2">&quot;predict_proba&quot;</span><span class="p">)</span> <span class="k">else</span> <span class="kc">None</span>
+    <span class="n">elapsed_time</span> <span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">()</span> <span class="o">-</span> <span class="n">start_time</span>
+    
+    <span class="n">results</span><span class="p">[</span><span class="n">name</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="s1">&#39;Report&#39;</span><span class="p">:</span> <span class="n">classification_report</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred</span><span class="p">,</span> <span class="n">output_dict</span><span class="o">=</span><span class="kc">True</span><span class="p">),</span>
+        <span class="s1">&#39;Confusion Matrix&#39;</span><span class="p">:</span> <span class="n">confusion_matrix</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred</span><span class="p">),</span>
+        <span class="s1">&#39;AUC&#39;</span><span class="p">:</span> <span class="n">roc_auc_score</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_proba</span><span class="p">)</span> <span class="k">if</span> <span class="n">y_proba</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="k">else</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="s1">&#39;Time&#39;</span><span class="p">:</span> <span class="n">elapsed_time</span>
+    <span class="p">}</span>
+    
+    <span class="k">if</span> <span class="n">y_proba</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">fpr</span><span class="p">,</span> <span class="n">tpr</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">roc_curve</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_proba</span><span class="p">)</span>
+        <span class="n">roc_curves</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">fpr</span><span class="p">,</span> <span class="n">tpr</span><span class="p">,</span> <span class="n">name</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">for</span> <span class="n">name</span><span class="p">,</span> <span class="n">result</span> <span class="ow">in</span> <span class="n">results</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+    <span class="n">report</span> <span class="o">=</span> <span class="n">result</span><span class="p">[</span><span class="s1">&#39;Report&#39;</span><span class="p">]</span>
+    <span class="n">data</span><span class="o">.</span><span class="n">append</span><span class="p">({</span>
+        <span class="s1">&#39;Model&#39;</span><span class="p">:</span> <span class="n">name</span><span class="p">,</span>
+        <span class="s1">&#39;Precision&#39;</span><span class="p">:</span> <span class="n">report</span><span class="p">[</span><span class="s1">&#39;weighted avg&#39;</span><span class="p">][</span><span class="s1">&#39;precision&#39;</span><span class="p">],</span>
+        <span class="s1">&#39;Recall&#39;</span><span class="p">:</span> <span class="n">report</span><span class="p">[</span><span class="s1">&#39;weighted avg&#39;</span><span class="p">][</span><span class="s1">&#39;recall&#39;</span><span class="p">],</span>
+        <span class="s1">&#39;F1-Score&#39;</span><span class="p">:</span> <span class="n">report</span><span class="p">[</span><span class="s1">&#39;weighted avg&#39;</span><span class="p">][</span><span class="s1">&#39;f1-score&#39;</span><span class="p">],</span>
+        <span class="s1">&#39;AUC&#39;</span><span class="p">:</span> <span class="n">result</span><span class="p">[</span><span class="s1">&#39;AUC&#39;</span><span class="p">],</span>
+        <span class="s1">&#39;Time (s)&#39;</span><span class="p">:</span> <span class="n">result</span><span class="p">[</span><span class="s1">&#39;Time&#39;</span><span class="p">]</span>
+    <span class="p">})</span>
+
+<span class="n">df_metrics</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+
+<span class="n">df_metrics</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s1">&#39;AUC&#39;</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="n">display</span><span class="p">(</span><span class="n">df_metrics</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Model</th>
+      <th>Precision</th>
+      <th>Recall</th>
+      <th>F1-Score</th>
+      <th>AUC</th>
+      <th>Time (s)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Random Forest</td>
+      <td>0.966413</td>
+      <td>0.967885</td>
+      <td>0.955670</td>
+      <td>0.884235</td>
+      <td>34.738714</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>XGBoost</td>
+      <td>0.952932</td>
+      <td>0.964693</td>
+      <td>0.949844</td>
+      <td>0.828551</td>
+      <td>5.726963</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Decision Tree</td>
+      <td>0.954862</td>
+      <td>0.965100</td>
+      <td>0.956598</td>
+      <td>0.792557</td>
+      <td>2.099891</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>K-NN</td>
+      <td>0.947529</td>
+      <td>0.963457</td>
+      <td>0.950312</td>
+      <td>0.678319</td>
+      <td>5.803782</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Naive Bayes</td>
+      <td>0.932455</td>
+      <td>0.963999</td>
+      <td>0.946428</td>
+      <td>0.647049</td>
+      <td>0.152396</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Logistic Regression</td>
+      <td>0.929457</td>
+      <td>0.964084</td>
+      <td>0.946454</td>
+      <td>0.477625</td>
+      <td>908.990048</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+<ul class="simple">
+<li><p><strong>Random Forest:</strong> Con un AUC de 0.884235, este modelo tiene el mejor rendimiento en términos de discriminación entre clases de todos los modelos listados. Esto significa que es el que tiene mayor probabilidad de distinguir correctamente entre las clases positiva y negativa.</p></li>
+<li><p><strong>XGBoost:</strong> Tiene un AUC de 0.828551, que es alto y sugiere que el modelo también es muy bueno en la discriminación de las clases, aunque no tan eficiente como el Random Forest.</p></li>
+<li><p><strong>Árbol de Decisión:</strong> Con un AUC de 0.792557, este modelo tiene un rendimiento bueno, pero es superado por los modelos de Random Forest y XGBoost.</p></li>
+<li><p><strong>K-NN:</strong> Presenta un AUC de 0.678319, lo cual es moderadamente bueno, pero inferior a los modelos de árbol mencionados anteriormente.</p></li>
+<li><p><strong>Naive Bayes:</strong> Tiene un AUC de 0.647049, lo que indica que su capacidad para distinguir entre las clases es relativamente baja en comparación con los otros modelos.</p></li>
+<li><p><strong>Regresión Logística:</strong> Con un AUC de 0.477625, este modelo tiene la peor capacidad de discriminación entre las clases positivas y negativas de todos los modelos presentados.</p></li>
+</ul>
+<p>Podemos ver que la regresión logística fue el modelo que más tardado, en comparación con los otros modelos.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">8</span><span class="p">))</span>
+<span class="k">for</span> <span class="n">fpr</span><span class="p">,</span> <span class="n">tpr</span><span class="p">,</span> <span class="n">label</span> <span class="ow">in</span> <span class="n">roc_curves</span><span class="p">:</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">fpr</span><span class="p">,</span> <span class="n">tpr</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">label</span><span class="si">}</span><span class="s1"> (AUC = </span><span class="si">{</span><span class="n">results</span><span class="p">[</span><span class="n">label</span><span class="p">][</span><span class="s2">&quot;AUC&quot;</span><span class="p">]</span><span class="si">:</span><span class="s1">.2f</span><span class="si">}</span><span class="s1">)&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span> <span class="s1">&#39;k--&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;False Positive Rate&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;True Positive Rate&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;ROC Curves&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/29b15a31c541bc13ff10ba5a37143f258c98742ae93f2710525055b432253bb7.png" src="_images/29b15a31c541bc13ff10ba5a37143f258c98742ae93f2710525055b432253bb7.png" />
+</div>
+</div>
+<ul class="simple">
+<li><p><strong>Random Forest:</strong> Exhibe un rendimiento muy alto, con su curva situada cerca de la esquina superior izquierda, lo que significa que es capaz de diferenciar con gran efectividad entre las clases positivas y negativas.</p></li>
+<li><p><strong>Naive Bayes:</strong> Tiene un rendimiento relativamente bueno en comparación con los otros modelos, con su curva bastante por encima de la línea de clasificación aleatoria pero por debajo de los otros clasificadores más eficaces.</p></li>
+<li><p><strong>Árbol de Decisión:</strong> Muestra un buen rendimiento, no tan alto como el Bosque Aleatorio pero claramente mejor que un clasificador aleatorio.</p></li>
+<li><p><strong>XGBoost:</strong> Presenta un rendimiento fuerte, aunque ligeramente inferior al del Bosque Aleatorio, lo cual sigue siendo un indicador de una buena capacidad de clasificación.</p></li>
+<li><p><strong>K-NN:</strong> Su rendimiento es mejor que el de Naive Bayes, pero aún así está por debajo de los métodos basados en árboles, lo que indica una eficacia moderada en la clasificación.</p></li>
+<li><p><strong>Regresión Logística:</strong> Tiene el peor rendimiento de todos los modelos presentados, su AUC está incluso por debajo del 0.5, lo que sugiere que podría estar clasificando peor que el azar. Este modelo requeriría una revisión para entender por qué su rendimiento es tan bajo.</p></li>
+</ul>
+<p>Random Forest y XGBoost son los clasificadores más eficientes de este grupo, mientras que la Regresión Logística tiene problemas para clasificar.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">sns</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="n">style</span><span class="o">=</span><span class="s2">&quot;white&quot;</span><span class="p">)</span>
+
+<span class="n">model_names</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">results</span><span class="o">.</span><span class="n">keys</span><span class="p">())</span>
+<span class="n">num_models</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">model_names</span><span class="p">)</span>
+
+<span class="n">fig</span><span class="p">,</span> <span class="n">axes</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span> <span class="mi">15</span><span class="p">))</span>  
+<span class="n">fig</span><span class="o">.</span><span class="n">subplots_adjust</span><span class="p">(</span><span class="n">hspace</span><span class="o">=</span><span class="mf">0.5</span><span class="p">,</span> <span class="n">wspace</span><span class="o">=</span><span class="mf">0.5</span><span class="p">)</span>  
+
+<span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">ax</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">axes</span><span class="o">.</span><span class="n">flatten</span><span class="p">()):</span>
+    <span class="k">if</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">num_models</span><span class="p">:</span>
+        <span class="n">model_name</span> <span class="o">=</span> <span class="n">model_names</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+        <span class="n">matrix</span> <span class="o">=</span> <span class="n">results</span><span class="p">[</span><span class="n">model_name</span><span class="p">][</span><span class="s1">&#39;Confusion Matrix&#39;</span><span class="p">]</span>
+        <span class="n">sns</span><span class="o">.</span><span class="n">heatmap</span><span class="p">(</span><span class="n">matrix</span><span class="p">,</span> <span class="n">annot</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">fmt</span><span class="o">=</span><span class="s2">&quot;d&quot;</span><span class="p">,</span> <span class="n">cmap</span><span class="o">=</span><span class="s2">&quot;Blues&quot;</span><span class="p">,</span> <span class="n">cbar</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">ax</span><span class="o">=</span><span class="n">ax</span><span class="p">,</span>
+                    <span class="n">linewidths</span><span class="o">=</span><span class="mf">.5</span><span class="p">,</span> <span class="n">linecolor</span><span class="o">=</span><span class="s1">&#39;gray&#39;</span><span class="p">)</span>
+        <span class="n">ax</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">model_name</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+        <span class="n">ax</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s1">&#39;Predicciones&#39;</span><span class="p">)</span>
+        <span class="n">ax</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s1">&#39;Verdaderos&#39;</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">ax</span><span class="o">.</span><span class="n">axis</span><span class="p">(</span><span class="s1">&#39;off&#39;</span><span class="p">)</span> 
+
+<span class="n">plt</span><span class="o">.</span><span class="n">suptitle</span><span class="p">(</span><span class="s1">&#39;Matrices de Confusión para Diferentes Modelos&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">16</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/d829107f0e253023244d2f2512c78bf903936aae156d184f9cdffb0998bd2311.png" src="_images/d829107f0e253023244d2f2512c78bf903936aae156d184f9cdffb0998bd2311.png" />
+</div>
+</div>
+<ul class="simple">
+<li><p><strong>Random Forest:</strong> Este modelo tiene un excelente desempeño en la clasificación de verdaderos negativos y mantiene un bajo número de falsos positivos, pero parece tener dificultades en identificar correctamente la clase positiva, como lo indica el número relativamente alto de falsos negativos.</p></li>
+<li><p><strong>Naive Bayes:</strong> Naive Bayes también es muy bueno para identificar la clase negativa, con muy pocos FP, pero tiene un rendimiento extremadamente pobre en la identificación de la clase positiva.</p></li>
+<li><p><strong>Decision Tree:</strong> El árbol de decisión tiene un buen número de VN y un VP moderado. Sin embargo, tiene más FP y FN que el modelo de bosque aleatorio, lo que sugiere un equilibrio menos óptimo entre la sensibilidad y la especificidad.</p></li>
+<li><p><strong>XGBoost:</strong> XGBoost muestra una capacidad razonable para clasificar VNs y tiene un número de FP manejable. No obstante, al igual que el bosque aleatorio, lucha por clasificar los VPs correctamente, con un número significativo de FNs.</p></li>
+<li><p><strong>K-NN</strong> El K-NN tiene un desempeño equilibrado con un número moderado de FP y FN. Aunque no es el mejor modelo, muestra una capacidad decente para clasificar ambas clases.</p></li>
+<li><p><strong>Regresión Logística:</strong> La regresión logística presenta un caso extremo donde clasifica perfectamente la clase negativa, pero completamente ignora la clase positiva, sin VPs y un alto número de FNs.</p></li>
+</ul>
+<section id="conclusiones">
+<h2>Conclusiones:<a class="headerlink" href="#conclusiones" title="Link to this heading">#</a></h2>
+<p><strong>Datos balanceados:</strong></p>
+<ul class="simple">
+<li><p><em>Con y sin optimización bayesiana:</em> En general, cada modelo mostró una disminución en el AUC después de aplicar la optimización bayesiana.</p></li>
+<li><p><em>Con y sin pipeline y Gridsearch:</em> los modelos con GridSearch y pipeline tienen AUC más bajos en comparación con los modelos sin estos procesos.</p></li>
+</ul>
+<p><strong>Métodos de hiperparametrización:</strong></p>
+<ul class="simple">
+<li><p><em>Grid search y Pipeline vs Optimización Bayesiana:</em> los valores de AUC son generalmente más altos en los resultados de la optimización bayesiana para todos los modelos excepto para la Regresión Logística. En cuanto al tiempo de cómputo, es generalmente más alto para los resultados de grid search, con el modelo Random Forest mostrando un aumento de tiempo muy significativo. Esto indica que, aunquee el grid search puede proporcionar resultados robustos, puede ser computacionalmente más costosa que la optimización bayesiana.</p></li>
+</ul>
+<p>En general, de acuerdo con todos los AUC obtenidos el mejor modelo fue Random Forest</p>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="parcial_punto3_1.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Punto 3</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="parcial_punto4.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Librerías Utilizadas</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Librerias Usadas</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#procesamiento-de-datos">Procesamiento de datos</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#balanceo-de-datos-y-evaluacion-de-modelos">Balanceo de datos y evaluación de modelos</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#hiperparametrizacion-de-los-modelos">Hiperparametrización de los modelos</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#optimizacion-bayesiana">Optimización Bayesiana</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#clasificacion-random-forest">Clasificación Random Forest</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#clasificacion-naive-bayes">Clasificación Naive Bayes</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#arbol-de-desicion">Arbol de desición</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#xgboost">XGBoost</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#knn">KNN</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#regresion-logistica-l1-l2">Regresión logistica L1/L2</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pipelines-y-gridsearch">Pipelines y Gridsearch</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#evaluacion-de-modelos-con-los-parametros-de-la-optimizacion-bayesiana">Evaluación de modelos con los parámetros de la optimización bayesiana</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#conclusiones">Conclusiones:</a></li>
+</ul>
+</li>
+</ul>
+
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By The Jupyter Book Community
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
